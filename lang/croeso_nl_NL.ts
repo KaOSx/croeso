@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.1" language="nl_NL">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="nl_NL" version="2.1">
 <context>
     <name>Page1Form.ui</name>
     <message>
@@ -92,47 +90,47 @@
     <message>
         <location filename="../Page3Form.ui.qml" line="48"/>
         <source>Firewall</source>
-        <translation type="unfinished"></translation>
+        <translation>Firewall</translation>
     </message>
     <message>
         <location filename="../Page3Form.ui.qml" line="74"/>
         <source>Energy Savings</source>
-        <translation type="unfinished"></translation>
+        <translation>Energie Besparing</translation>
     </message>
     <message>
         <location filename="../Page3Form.ui.qml" line="101"/>
         <source>Systemd Daemon</source>
-        <translation type="unfinished"></translation>
+        <translation>Systemd Daemon</translation>
     </message>
     <message>
         <location filename="../Page3Form.ui.qml" line="146"/>
         <source>Add Users</source>
-        <translation type="unfinished"></translation>
+        <translation>Gebruikers Toevoegen</translation>
     </message>
     <message>
         <location filename="../Page3Form.ui.qml" line="172"/>
         <source>Network Management</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../Page3Form.ui.qml" line="197"/>
         <source>KDE Wallet</source>
-        <translation type="unfinished"></translation>
+        <translation>KDE Wallet</translation>
     </message>
     <message>
         <location filename="../Page3Form.ui.qml" line="229"/>
         <source>Configure Search</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../Page3Form.ui.qml" line="254"/>
         <source>Pacman Cache</source>
-        <translation type="unfinished"></translation>
+        <translation>Pacman Cache</translation>
     </message>
     <message>
         <location filename="../Page3Form.ui.qml" line="280"/>
         <source>Font Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Font Instellingen</translation>
     </message>
 </context>
 <context>
@@ -172,7 +170,7 @@
                             not mean less important.&lt;/p&gt;
                             
                             &lt;p&gt;Consider setting these now or revisit at a later time.&lt;/p&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../main.qml" line="185"/>
@@ -187,7 +185,7 @@
     <message>
         <location filename="../main.qml" line="191"/>
         <source>Advanced Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Geavanceerde Settingen</translation>
     </message>
     <message>
         <location filename="../main.qml" line="194"/>
