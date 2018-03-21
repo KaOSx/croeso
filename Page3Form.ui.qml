@@ -34,9 +34,6 @@ Item {
     property alias button9: button9
     width: 900
     height: 600
-    property alias switch1Checked: switch1.checked
-    property alias switch1Checkable: switch1.checkable
-    property alias switch1: switch1
 
     RowLayout {
         width: 800
@@ -48,7 +45,7 @@ Item {
         Button {
             id: button1
             width: 150
-            text: qsTr("Widget Style")
+            text: qsTr("Firewall")
             hoverEnabled: true
             enabled: true
             Layout.fillWidth: true
@@ -74,7 +71,7 @@ Item {
         Button {
             id: button2
             width: 150
-            text: qsTr("Plasma Theme")
+            text: qsTr("Energy Savings")
             hoverEnabled: true
             enabled: true
             checkable: false
@@ -101,7 +98,7 @@ Item {
         Button {
             id: button3
             width: 150
-            text: qsTr("Window Decoration")
+            text: qsTr("Systemd Daemon")
             hoverEnabled: true
             opacity: 1
             Layout.fillWidth: true
@@ -131,7 +128,7 @@ Item {
         width: 100
         height: 100
         anchors.horizontalCenter: rowLayout.horizontalCenter
-        source: "images/logo.png"
+        source: "images/advanced.svg"
     }
 
     RowLayout {
@@ -146,7 +143,7 @@ Item {
         Button {
             id: button4
             width: 150
-            text: qsTr("Mouse Behavior")
+            text: qsTr("Add Users")
             hoverEnabled: true
             opacity: 1
             rightPadding: 28
@@ -165,14 +162,14 @@ Item {
                 anchors.left: parent.left
                 anchors.leftMargin: 15
                 fillMode: Image.PreserveAspectFit
-                source: "images/followmouse.svg"
+                source: "images/folder-publicshare.svg"
             }
         }
 
         Button {
             id: button5
             width: 150
-            text: qsTr("Icon Set")
+            text: qsTr("Network Management")
             hoverEnabled: true
             opacity: 1
             rightPadding: 28
@@ -197,7 +194,7 @@ Item {
         Button {
             id: button6
             width: 150
-            text: qsTr("Virtual Desktops")
+            text: qsTr("KDE Wallet")
             hoverEnabled: true
             opacity: 1
             rightPadding: 28
@@ -229,7 +226,7 @@ Item {
         Button {
             id: button7
             width: 150
-            text: qsTr("Screen Settings")
+            text: qsTr("Configure Search")
             hoverEnabled: true
             leftPadding: 28
             checkable: false
@@ -254,7 +251,7 @@ Item {
         Button {
             id: button8
             width: 150
-            text: qsTr("Colors")
+            text: qsTr("Pacman Cache")
             hoverEnabled: true
             leftPadding: 35
             opacity: 1
@@ -280,7 +277,7 @@ Item {
         Button {
             id: button9
             width: 150
-            text: qsTr("Wallpapers")
+            text: qsTr("Font Settings")
             hoverEnabled: true
             checkable: false
             leftPadding: 35
@@ -302,18 +299,5 @@ Item {
             highlighted: false
         }
         anchors.horizontalCenterOffset: 0
-    }
-
-    Switch {
-        id: switch1
-        x: 50
-        y: 25
-        text: qsTr("Launch at System Start")
-        checked: true
-        checkable: true
-        clip: false
-        hoverEnabled: true
-        enabled: true
-        autoExclusive: false
     }
 }

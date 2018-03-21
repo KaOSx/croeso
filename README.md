@@ -9,7 +9,7 @@ GPL
 
 ### Dependencies
 
-qt5-quickcontrols2, plasma-framework
+qt5-quickcontrols2, qt5-webview, plasma-framework
 
 
 ### Installation

@@ -5,7 +5,11 @@
         <file>Page1Form.ui.qml</file>
         <file>Page2.qml</file>
         <file>Page2Form.ui.qml</file>
+        <file>Page3.qml</file>
+        <file>Page3Form.ui.qml</file>
         <file>qtquickcontrols2.conf</file>
+        <!--Button images-->
+        <file>images/advanced.svg</file>
         <file>images/document.svg</file>
         <file>images/documentation.svg</file>
         <file>images/folder-publicshare.svg</file>
@@ -21,6 +25,7 @@
         <file>images/kde.svg</file>
         <file>images/view-list-icons.svg</file>
         <file>croeso.svg</file>
+        <!--Locale files-->
         <file>lang/croeso_es_AR.qm</file>
         <file>lang/croeso_es.qm</file>
         <file>lang/croeso_fr.qm</file>
@@ -32,5 +37,12 @@
         <file>lang/croeso_pt_BR.qm</file>
         <file>lang/croeso_uk.qm</file>
         <file>lang/croeso_hr_HR.qm</file>
+        <!--Fontawesome images-->
+        <file>images/fontawesome/comments.svg</file>
+        <file>images/fontawesome/envelope.svg</file>
+        <file>images/fontawesome/github.svg</file>
+        <file>images/fontawesome/gitter.svg</file>
+        <file>images/fontawesome/google-plus-g.svg</file>
+        <file>images/fontawesome/paypal.svg</file>
     </qresource>
 </RCC>

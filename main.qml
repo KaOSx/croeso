@@ -22,6 +22,7 @@ import QtQuick.Layouts 1.3
 import QtQuick.Window 2.0
 import QtQuick.Dialogs 1.2
 import QtWebView 1.1
+import org.kde.plasma.core 2.0 as PlasmaCore
 
 ApplicationWindow {
     visible: true
@@ -72,12 +73,108 @@ ApplicationWindow {
             }
         }
         
+        Page3 {
+            Label {
+                textFormat: Text.RichText
+                text: qsTr("<p>This page lists more advanced settings options.  Eventhough more advanced, this does<br>
+                            not mean less important.</p>
+                            
+                            <p>Consider setting these now or revisit at a later time.</p>")
+                anchors.centerIn: parent
+                horizontalAlignment: Text.AlignHCenter
+            }
+        }
+        
         Page {
         WebView {
                     id: webView
                     anchors.fill: parent
                     url: "https://kaosx.us/media/notes.html"
+                    //url: "notes.html
                 }
+        }
+    }
+    
+    RowLayout {
+        PlasmaCore.DataSource {
+            id: executer
+            engine: "executable"
+            onNewData: {executer.disconnectSource(sourceName);}
+        }
+        
+        width: 150
+        anchors.rightMargin: 20
+        anchors.right: parent.right
+        anchors.topMargin: 5
+        anchors.top: parent.top
+    
+        Image {
+                id: github
+                sourceSize.width: 22
+                sourceSize.height: 22
+                source: "images/fontawesome/github.svg"
+            
+            MouseArea {
+                anchors.fill: parent
+                cursorShape: Qt.PointingHandCursor;
+                onClicked: {  Qt.openUrlExternally("https://github.com/KaOSx"); }
+            }
+        }
+                
+        Image {
+                id: irc
+                sourceSize.width: 22
+                sourceSize.height: 22
+                fillMode: Image.PreserveAspectFit
+                source: "images/fontawesome/comments.svg"
+            
+            MouseArea {
+                anchors.fill: parent
+                cursorShape: Qt.PointingHandCursor;
+                onClicked: {  Qt.openUrlExternally("https://kiwiirc.com/client/irc.freenode.net/#kaosx"); }
+            }
+        }
+        
+        Image {
+                id: gplus
+                sourceSize.width: 22
+                sourceSize.height: 22
+                fillMode: Image.PreserveAspectFit
+                source: "images/fontawesome/google-plus-g.svg"
+            
+            MouseArea {
+                anchors.fill: parent
+                cursorShape: Qt.PointingHandCursor;
+                onClicked: {  Qt.openUrlExternally("https://plus.google.com/u/0/communities/116669111554447085724"); }
+            }
+        }
+        
+        Image {
+                id: gitter
+                sourceSize.width: 22
+                sourceSize.height: 22
+                fillMode: Image.PreserveAspectFit
+                source: "images/fontawesome/gitter.svg"
+            
+            MouseArea {
+                anchors.fill: parent
+                cursorShape: Qt.PointingHandCursor;
+                onClicked: {  Qt.openUrlExternally("https://gitter.im/KaOSx/KaOS/"); }
+            }
+        }
+        
+        Image {
+                id: mail
+                sourceSize.width: 22
+                sourceSize.height: 22
+                fillMode: Image.PreserveAspectFit
+                source: "images/fontawesome/envelope.svg"
+            
+            MouseArea {
+                anchors.fill: parent
+                cursorShape: Qt.PointingHandCursor;
+                onClicked: {  Qt.openUrlExternally("https://groups.google.com/forum/?fromgroups#!forum/kaos-general"); }
+            }
         }
     }
 
@@ -89,6 +186,9 @@ ApplicationWindow {
         }
         TabButton {
             text: qsTr("Documentation")
+        }
+        TabButton {
+            text: qsTr("Advanced Settings")
         }
         TabButton {
             text: qsTr("Release Notes")
