@@ -2,99 +2,134 @@
 <context>
     <name>Page1Form.ui</name>
     <message>
-        <location filename="../Page1Form.ui.qml" line="44"/>
-        <source>Install KaOS</source>
-        <translation>KaOS इंस्टॉल करें</translation>
+        <location filename="../Page1Form.ui.qml" line="51"/>
+        <source>Widget Style</source>
+        <translation>Widget का स्टाइल</translation>
     </message>
     <message>
-        <location filename="../Page1Form.ui.qml" line="68"/>
-        <source>About</source>
-        <translation>बारे में</translation>
+        <location filename="../Page1Form.ui.qml" line="77"/>
+        <source>Plasma Theme</source>
+        <translation>Plasma थीम</translation>
     </message>
     <message>
-        <location filename="../Page1Form.ui.qml" line="92"/>
-        <source>Guide</source>
-        <translation>सहायता गाइड</translation>
+        <location filename="../Page1Form.ui.qml" line="104"/>
+        <source>Window Decoration</source>
+        <translation>विंडो सजावट</translation>
     </message>
     <message>
-        <location filename="../Page1Form.ui.qml" line="135"/>
-        <source>Package List</source>
-        <translation>पैकेज सूची</translation>
+        <location filename="../Page1Form.ui.qml" line="149"/>
+        <source>Mouse Behavior</source>
+        <translation>माउस का व्यवहार</translation>
     </message>
     <message>
-        <location filename="../Page1Form.ui.qml" line="160"/>
+        <location filename="../Page1Form.ui.qml" line="175"/>
+        <source>Icon Set</source>
+        <translation>आइकन सेट</translation>
+    </message>
+    <message>
+        <location filename="../Page1Form.ui.qml" line="200"/>
+        <source>Virtual Desktops</source>
+        <translation>Virtual डेस्कटॉप</translation>
+    </message>
+    <message>
+        <location filename="../Page1Form.ui.qml" line="232"/>
+        <source>Screen Settings</source>
+        <translation>स्क्रीन सेटिंग्स</translation>
+    </message>
+    <message>
+        <location filename="../Page1Form.ui.qml" line="257"/>
+        <source>Colors</source>
+        <translation>रंग</translation>
+    </message>
+    <message>
+        <location filename="../Page1Form.ui.qml" line="283"/>
+        <source>Wallpapers</source>
+        <translation>वॉलपेपर</translation>
+    </message>
+    <message>
+        <location filename="../Page1Form.ui.qml" line="311"/>
+        <source>Launch at System Start</source>
+        <translation>सिस्टम शुरू होने पर लॉन्च करें</translation>
+    </message>
+</context>
+<context>
+    <name>Page2Form.ui</name>
+    <message>
+        <location filename="../Page2Form.ui.qml" line="46"/>
+        <source>Asking Smart</source>
+        <translation>समझदारी से पूछें</translation>
+    </message>
+    <message>
+        <location filename="../Page2Form.ui.qml" line="72"/>
+        <source>Pacman</source>
+        <translation>Pacman</translation>
+    </message>
+    <message>
+        <location filename="../Page2Form.ui.qml" line="99"/>
+        <source>Switching NVidia</source>
+        <translation>Nvidia बदलना</translation>
+    </message>
+    <message>
+        <location filename="../Page2Form.ui.qml" line="144"/>
+        <source>Additional Kernels</source>
+        <translation>अतिरिक्त Kernel</translation>
+    </message>
+    <message>
+        <location filename="../Page2Form.ui.qml" line="170"/>
+        <source>KCP</source>
+        <translation>KCP</translation>
+    </message>
+    <message>
+        <location filename="../Page2Form.ui.qml" line="195"/>
         <source>Forum</source>
         <translation>फोरम</translation>
-    </message>
-    <message>
-        <location filename="../Page1Form.ui.qml" line="184"/>
-        <source>Documentation</source>
-        <translation>प्रलेखन</translation>
     </message>
 </context>
 <context>
     <name>main</name>
     <message>
-        <location filename="../main.qml" line="33"/>
-        <source>Welcome</source>
-        <translation>स्वागतं </translation>
+        <location filename="../main.qml" line="34"/>
+        <source>Croeso</source>
+        <translation>Croeso</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="42"/>
-        <source>&lt;div&gt;Thanks for trying KaOS. In need of the password file or package list?&lt;br&gt;
-                            Want to learn more about the project? Please find the links below.&lt;br&gt;&lt;br&gt;
-                            Don&apos;t hesitate to give your opinion about KaOS in the Forum.&lt;/div&gt;</source>
-        <translation>&lt;div&gt; KaOS चुनने के लिए धन्यवाद । क्या कूटशब्द फ़ाइल या पैकेज सूची चाहिए?&lt;br&gt;
-KaOS के बारे में और जानने के लिए, नीचे दिए गए लिंक पर जाएँ।&lt;br&gt;&lt;br&gt;
-फोरम में KaOS के बारे में निःसंकोच राय दें।&lt;/div&gt;</translation>
+        <location filename="../main.qml" line="43"/>
+        <source>&lt;div&gt;&lt;h2&gt;What is KaOS?&lt;/h2&gt;
+                            The idea behind KaOS is to create a tightly integrated and transparent&lt;br&gt;
+                            distribution for the modern desktop, build from scratch with a very specific focus.&lt;br&gt;
+                            Focus on one DE (KDE Plasma), one toolkit (Qt) &amp; one architecture (x86_64).&lt;br&gt;
+                            Plus a focus on evaluting and selecting the most suitable tools and applications.&lt;br&gt;&lt;br&gt;
+                            This page will help you personalize the most commonly used settings in your KaOS workspace quickly.&lt;/div&gt;</source>
+        <translation>&lt;div&gt;&lt;h2&gt;KaOS क्या है?&lt;/h2&gt;
+KaOS के पीछे उद्देश्य है आज के आधुनिक डेस्कटॉप के लिए एक दृढ़ता से समन्वित व&lt;br&gt;
+पारदर्शी ऑपरेटिंग सिस्टम, जो कि मूल रूप से ही&lt;br&gt;
+एक विशिष्ट लक्ष्य के तहत हो। वह है एक डेस्कटॉप वातावरण (KDE), एक toolkit (Qt) &amp; एक स्थापत्य (x86_64) पर ध्यान केंद्रित करना।&lt;br&gt;
+इसके अलावा मूल्यांकन कर सबसे उपयुक्त साधन व अनुप्रयोगों को चुनना।&lt;br&gt;&lt;br&gt;
+यह पेज आपके KaOS कार्यस्थान की आमतौर पर इस्तेमाल की जाने वाली सेटिंग्स को निजीकृत करने में आपकी मदद करेगा ।&lt;/div&gt;</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="56"/>
-        <source>&lt;p&gt;Correct passwords for use in the live session:&lt;/p&gt;
-                            &lt;p&gt;&lt;/p&gt;
-                            &lt;table width=100% align=center bgcolor=#eaeaea&gt;
-                                &lt;tr&gt;
-                                    &lt;th&gt;Username:&lt;/th&gt;
-                                    &lt;th&gt;Password:&lt;/th&gt;
-                                &lt;/tr&gt;
-                                &lt;tr&gt;
-                                    &lt;td align=center&gt;root&lt;/td&gt;
-                                    &lt;td align=center&gt;root&lt;/td&gt;
-                                &lt;/tr&gt;
-                                &lt;tr&gt;
-                                    &lt;td align=center&gt;live&lt;/td&gt;
-                                    &lt;td align=center&gt;live&lt;/td&gt;
-                                &lt;/tr&gt;
-                            &lt;/table&gt;
-                            &lt;p&gt;Hope you enjoy&lt;/p&gt;</source>
-        <extracomment>Do not translate root/root and live/live</extracomment>
-        <translation>&lt;p&gt;Live session के लिए सही कूटशब्द :&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;table width=100% align=center bgcolor=#eaeaea&gt;
-&lt;tr&gt;
-&lt;th&gt;उपयोक्ता का नाम :&lt;/th&gt;
-&lt;th&gt;कूटशब्द :&lt;/th&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=center&gt;root&lt;/td&gt;
-&lt;td align=center&gt;root&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=center&gt;live&lt;/td&gt;
-&lt;td align=center&gt;live&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/table&gt;
-&lt;p&gt;आनंद लें&lt;/p&gt;</translation>
+        <location filename="../main.qml" line="59"/>
+        <source>&lt;p&gt;To familiarize yourself with KaOS, please read some of these documents.&lt;/p&gt;
+                            
+                            &lt;p&gt;Use the forum for questions, feedback and suggestions.&lt;/p&gt;</source>
+        <translation>&lt;p&gt;अपने आप को KaOS से परिचित करने हेतु , कृपया ये लेख पढ़ें।&lt;/p&gt;
+
+&lt;p&gt;सवाल, प्रतिक्रिया व सुझावों के लिए फोरम का उपयोग करें।&lt;/p&gt;</translation>
+    </message>
+    <message>
+        <location filename="../main.qml" line="88"/>
+        <source>Customize</source>
+        <translation>अनुकूलित करें</translation>
     </message>
     <message>
         <location filename="../main.qml" line="91"/>
-        <source>Main</source>
-        <translation>मुख्य</translation>
+        <source>Documentation</source>
+        <translation>प्रलेखन</translation>
     </message>
     <message>
         <location filename="../main.qml" line="94"/>
-        <source>Passwords</source>
-        <translation>कूटशब्द</translation>
+        <source>Release Notes</source>
+        <translation>रिलीज़ नोट्स</translation>
     </message>
 </context>
 </TS>

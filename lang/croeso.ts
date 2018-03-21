@@ -88,14 +88,62 @@
     </message>
 </context>
 <context>
+    <name>Page3Form.ui</name>
+    <message>
+        <location filename="../Page3Form.ui.qml" line="48"/>
+        <source>Firewall</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../Page3Form.ui.qml" line="74"/>
+        <source>Energy Savings</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../Page3Form.ui.qml" line="101"/>
+        <source>Systemd Daemon</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../Page3Form.ui.qml" line="146"/>
+        <source>Add Users</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../Page3Form.ui.qml" line="172"/>
+        <source>Network Management</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../Page3Form.ui.qml" line="197"/>
+        <source>KDE Wallet</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../Page3Form.ui.qml" line="229"/>
+        <source>Configure Search</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../Page3Form.ui.qml" line="254"/>
+        <source>Pacman Cache</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../Page3Form.ui.qml" line="280"/>
+        <source>Font Settings</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>main</name>
     <message>
-        <location filename="../main.qml" line="34"/>
+        <location filename="../main.qml" line="35"/>
         <source>Croeso</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../main.qml" line="43"/>
+        <location filename="../main.qml" line="44"/>
         <source>&lt;div&gt;&lt;h2&gt;What is KaOS?&lt;/h2&gt;
                             The idea behind KaOS is to create a tightly integrated and transparent&lt;br&gt;
                             distribution for the modern desktop, build from scratch with a very specific focus.&lt;br&gt;
@@ -105,24 +153,37 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../main.qml" line="59"/>
+        <location filename="../main.qml" line="60"/>
         <source>&lt;p&gt;To familiarize yourself with KaOS, please read some of these documents.&lt;/p&gt;
                             
                             &lt;p&gt;Use the forum for questions, feedback and suggestions.&lt;/p&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../main.qml" line="88"/>
+        <location filename="../main.qml" line="79"/>
+        <source>&lt;p&gt;This page lists more advanced settings options.  Eventhough more advanced, this does&lt;br&gt;
+                            not mean less important.&lt;/p&gt;
+                            
+                            &lt;p&gt;Consider setting these now or revisit at a later time.&lt;/p&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../main.qml" line="185"/>
         <source>Customize</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../main.qml" line="91"/>
+        <location filename="../main.qml" line="188"/>
         <source>Documentation</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../main.qml" line="94"/>
+        <location filename="../main.qml" line="191"/>
+        <source>Advanced Settings</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../main.qml" line="194"/>
         <source>Release Notes</source>
         <translation type="unfinished"></translation>
     </message>
