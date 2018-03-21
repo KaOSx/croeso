@@ -28,18 +28,12 @@ Page1Form {
         onNewData: {executer.disconnectSource(sourceName);}
     }
 
-    //Loader {
-    //    id: pageLoader
-    //}
-
     switch1.onCheckedChanged: {
         if ( ! switch1.checked ) {
             executer.connectSource("rm ~/.config/autostart/croeso.desktop");
-           //executer.connectSource("rm /home/anke/dev/code/first_run/test");
         }
         else {
             executer.connectSource("cp /usr/share/applications/croeso.desktop ~/.config/autostart/croeso.desktop");
-           //executer.connectSource("cp /home/anke/dev/code/test /home/anke/dev/code/first_run/test");
         }
     }
     

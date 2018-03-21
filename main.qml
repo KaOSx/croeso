@@ -62,14 +62,6 @@ ApplicationWindow {
                             <p>Use the forum for questions, feedback and suggestions.</p>")
                 anchors.centerIn: parent
                 horizontalAlignment: Text.AlignHCenter
-                Image {
-                    id: image
-                    anchors.centerIn: parent
-                    anchors.verticalCenterOffset : 100
-                    width: 48
-                    height: 48
-                    source: "images/"
-                }
             }
         }
         
