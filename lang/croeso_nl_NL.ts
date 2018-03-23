@@ -110,7 +110,7 @@
     <message>
         <location filename="../Page3Form.ui.qml" line="172"/>
         <source>Network Management</source>
-        <translation type="unfinished"/>
+        <translation>Netwerkbeheer</translation>
     </message>
     <message>
         <location filename="../Page3Form.ui.qml" line="197"/>
@@ -120,7 +120,7 @@
     <message>
         <location filename="../Page3Form.ui.qml" line="229"/>
         <source>Configure Search</source>
-        <translation type="unfinished"/>
+        <translation>Configureer Zoeken</translation>
     </message>
     <message>
         <location filename="../Page3Form.ui.qml" line="254"/>
@@ -170,7 +170,10 @@
                             not mean less important.&lt;/p&gt;
                             
                             &lt;p&gt;Consider setting these now or revisit at a later time.&lt;/p&gt;</source>
-        <translation type="unfinished"/>
+        <translation>&lt;p&gt;Deze pagina bevat meer geavanceerde instellingen.  Hoewel dit geavanceerder is, wil niet&lt;br&gt;
+                            zeggen, minder belangrijk.&lt;/p&gt;
+                            
+                            &lt;p&gt;Overweeg deze nu in te stellen of op een later tijdstip opnieuw te bezoeken.&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../main.qml" line="185"/>

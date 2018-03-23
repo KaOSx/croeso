@@ -90,47 +90,47 @@
     <message>
         <location filename="../Page3Form.ui.qml" line="48"/>
         <source>Firewall</source>
-        <translation type="unfinished"/>
+        <translation>Parefeu</translation>
     </message>
     <message>
         <location filename="../Page3Form.ui.qml" line="74"/>
         <source>Energy Savings</source>
-        <translation type="unfinished"/>
+        <translation>Économie d’énergie</translation>
     </message>
     <message>
         <location filename="../Page3Form.ui.qml" line="101"/>
         <source>Systemd Daemon</source>
-        <translation type="unfinished"/>
+        <translation>Démon Systemd</translation>
     </message>
     <message>
         <location filename="../Page3Form.ui.qml" line="146"/>
         <source>Add Users</source>
-        <translation type="unfinished"/>
+        <translation>Ajouter des utilisateurs</translation>
     </message>
     <message>
         <location filename="../Page3Form.ui.qml" line="172"/>
         <source>Network Management</source>
-        <translation type="unfinished"/>
+        <translation>Gestion des connexions réseau</translation>
     </message>
     <message>
         <location filename="../Page3Form.ui.qml" line="197"/>
         <source>KDE Wallet</source>
-        <translation type="unfinished"/>
+        <translation>Portefeuille de KDE</translation>
     </message>
     <message>
         <location filename="../Page3Form.ui.qml" line="229"/>
         <source>Configure Search</source>
-        <translation type="unfinished"/>
+        <translation>Configuration de la recherche</translation>
     </message>
     <message>
         <location filename="../Page3Form.ui.qml" line="254"/>
         <source>Pacman Cache</source>
-        <translation type="unfinished"/>
+        <translation>Cache de Pacman</translation>
     </message>
     <message>
         <location filename="../Page3Form.ui.qml" line="280"/>
         <source>Font Settings</source>
-        <translation type="unfinished"/>
+        <translation>Configuration des polices</translation>
     </message>
 </context>
 <context>
@@ -170,7 +170,11 @@
                             not mean less important.&lt;/p&gt;
                             
                             &lt;p&gt;Consider setting these now or revisit at a later time.&lt;/p&gt;</source>
-        <translation type="unfinished"/>
+        <translation>&lt;p&gt;Cette page liste des options de configuration plus avancées.
+This page lists more advanced settings options.  Même cela ni signifie pour autant &lt;br&gt;
+                            qu’elles sont moins importantes.&lt;/p&gt;
+                            
+                            &lt;p&gt;Vous pouvez les configurer maintenant ou revenir dessus plus tard.&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../main.qml" line="185"/>
@@ -185,7 +189,7 @@
     <message>
         <location filename="../main.qml" line="191"/>
         <source>Advanced Settings</source>
-        <translation type="unfinished"/>
+        <translation>Configuration avancée</translation>
     </message>
     <message>
         <location filename="../main.qml" line="194"/>

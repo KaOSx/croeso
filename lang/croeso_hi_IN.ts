@@ -29,7 +29,7 @@
     <message>
         <location filename="../Page1Form.ui.qml" line="200"/>
         <source>Virtual Desktops</source>
-        <translation>Virtual डेस्कटॉप</translation>
+        <translation>वर्चुअल डेस्कटॉप</translation>
     </message>
     <message>
         <location filename="../Page1Form.ui.qml" line="232"/>
@@ -90,47 +90,47 @@
     <message>
         <location filename="../Page3Form.ui.qml" line="48"/>
         <source>Firewall</source>
-        <translation type="unfinished"/>
+        <translation>फ़ायरवॉल</translation>
     </message>
     <message>
         <location filename="../Page3Form.ui.qml" line="74"/>
         <source>Energy Savings</source>
-        <translation type="unfinished"/>
+        <translation>ऊर्जा बचत</translation>
     </message>
     <message>
         <location filename="../Page3Form.ui.qml" line="101"/>
         <source>Systemd Daemon</source>
-        <translation type="unfinished"/>
+        <translation>Systemd Daemon</translation>
     </message>
     <message>
         <location filename="../Page3Form.ui.qml" line="146"/>
         <source>Add Users</source>
-        <translation type="unfinished"/>
+        <translation>उपयोक्ता जोड़ें</translation>
     </message>
     <message>
         <location filename="../Page3Form.ui.qml" line="172"/>
         <source>Network Management</source>
-        <translation type="unfinished"/>
+        <translation>नेटवर्क संचालन</translation>
     </message>
     <message>
         <location filename="../Page3Form.ui.qml" line="197"/>
         <source>KDE Wallet</source>
-        <translation type="unfinished"/>
+        <translation>KDE वॉलेट</translation>
     </message>
     <message>
         <location filename="../Page3Form.ui.qml" line="229"/>
         <source>Configure Search</source>
-        <translation type="unfinished"/>
+        <translation>खोज विन्यस्त करें</translation>
     </message>
     <message>
         <location filename="../Page3Form.ui.qml" line="254"/>
         <source>Pacman Cache</source>
-        <translation type="unfinished"/>
+        <translation>Pacman Cache</translation>
     </message>
     <message>
         <location filename="../Page3Form.ui.qml" line="280"/>
         <source>Font Settings</source>
-        <translation type="unfinished"/>
+        <translation>मुद्रलिपि सेटिंग्स</translation>
     </message>
 </context>
 <context>
@@ -170,7 +170,10 @@ KaOS के पीछे उद्देश्य है आज के आधु
                             not mean less important.&lt;/p&gt;
                             
                             &lt;p&gt;Consider setting these now or revisit at a later time.&lt;/p&gt;</source>
-        <translation type="unfinished"/>
+        <translation>&lt;p&gt;यह पृष्ठ और उन्नत सेटिंग्स के विकल्प सूचीबद्ध करता है।हालांकि इसका मतलब &lt;br&gt;
+यह नहीं है कि ये गैरज़रूरी है।&lt;/p&gt;
+
+&lt;p&gt;आप इन्हें अभी या फिर बाद में भी सेट कर सकते हैं।&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../main.qml" line="185"/>
@@ -185,7 +188,7 @@ KaOS के पीछे उद्देश्य है आज के आधु
     <message>
         <location filename="../main.qml" line="191"/>
         <source>Advanced Settings</source>
-        <translation type="unfinished"/>
+        <translation>उन्नत सेटिंग्स</translation>
     </message>
     <message>
         <location filename="../main.qml" line="194"/>

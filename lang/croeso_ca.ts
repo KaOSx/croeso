@@ -34,7 +34,7 @@
     <message>
         <location filename="../Page1Form.ui.qml" line="232"/>
         <source>Screen Settings</source>
-        <translation>Paràmetres de la pantalla</translation>
+        <translation>Configuració de la pantalla</translation>
     </message>
     <message>
         <location filename="../Page1Form.ui.qml" line="257"/>
@@ -90,47 +90,47 @@
     <message>
         <location filename="../Page3Form.ui.qml" line="48"/>
         <source>Firewall</source>
-        <translation type="unfinished"/>
+        <translation>Tallafoc</translation>
     </message>
     <message>
         <location filename="../Page3Form.ui.qml" line="74"/>
         <source>Energy Savings</source>
-        <translation type="unfinished"/>
+        <translation>Estalvi d&apos;energia</translation>
     </message>
     <message>
         <location filename="../Page3Form.ui.qml" line="101"/>
         <source>Systemd Daemon</source>
-        <translation type="unfinished"/>
+        <translation>Dimoni de Systemd</translation>
     </message>
     <message>
         <location filename="../Page3Form.ui.qml" line="146"/>
         <source>Add Users</source>
-        <translation type="unfinished"/>
+        <translation>Afegiu usuaris</translation>
     </message>
     <message>
         <location filename="../Page3Form.ui.qml" line="172"/>
         <source>Network Management</source>
-        <translation type="unfinished"/>
+        <translation>Gestió de la xarxa</translation>
     </message>
     <message>
         <location filename="../Page3Form.ui.qml" line="197"/>
         <source>KDE Wallet</source>
-        <translation type="unfinished"/>
+        <translation>Cartera de KDE</translation>
     </message>
     <message>
         <location filename="../Page3Form.ui.qml" line="229"/>
         <source>Configure Search</source>
-        <translation type="unfinished"/>
+        <translation>Configuració de la cerca</translation>
     </message>
     <message>
         <location filename="../Page3Form.ui.qml" line="254"/>
         <source>Pacman Cache</source>
-        <translation type="unfinished"/>
+        <translation>Cau del Pacman</translation>
     </message>
     <message>
         <location filename="../Page3Form.ui.qml" line="280"/>
         <source>Font Settings</source>
-        <translation type="unfinished"/>
+        <translation>Configuració de la lletra</translation>
     </message>
 </context>
 <context>
@@ -170,7 +170,10 @@
                             not mean less important.&lt;/p&gt;
                             
                             &lt;p&gt;Consider setting these now or revisit at a later time.&lt;/p&gt;</source>
-        <translation type="unfinished"/>
+        <translation>&lt;p&gt;Aquesta pàgina ofereix una llista d&apos;opcions de configuració més avançada.  Tot i que més avançat, això no&lt;br&gt;
+                            vol dir que sigui menys important.&lt;/p&gt;
+                            
+                            &lt;p&gt;Considereu establir aquests paràmetres ara o torneu-hi més endavant.&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../main.qml" line="185"/>
@@ -185,7 +188,7 @@
     <message>
         <location filename="../main.qml" line="191"/>
         <source>Advanced Settings</source>
-        <translation type="unfinished"/>
+        <translation>Configuració avançada</translation>
     </message>
     <message>
         <location filename="../main.qml" line="194"/>
