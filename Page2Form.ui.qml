@@ -56,13 +56,15 @@ Item {
             Image {
                 id: image1
                 y: 13
-                width: 28
-                height: 28
+                width: 22
+                height: 22
+                sourceSize.height: 22
+                sourceSize.width: 22
                 fillMode: Image.PreserveAspectFit
                 anchors.verticalCenter: parent.verticalCenter
                 anchors.left: parent.left
                 anchors.leftMargin: 15
-                source: "images/release.svg"
+                source: "images/help2.svg"
             }
         }
 
@@ -156,11 +158,13 @@ Item {
                 y: 10
                 width: 22
                 height: 22
+                sourceSize.height: 22
+                sourceSize.width: 22
                 anchors.verticalCenter: parent.verticalCenter
                 anchors.left: parent.left
                 anchors.leftMargin: 15
                 fillMode: Image.PreserveAspectFit
-                source: "images/partition-disk.svg"
+                source: "images/fontawesome/linux.svg"
             }
         }
 

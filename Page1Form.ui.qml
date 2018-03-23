@@ -61,8 +61,8 @@ Item {
             Image {
                 id: image1
                 y: 13
-                width: 28
-                height: 28
+                width: 22
+                height: 22
                 fillMode: Image.PreserveAspectFit
                 anchors.verticalCenter: parent.verticalCenter
                 anchors.left: parent.left
@@ -238,10 +238,12 @@ Item {
             Image {
                 id: image7
                 y: 13
-                width: 28
-                height: 28
+                width: 22
+                height: 22
+                sourceSize.height: 22
+                sourceSize.width: 22
                 anchors.left: parent.left
-                source: "images/list.svg"
+                source: "images/screen.svg"
                 fillMode: Image.PreserveAspectFit
                 anchors.leftMargin: 15
                 anchors.verticalCenter: parent.verticalCenter
@@ -267,7 +269,7 @@ Item {
                 width: 22
                 height: 22
                 anchors.left: parent.left
-                source: "images/information.svgz"
+                source: "images/oilpaint.svg"
                 fillMode: Image.PreserveAspectFit
                 anchors.leftMargin: 15
                 anchors.verticalCenter: parent.verticalCenter

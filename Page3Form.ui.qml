@@ -58,13 +58,15 @@ Item {
             Image {
                 id: image1
                 y: 13
-                width: 28
-                height: 28
+                width: 22
+                height: 22
+                sourceSize.height: 22
+                sourceSize.width: 22
                 fillMode: Image.PreserveAspectFit
                 anchors.verticalCenter: parent.verticalCenter
                 anchors.left: parent.left
                 anchors.leftMargin: 15
-                source: "images/release.svg"
+                source: "images/hotspot.svg"
             }
         }
 
@@ -91,7 +93,7 @@ Item {
                 anchors.verticalCenter: parent.verticalCenter
                 anchors.left: parent.left
                 anchors.leftMargin: 15
-                source: "images/plasma.svg"
+                source: "images/contrast.svg"
             }
         }
 
@@ -112,11 +114,13 @@ Item {
                 y: 6
                 width: 22
                 height: 22
+                sourceSize.height: 22
+                sourceSize.width: 22
                 fillMode: Image.PreserveAspectFit
                 anchors.verticalCenter: parent.verticalCenter
                 anchors.left: parent.left
                 anchors.leftMargin: 15
-                source: "images/kde.svg"
+                source: "images/fontawesome/usb.svg"
             }
         }
     }
@@ -187,7 +191,7 @@ Item {
                 anchors.left: parent.left
                 anchors.leftMargin: 15
                 fillMode: Image.PreserveAspectFit
-                source: "images/view-list-icons.svg"
+                source: "images/network-connect.svg"
             }
         }
 
@@ -208,10 +212,13 @@ Item {
                 y: 10
                 width: 22
                 height: 22
+                fillMode: Image.PreserveAspectFit
+                sourceSize.width: 22
+                sourceSize.height: 21
                 anchors.verticalCenter: parent.verticalCenter
                 anchors.left: parent.left
                 anchors.leftMargin: 15
-                source: "images/partition-disk.svg"
+                source: "images/document-decrypt.svg"
             }
         }
     }
@@ -235,10 +242,10 @@ Item {
             Image {
                 id: image7
                 y: 13
-                width: 28
-                height: 28
+                width: 22
+                height: 22
                 anchors.left: parent.left
-                source: "images/list.svg"
+                source: "images/search.svg"
                 fillMode: Image.PreserveAspectFit
                 anchors.leftMargin: 15
                 anchors.verticalCenter: parent.verticalCenter
@@ -263,8 +270,10 @@ Item {
                 y: -49
                 width: 22
                 height: 22
+                sourceSize.height: 22
+                sourceSize.width: 22
                 anchors.left: parent.left
-                source: "images/information.svgz"
+                source: "images/fontawesome/linux.svg"
                 fillMode: Image.PreserveAspectFit
                 anchors.leftMargin: 15
                 anchors.verticalCenter: parent.verticalCenter
@@ -289,8 +298,10 @@ Item {
                 y: 6
                 width: 22
                 height: 22
+                sourceSize.height: 22
+                sourceSize.width: 22
                 anchors.left: parent.left
-                source: "images/folder-images.svg"
+                source: "images/format-text-symbol.svg"
                 fillMode: Image.PreserveAspectFit
                 anchors.leftMargin: 15
                 anchors.verticalCenter: parent.verticalCenter

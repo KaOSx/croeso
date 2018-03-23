@@ -10,19 +10,28 @@
         <file>qtquickcontrols2.conf</file>
         <!--Button images-->
         <file>images/advanced.svg</file>
+        <file>images/contrast.svg</file>
         <file>images/document.svg</file>
+        <file>images/document-decrypt.svg</file>
         <file>images/documentation.svg</file>
         <file>images/folder-publicshare.svg</file>
         <file>images/followmouse.svg</file>
         <file>images/help.svg</file>
+        <file>images/help2.svg</file>
+        <file>images/hotspot.svg</file>
         <file>images/information.svgz</file>
         <file>images/logo.png</file>
         <file>images/partition-disk.svg</file>
         <file>images/release.svg</file>
         <file>images/list.svg</file>
         <file>images/folder-images.svg</file>
+        <file>images/network-connect.svg</file>
+        <file>images/oilpaint.svg</file>
         <file>images/plasma.svg</file>
         <file>images/kde.svg</file>
+        <file>images/screen.svg</file>
+        <file>images/search.svg</file>
+        <file>images/format-text-symbol.svg</file>
         <file>images/view-list-icons.svg</file>
         <file>croeso.svg</file>
         <!--Locale files-->
@@ -38,11 +47,15 @@
         <file>lang/croeso_uk.qm</file>
         <file>lang/croeso_hr_HR.qm</file>
         <!--Fontawesome images-->
+        <file>images/fontawesome/bell.svg</file>
         <file>images/fontawesome/comments.svg</file>
         <file>images/fontawesome/envelope.svg</file>
         <file>images/fontawesome/github.svg</file>
         <file>images/fontawesome/gitter.svg</file>
         <file>images/fontawesome/google-plus-g.svg</file>
+        <file>images/fontawesome/images.svg</file>
+        <file>images/fontawesome/linux.svg</file>
         <file>images/fontawesome/paypal.svg</file>
+        <file>images/fontawesome/usb.svg</file>
     </qresource>
 </RCC>
