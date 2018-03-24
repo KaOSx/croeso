@@ -286,7 +286,7 @@ Item {
         Button {
             id: button9
             width: 150
-            text: qsTr("Font Settings")
+            text: "Default Apps"
             hoverEnabled: true
             checkable: false
             leftPadding: 35
@@ -301,7 +301,7 @@ Item {
                 sourceSize.height: 22
                 sourceSize.width: 22
                 anchors.left: parent.left
-                source: "images/format-text-symbol.svg"
+                source: "images/flag.svg"
                 fillMode: Image.PreserveAspectFit
                 anchors.leftMargin: 15
                 anchors.verticalCenter: parent.verticalCenter

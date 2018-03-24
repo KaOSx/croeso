@@ -282,7 +282,7 @@ Item {
         Button {
             id: button9
             width: 150
-            text: qsTr("Wallpapers")
+            text: qsTr("Font Settings")
             hoverEnabled: true
             checkable: false
             leftPadding: 35
@@ -294,8 +294,10 @@ Item {
                 y: 6
                 width: 22
                 height: 22
+                sourceSize.height: 22
+                sourceSize.width: 22
                 anchors.left: parent.left
-                source: "images/folder-images.svg"
+                source: "images/format-text-symbol.svg"
                 fillMode: Image.PreserveAspectFit
                 anchors.leftMargin: 15
                 anchors.verticalCenter: parent.verticalCenter

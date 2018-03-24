@@ -8,6 +8,11 @@
         <file>Page3.qml</file>
         <file>Page3Form.ui.qml</file>
         <file>qtquickcontrols2.conf</file>
+        <file>notes.qml</file>
+        <file>wallpaper/wall.qml</file>
+        <file>wallpaper/Nav.qml</file>
+        <file>wallpaper/Photo.qml</file>
+        <file>wallpaper/PhotoList.qml</file>
         <!--Button images-->
         <file>images/advanced.svg</file>
         <file>images/contrast.svg</file>
@@ -24,6 +29,7 @@
         <file>images/partition-disk.svg</file>
         <file>images/release.svg</file>
         <file>images/list.svg</file>
+        <file>images/flag.svg</file>
         <file>images/folder-images.svg</file>
         <file>images/network-connect.svg</file>
         <file>images/oilpaint.svg</file>

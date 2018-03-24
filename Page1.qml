@@ -62,6 +62,6 @@ Page1Form {
         executer.connectSource("kcmshell5 colors");
     }
     button9.onClicked: {
-        executer.connectSource("kcmshell5 desktop");
+        executer.connectSource("kcmshell5 fonts");
     }
 }

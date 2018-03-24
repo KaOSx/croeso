@@ -26,10 +26,10 @@ import org.kde.plasma.core 2.0 as PlasmaCore
 
 ApplicationWindow {
     visible: true
-    minimumWidth: 900
-    maximumWidth: 900
-    minimumHeight: 620
-    maximumHeight: 620
+    minimumWidth: 960
+    maximumWidth: 960
+    minimumHeight: 640
+    maximumHeight: 640
     x: Screen.width / 2 - width / 2
     y: Screen.height / 2 - height / 2
     title: qsTr("Croeso")
@@ -51,6 +51,13 @@ ApplicationWindow {
                 horizontalAlignment: Text.AlignHCenter
                 width: 690
                 wrapMode: Text.WordWrap
+            }
+        }
+        
+        Page {
+            Loader {
+                id: wallpaper
+                source: "wallpaper/wall.qml"
             }
         }
 
@@ -78,22 +85,24 @@ ApplicationWindow {
         }
         
         Page {
-        WebView {
-                    id: webView
-                    anchors.fill: parent
-                    url: "https://kaosx.us/media/notes.html"
-                    //url: "notes.html
-                }
+            Loader {
+                id: about
+                source: "notes.qml"
+            }
+            
+        }
+        
+        Page {
+            WebView {
+                id: webView
+                anchors.fill: parent
+                url: "https://kaosx.us/media/notes.html"
+                //url: "notes.html"
+            }
         }
     }
     
     RowLayout {
-        PlasmaCore.DataSource {
-            id: executer
-            engine: "executable"
-            onNewData: {executer.disconnectSource(sourceName);}
-        }
-        
         width: 150
         anchors.rightMargin: 20
         anchors.right: parent.right
@@ -177,13 +186,23 @@ ApplicationWindow {
             text: qsTr("Customize")
         }
         TabButton {
-            text: qsTr("Documentation")
+            text: qsTr("Wallpaper")
         }
         TabButton {
-            text: qsTr("Advanced Settings")
+            text: qsTr("Docs")
         }
         TabButton {
-            text: qsTr("Release Notes")
+            text: qsTr("Advanced")
+        }
+        TabButton {
+            text: qsTr("About")
+        }
+        TabButton {
+            text: qsTr("News")
+        }
+        TabButton {
+            text: qsTr("Quit")
+            onClicked: { Qt.quit(); }
         }
     }
 }

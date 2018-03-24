@@ -53,6 +53,6 @@ Page3Form {
         executer.connectSource("/usr/bin/octopi-cachecleaner");
     }
     button9.onClicked: {
-        executer.connectSource("kcmshell5 fonts");
+        executer.connectSource("kcmshell5 componentchooser");
     }
 }

@@ -1,8 +1,18 @@
 QT += qml quick quickcontrols2 webview
 
-CONFIG += c++11
+TEMPLATE = app
 
-SOURCES += main.cpp
+CONFIG += c++11
+unix: CONFIG += link_pkgconfig
+unix: PKGCONFIG += Magick++
+
+SOURCES += main.cpp \
+    wallpaper/unsplash.cpp \
+    wallpaper/photo.cpp \
+    wallpaper/photolist.cpp \
+    wallpaper/photosavethread.cpp \
+    wallpaper/filesystem.cpp \
+    wallpaper/localphotolist.cpp
 
 RESOURCES += qml.qrc
 
@@ -58,10 +68,16 @@ icon.files += croeso.svg
 icon.path += /usr/share/pixmaps
 
 qml.path = /usr/lib/qt5/qml/croeso
-qml.files += package.qml
+#qml.files += package.qml
 
 INSTALLS += target desktop icon qml
 
 DISTFILES +=
 
-HEADERS +=
+HEADERS += \
+    wallpaper/unsplash.h \
+    wallpaper/photo.h \
+    wallpaper/photolist.h \
+    wallpaper/photosavethread.h \
+    wallpaper/filesystem.h \
+    wallpaper/localphotolist.h
