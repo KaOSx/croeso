@@ -286,7 +286,7 @@ Item {
         Button {
             id: button9
             width: 150
-            text: "Default Apps"
+            text: qsTr("Default Apps")
             hoverEnabled: true
             checkable: false
             leftPadding: 35
