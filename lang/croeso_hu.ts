@@ -4,17 +4,17 @@
     <message>
         <location filename="../Page1Form.ui.qml" line="51"/>
         <source>Widget Style</source>
-        <translation type="unfinished"/>
+        <translation>Widget stílus</translation>
     </message>
     <message>
         <location filename="../Page1Form.ui.qml" line="77"/>
         <source>Plasma Theme</source>
-        <translation type="unfinished"/>
+        <translation>Plasma sablon</translation>
     </message>
     <message>
         <location filename="../Page1Form.ui.qml" line="104"/>
         <source>Window Decoration</source>
-        <translation type="unfinished"/>
+        <translation>Ablakdekoráció</translation>
     </message>
     <message>
         <location filename="../Page1Form.ui.qml" line="149"/>
@@ -24,12 +24,12 @@
     <message>
         <location filename="../Page1Form.ui.qml" line="175"/>
         <source>Icon Set</source>
-        <translation type="unfinished"/>
+        <translation>Ikontéma</translation>
     </message>
     <message>
         <location filename="../Page1Form.ui.qml" line="200"/>
         <source>Virtual Desktops</source>
-        <translation type="unfinished"/>
+        <translation>Virtuális asztalok</translation>
     </message>
     <message>
         <location filename="../Page1Form.ui.qml" line="232"/>
@@ -39,12 +39,12 @@
     <message>
         <location filename="../Page1Form.ui.qml" line="259"/>
         <source>Colors</source>
-        <translation type="unfinished"/>
+        <translation>Színek</translation>
     </message>
     <message>
         <location filename="../Page1Form.ui.qml" line="285"/>
         <source>Font Settings</source>
-        <translation type="unfinished"/>
+        <translation>Betűtípus beállítások</translation>
     </message>
     <message>
         <location filename="../Page1Form.ui.qml" line="315"/>
@@ -62,12 +62,12 @@
     <message>
         <location filename="../Page2Form.ui.qml" line="74"/>
         <source>Pacman</source>
-        <translation type="unfinished"/>
+        <translation>Pacman</translation>
     </message>
     <message>
         <location filename="../Page2Form.ui.qml" line="101"/>
         <source>Switching NVidia</source>
-        <translation type="unfinished"/>
+        <translation>NVidia kiválasztása</translation>
     </message>
     <message>
         <location filename="../Page2Form.ui.qml" line="146"/>
@@ -77,12 +77,12 @@
     <message>
         <location filename="../Page2Form.ui.qml" line="174"/>
         <source>KCP</source>
-        <translation type="unfinished"/>
+        <translation>KCP</translation>
     </message>
     <message>
         <location filename="../Page2Form.ui.qml" line="199"/>
         <source>Forum</source>
-        <translation type="unfinished"/>
+        <translation>Fórumok</translation>
     </message>
 </context>
 <context>
@@ -90,7 +90,7 @@
     <message>
         <location filename="../Page3Form.ui.qml" line="48"/>
         <source>Firewall</source>
-        <translation type="unfinished"/>
+        <translation>Tűzfal</translation>
     </message>
     <message>
         <location filename="../Page3Form.ui.qml" line="76"/>
@@ -105,12 +105,12 @@
     <message>
         <location filename="../Page3Form.ui.qml" line="150"/>
         <source>Add Users</source>
-        <translation type="unfinished"/>
+        <translation>Új felhasználó</translation>
     </message>
     <message>
         <location filename="../Page3Form.ui.qml" line="176"/>
         <source>Network Management</source>
-        <translation type="unfinished"/>
+        <translation>Hálózatkezelő</translation>
     </message>
     <message>
         <location filename="../Page3Form.ui.qml" line="201"/>
@@ -139,17 +139,17 @@
         <location filename="../wallpaper/Photo.qml" line="62"/>
         <source>Downloaded</source>
         <extracomment>Photo action button</extracomment>
-        <translation type="unfinished"/>
+        <translation>Letöltött</translation>
     </message>
     <message>
         <location filename="../wallpaper/Photo.qml" line="62"/>
         <source>Download</source>
-        <translation type="unfinished"/>
+        <translation>Letöltés</translation>
     </message>
     <message>
         <location filename="../wallpaper/Photo.qml" line="76"/>
         <source>Remove</source>
-        <translation type="unfinished"/>
+        <translation>Tőrlés</translation>
     </message>
     <message>
         <location filename="../wallpaper/Photo.qml" line="90"/>
@@ -202,42 +202,42 @@
     <message>
         <location filename="../main.qml" line="125"/>
         <source>Code &amp; Bug trackers on Github for KaOS</source>
-        <translation type="unfinished"/>
+        <translation>Forráskód &amp; Hibajelentés a KaOS Github oldalán</translation>
     </message>
     <message>
         <location filename="../main.qml" line="149"/>
         <source>Join the KaOS IRC Channel</source>
-        <translation type="unfinished"/>
+        <translation>Csatlakozás a KaOS IRC csatornához</translation>
     </message>
     <message>
         <location filename="../main.qml" line="173"/>
         <source>Google Plus KaOS community</source>
-        <translation type="unfinished"/>
+        <translation>KaOS Google plusz közösség</translation>
     </message>
     <message>
         <location filename="../main.qml" line="197"/>
         <source>Gitter Chat for KaOS</source>
-        <translation type="unfinished"/>
+        <translation>KaOS Gitter Chat</translation>
     </message>
     <message>
         <location filename="../main.qml" line="221"/>
         <source>KaOS Mail Group</source>
-        <translation type="unfinished"/>
+        <translation>KaOS levelezőlista</translation>
     </message>
     <message>
         <location filename="../main.qml" line="237"/>
         <source>Customize</source>
-        <translation type="unfinished"/>
+        <translation>Testreszabás</translation>
     </message>
     <message>
         <location filename="../main.qml" line="240"/>
         <source>Wallpaper</source>
-        <translation type="unfinished"/>
+        <translation>Háttérkép</translation>
     </message>
     <message>
         <location filename="../main.qml" line="243"/>
         <source>Docs</source>
-        <translation type="unfinished"/>
+        <translation>Dokumentáció</translation>
     </message>
     <message>
         <location filename="../main.qml" line="246"/>
@@ -247,17 +247,17 @@
     <message>
         <location filename="../main.qml" line="249"/>
         <source>About</source>
-        <translation type="unfinished"/>
+        <translation>Névjegy</translation>
     </message>
     <message>
         <location filename="../main.qml" line="252"/>
         <source>News</source>
-        <translation type="unfinished"/>
+        <translation>Hírek</translation>
     </message>
     <message>
         <location filename="../main.qml" line="255"/>
         <source>Quit</source>
-        <translation type="unfinished"/>
+        <translation>Kilépés</translation>
     </message>
 </context>
 <context>
@@ -291,13 +291,13 @@
         <location filename="../wallpaper/wall.qml" line="46"/>
         <source>Latest</source>
         <extracomment>Navbar entry</extracomment>
-        <translation type="unfinished"/>
+        <translation>Legújabb</translation>
     </message>
     <message>
         <location filename="../wallpaper/wall.qml" line="53"/>
         <source>Popular</source>
         <extracomment>Navbar entry</extracomment>
-        <translation type="unfinished"/>
+        <translation>Népszerű</translation>
     </message>
     <message>
         <location filename="../wallpaper/wall.qml" line="60"/>
@@ -309,7 +309,7 @@
         <location filename="../wallpaper/wall.qml" line="67"/>
         <source>Downloaded</source>
         <extracomment>Navbar entry</extracomment>
-        <translation type="unfinished"/>
+        <translation>Letöltött</translation>
     </message>
 </context>
 </TS>

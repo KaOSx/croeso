@@ -9,17 +9,17 @@
     <message>
         <location filename="../Page1Form.ui.qml" line="77"/>
         <source>Plasma Theme</source>
-        <translation type="unfinished"/>
+        <translation>Plasma tema</translation>
     </message>
     <message>
         <location filename="../Page1Form.ui.qml" line="104"/>
         <source>Window Decoration</source>
-        <translation type="unfinished"/>
+        <translation>Dekoracija prozora</translation>
     </message>
     <message>
         <location filename="../Page1Form.ui.qml" line="149"/>
         <source>Mouse Behavior</source>
-        <translation type="unfinished"/>
+        <translation>Ponašanje miša</translation>
     </message>
     <message>
         <location filename="../Page1Form.ui.qml" line="175"/>
@@ -29,22 +29,22 @@
     <message>
         <location filename="../Page1Form.ui.qml" line="200"/>
         <source>Virtual Desktops</source>
-        <translation type="unfinished"/>
+        <translation>Virtualne radne površine</translation>
     </message>
     <message>
         <location filename="../Page1Form.ui.qml" line="232"/>
         <source>Screen Settings</source>
-        <translation type="unfinished"/>
+        <translation>Postavke zaslona</translation>
     </message>
     <message>
         <location filename="../Page1Form.ui.qml" line="259"/>
         <source>Colors</source>
-        <translation type="unfinished"/>
+        <translation>Boje</translation>
     </message>
     <message>
         <location filename="../Page1Form.ui.qml" line="285"/>
         <source>Font Settings</source>
-        <translation type="unfinished"/>
+        <translation>Postavke fontova</translation>
     </message>
     <message>
         <location filename="../Page1Form.ui.qml" line="315"/>
@@ -62,7 +62,7 @@
     <message>
         <location filename="../Page2Form.ui.qml" line="74"/>
         <source>Pacman</source>
-        <translation type="unfinished"/>
+        <translation>Pacman</translation>
     </message>
     <message>
         <location filename="../Page2Form.ui.qml" line="101"/>
@@ -72,17 +72,17 @@
     <message>
         <location filename="../Page2Form.ui.qml" line="146"/>
         <source>Additional Kernels</source>
-        <translation type="unfinished"/>
+        <translation>Dodatni kerneli</translation>
     </message>
     <message>
         <location filename="../Page2Form.ui.qml" line="174"/>
         <source>KCP</source>
-        <translation type="unfinished"/>
+        <translation>KCP</translation>
     </message>
     <message>
         <location filename="../Page2Form.ui.qml" line="199"/>
         <source>Forum</source>
-        <translation type="unfinished"/>
+        <translation>Forum</translation>
     </message>
 </context>
 <context>
@@ -90,12 +90,12 @@
     <message>
         <location filename="../Page3Form.ui.qml" line="48"/>
         <source>Firewall</source>
-        <translation type="unfinished"/>
+        <translation>Vatrozid</translation>
     </message>
     <message>
         <location filename="../Page3Form.ui.qml" line="76"/>
         <source>Energy Savings</source>
-        <translation type="unfinished"/>
+        <translation>Štednja energije</translation>
     </message>
     <message>
         <location filename="../Page3Form.ui.qml" line="103"/>
@@ -105,12 +105,12 @@
     <message>
         <location filename="../Page3Form.ui.qml" line="150"/>
         <source>Add Users</source>
-        <translation type="unfinished"/>
+        <translation>Dodaj korisnike</translation>
     </message>
     <message>
         <location filename="../Page3Form.ui.qml" line="176"/>
         <source>Network Management</source>
-        <translation type="unfinished"/>
+        <translation>Upravljanje mrežom</translation>
     </message>
     <message>
         <location filename="../Page3Form.ui.qml" line="201"/>
@@ -130,7 +130,7 @@
     <message>
         <location filename="../Page3Form.ui.qml" line="289"/>
         <source>Default Apps</source>
-        <translation type="unfinished"/>
+        <translation>Zadani programi</translation>
     </message>
 </context>
 <context>
@@ -139,23 +139,23 @@
         <location filename="../wallpaper/Photo.qml" line="62"/>
         <source>Downloaded</source>
         <extracomment>Photo action button</extracomment>
-        <translation type="unfinished"/>
+        <translation>Preuzeto</translation>
     </message>
     <message>
         <location filename="../wallpaper/Photo.qml" line="62"/>
         <source>Download</source>
-        <translation type="unfinished"/>
+        <translation>Preuzmi</translation>
     </message>
     <message>
         <location filename="../wallpaper/Photo.qml" line="76"/>
         <source>Remove</source>
-        <translation type="unfinished"/>
+        <translation>Ukloni</translation>
     </message>
     <message>
         <location filename="../wallpaper/Photo.qml" line="90"/>
         <source>Set wallpaper</source>
         <extracomment>Photo action button</extracomment>
-        <translation type="unfinished"/>
+        <translation>Postavi tapetu</translation>
     </message>
 </context>
 <context>
@@ -164,7 +164,7 @@
         <location filename="../wallpaper/PhotoList.qml" line="55"/>
         <source>Load more</source>
         <extracomment>Button at the end of photo list</extracomment>
-        <translation type="unfinished"/>
+        <translation>Učitaj još</translation>
     </message>
 </context>
 <context>
@@ -172,7 +172,7 @@
     <message>
         <location filename="../main.qml" line="35"/>
         <source>Croeso</source>
-        <translation type="unfinished"/>
+        <translation>Croeso</translation>
     </message>
     <message>
         <location filename="../main.qml" line="44"/>
@@ -189,7 +189,9 @@
         <source>&lt;p&gt;To familiarize yourself with KaOS, please read some of these documents.&lt;/p&gt;
                             
                             &lt;p&gt;Use the forum for questions, feedback and suggestions.&lt;/p&gt;</source>
-        <translation type="unfinished"/>
+        <translation>&lt;p&gt;Da biste se zbližili sa KaOS-om, molim pročitajte neke od ovih dokumenata.&lt;/p&gt;
+                            
+                            &lt;p&gt;Koristite forum za pitanja, povratne informacije i sugestije.&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../main.qml" line="78"/>
@@ -207,12 +209,12 @@
     <message>
         <location filename="../main.qml" line="149"/>
         <source>Join the KaOS IRC Channel</source>
-        <translation type="unfinished"/>
+        <translation>Pridružite se KaOS IRC kanalu</translation>
     </message>
     <message>
         <location filename="../main.qml" line="173"/>
         <source>Google Plus KaOS community</source>
-        <translation type="unfinished"/>
+        <translation>Google Plus KaOS zajednica</translation>
     </message>
     <message>
         <location filename="../main.qml" line="197"/>
@@ -227,7 +229,7 @@
     <message>
         <location filename="../main.qml" line="237"/>
         <source>Customize</source>
-        <translation type="unfinished"/>
+        <translation>Prilagodi</translation>
     </message>
     <message>
         <location filename="../main.qml" line="240"/>
@@ -237,27 +239,27 @@
     <message>
         <location filename="../main.qml" line="243"/>
         <source>Docs</source>
-        <translation type="unfinished"/>
+        <translation>Dokumenti</translation>
     </message>
     <message>
         <location filename="../main.qml" line="246"/>
         <source>Advanced</source>
-        <translation type="unfinished"/>
+        <translation>Napredno</translation>
     </message>
     <message>
         <location filename="../main.qml" line="249"/>
         <source>About</source>
-        <translation type="unfinished"/>
+        <translation>O programu</translation>
     </message>
     <message>
         <location filename="../main.qml" line="252"/>
         <source>News</source>
-        <translation type="unfinished"/>
+        <translation>Novosti</translation>
     </message>
     <message>
         <location filename="../main.qml" line="255"/>
         <source>Quit</source>
-        <translation type="unfinished"/>
+        <translation>Završi</translation>
     </message>
 </context>
 <context>
@@ -291,13 +293,13 @@
         <location filename="../wallpaper/wall.qml" line="46"/>
         <source>Latest</source>
         <extracomment>Navbar entry</extracomment>
-        <translation type="unfinished"/>
+        <translation>Zadnje</translation>
     </message>
     <message>
         <location filename="../wallpaper/wall.qml" line="53"/>
         <source>Popular</source>
         <extracomment>Navbar entry</extracomment>
-        <translation type="unfinished"/>
+        <translation>Popularno</translation>
     </message>
     <message>
         <location filename="../wallpaper/wall.qml" line="60"/>
@@ -309,7 +311,7 @@
         <location filename="../wallpaper/wall.qml" line="67"/>
         <source>Downloaded</source>
         <extracomment>Navbar entry</extracomment>
-        <translation type="unfinished"/>
+        <translation>Preuzeto</translation>
     </message>
 </context>
 </TS>

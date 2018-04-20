@@ -44,7 +44,7 @@
     <message>
         <location filename="../Page1Form.ui.qml" line="285"/>
         <source>Font Settings</source>
-        <translation type="unfinished"/>
+        <translation>Nastavení pásma</translation>
     </message>
     <message>
         <location filename="../Page1Form.ui.qml" line="315"/>
@@ -130,7 +130,7 @@
     <message>
         <location filename="../Page3Form.ui.qml" line="289"/>
         <source>Default Apps</source>
-        <translation type="unfinished"/>
+        <translation>Výchozí aplikace</translation>
     </message>
 </context>
 <context>
@@ -139,23 +139,23 @@
         <location filename="../wallpaper/Photo.qml" line="62"/>
         <source>Downloaded</source>
         <extracomment>Photo action button</extracomment>
-        <translation type="unfinished"/>
+        <translation>Staženo</translation>
     </message>
     <message>
         <location filename="../wallpaper/Photo.qml" line="62"/>
         <source>Download</source>
-        <translation type="unfinished"/>
+        <translation>Stahování</translation>
     </message>
     <message>
         <location filename="../wallpaper/Photo.qml" line="76"/>
         <source>Remove</source>
-        <translation type="unfinished"/>
+        <translation>Odstranit</translation>
     </message>
     <message>
         <location filename="../wallpaper/Photo.qml" line="90"/>
         <source>Set wallpaper</source>
         <extracomment>Photo action button</extracomment>
-        <translation type="unfinished"/>
+        <translation>Nastavit pozadí plochy</translation>
     </message>
 </context>
 <context>
@@ -164,7 +164,7 @@
         <location filename="../wallpaper/PhotoList.qml" line="55"/>
         <source>Load more</source>
         <extracomment>Button at the end of photo list</extracomment>
-        <translation type="unfinished"/>
+        <translation>Načíst více</translation>
     </message>
 </context>
 <context>
@@ -212,27 +212,27 @@
     <message>
         <location filename="../main.qml" line="125"/>
         <source>Code &amp; Bug trackers on Github for KaOS</source>
-        <translation type="unfinished"/>
+        <translation>Zdrojový kód KaOS a sledování bugů na Githubu</translation>
     </message>
     <message>
         <location filename="../main.qml" line="149"/>
         <source>Join the KaOS IRC Channel</source>
-        <translation type="unfinished"/>
+        <translation>Připojit se na KaOS IRC kanál</translation>
     </message>
     <message>
         <location filename="../main.qml" line="173"/>
         <source>Google Plus KaOS community</source>
-        <translation type="unfinished"/>
+        <translation>KaOS komunita Google Plus</translation>
     </message>
     <message>
         <location filename="../main.qml" line="197"/>
         <source>Gitter Chat for KaOS</source>
-        <translation type="unfinished"/>
+        <translation>KaOS Gitter chat</translation>
     </message>
     <message>
         <location filename="../main.qml" line="221"/>
         <source>KaOS Mail Group</source>
-        <translation type="unfinished"/>
+        <translation>KaOS emailová skupina</translation>
     </message>
     <message>
         <location filename="../main.qml" line="237"/>
@@ -242,32 +242,32 @@
     <message>
         <location filename="../main.qml" line="240"/>
         <source>Wallpaper</source>
-        <translation type="unfinished"/>
+        <translation>Pozadí plochy</translation>
     </message>
     <message>
         <location filename="../main.qml" line="243"/>
         <source>Docs</source>
-        <translation type="unfinished"/>
+        <translation>Dokumenty</translation>
     </message>
     <message>
         <location filename="../main.qml" line="246"/>
         <source>Advanced</source>
-        <translation type="unfinished"/>
+        <translation>Rozšířené</translation>
     </message>
     <message>
         <location filename="../main.qml" line="249"/>
         <source>About</source>
-        <translation type="unfinished"/>
+        <translation>O</translation>
     </message>
     <message>
         <location filename="../main.qml" line="252"/>
         <source>News</source>
-        <translation type="unfinished"/>
+        <translation>Novinky</translation>
     </message>
     <message>
         <location filename="../main.qml" line="255"/>
         <source>Quit</source>
-        <translation type="unfinished"/>
+        <translation>Ukončit</translation>
     </message>
 </context>
 <context>
@@ -301,25 +301,25 @@
         <location filename="../wallpaper/wall.qml" line="46"/>
         <source>Latest</source>
         <extracomment>Navbar entry</extracomment>
-        <translation type="unfinished"/>
+        <translation>Poslední</translation>
     </message>
     <message>
         <location filename="../wallpaper/wall.qml" line="53"/>
         <source>Popular</source>
         <extracomment>Navbar entry</extracomment>
-        <translation type="unfinished"/>
+        <translation>Populární</translation>
     </message>
     <message>
         <location filename="../wallpaper/wall.qml" line="60"/>
         <source>Curated</source>
         <extracomment>Navbar entry</extracomment>
-        <translation type="unfinished"/>
+        <translation>Kurátor</translation>
     </message>
     <message>
         <location filename="../wallpaper/wall.qml" line="67"/>
         <source>Downloaded</source>
         <extracomment>Navbar entry</extracomment>
-        <translation type="unfinished"/>
+        <translation>Staženo</translation>
     </message>
 </context>
 </TS>
