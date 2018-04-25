@@ -4,12 +4,12 @@
     <message>
         <location filename="../Page1Form.ui.qml" line="51"/>
         <source>Widget Style</source>
-        <translation>Widget का स्टाइल</translation>
+        <translation>विजेट का स्टाइल</translation>
     </message>
     <message>
         <location filename="../Page1Form.ui.qml" line="77"/>
         <source>Plasma Theme</source>
-        <translation>Plasma थीम</translation>
+        <translation>प्लाज़्मा थीम</translation>
     </message>
     <message>
         <location filename="../Page1Form.ui.qml" line="104"/>
@@ -62,7 +62,7 @@
     <message>
         <location filename="../Page2Form.ui.qml" line="74"/>
         <source>Pacman</source>
-        <translation>Pacman</translation>
+        <translation>पैकमैन</translation>
     </message>
     <message>
         <location filename="../Page2Form.ui.qml" line="101"/>
@@ -100,7 +100,7 @@
     <message>
         <location filename="../Page3Form.ui.qml" line="103"/>
         <source>Systemd Daemon</source>
-        <translation>Systemd Daemon</translation>
+        <translation>Systemd डेमॉन प्रोग्राम</translation>
     </message>
     <message>
         <location filename="../Page3Form.ui.qml" line="150"/>
@@ -125,7 +125,7 @@
     <message>
         <location filename="../Page3Form.ui.qml" line="261"/>
         <source>Pacman Cache</source>
-        <translation>Pacman Cache</translation>
+        <translation>पैकमैन Cache</translation>
     </message>
     <message>
         <location filename="../Page3Form.ui.qml" line="289"/>
@@ -185,7 +185,7 @@
         <translation>&lt;div&gt;&lt;h2&gt;KaOS क्या है?&lt;/h2&gt;
 KaOS के पीछे उद्देश्य है आज के आधुनिक डेस्कटॉप के लिए एक दृढ़ता से समन्वित व&lt;br&gt;
 पारदर्शी ऑपरेटिंग सिस्टम, जो कि मूल रूप से ही&lt;br&gt;
-एक विशिष्ट लक्ष्य के तहत हो। वह लक्ष्य है एक डेस्कटॉप परिवेश (KDE), एक toolkit (Qt) व एक स्थापत्य (x86_64) पर ध्यान केंद्रित करना।&lt;br&gt;
+एक विशिष्ट लक्ष्य के तहत हो। वह लक्ष्य है एक डेस्कटॉप परिवेश (KDE), एक टूलकिट (Qt) व एक स्थापत्य (x86_64) पर ध्यान केंद्रित करना।&lt;br&gt;
 इसके अलावा मूल्यांकन कर सबसे उपयुक्त साधन व अनुप्रयोगों को चुनना।&lt;br&gt;&lt;br&gt;
 यह पेज आपको KaOS की आमतौर पर उपयोग की जाने वाली सेटिंग्स अपने अनुकूल सेट करने में मदद करेगा ।&lt;/div&gt;</translation>
     </message>
@@ -222,7 +222,7 @@ KaOS के पीछे उद्देश्य है आज के आधु
     <message>
         <location filename="../main.qml" line="173"/>
         <source>Google Plus KaOS community</source>
-        <translation>Google Plus पर KaOS समुदाय</translation>
+        <translation>गूगल प्लस पर KaOS समुदाय</translation>
     </message>
     <message>
         <location filename="../main.qml" line="197"/>
@@ -293,11 +293,11 @@ KaOS के पीछे उद्देश्य है आज के आधु
                     
                     &lt;p&gt;KDE is a modern Desktop Environment which can make use of most of any graphics or sound card capabilities. This does not mean KDE can’t be made to run on very low-end hardware, but in general there are better options available for such systems (OpenBox for example). The very minimal needed for &lt;b&gt;hard-drive space is 8 Gb, but 25 Gb&lt;/b&gt; is recommended as minimal. KaOS will install with 1.5Gb of RAM available, though a much better experience will start with &lt;b&gt;2 Gb of RAM&lt;/b&gt;. Since only x86_64 packages are available, a &lt;b&gt;64 bit capable cpu&lt;/b&gt; is needed. As with any rolling distribution, updates are frequent and can be large, so a reasonable fast internet connection (dial-up will become very cumbersome) and available monthly data of over 2 Gb are recommended.&lt;/p&gt;</source>
         <translation>&lt;h3&gt;KaOS के बारे में&lt;/h3&gt;
-&lt;p&gt;KaOS के पीछे उद्देश्य है आज के आधुनिक डेस्कटॉप के लिए एक दृढ़ता से समन्वित व पारदर्शी ऑपरेटिंग सिस्टम, जो कि मूल रूप से ही एक विशिष्ट लक्ष्य के तहत हो। वह है &lt;b&gt;एक डेस्कटॉप वातावरण (KDE), एक toolkit (Qt) &amp; एक स्थापत्य (x86_64) &lt;/b&gt;पर ध्यान केंद्रित करना व इसके अलावा मूल्यांकन कर सबसे उपयुक्त साधन व अनुप्रयोगों को चुनना। समस्त प्रयास मौजूदा पैकेज पर केंद्रित है, न की नए अनुप्रयोग व साधन विकसित करने पर।&lt;/p&gt;
+&lt;p&gt;KaOS के पीछे उद्देश्य है आज के आधुनिक डेस्कटॉप के लिए एक दृढ़ता से समन्वित व पारदर्शी ऑपरेटिंग सिस्टम, जो कि मूल रूप से ही एक विशिष्ट लक्ष्य के तहत हो। वह है &lt;b&gt;एक डेस्कटॉप वातावरण (KDE), एक टूलकिट (Qt) &amp; एक स्थापत्य (x86_64) &lt;/b&gt;पर ध्यान केंद्रित करना व इसके अलावा मूल्यांकन कर सबसे उपयुक्त साधन व अनुप्रयोगों को चुनना। समस्त प्रयास मौजूदा पैकेज पर केंद्रित है, न की नए अनुप्रयोग व साधन विकसित करने पर।&lt;/p&gt;
 
 &lt;p&gt;अमूमन, अमुक्त ऑपरेटिंग सिस्टम छोड़ मुक्त स्रोत विकल्प (लिनक्स, BSD, Solaris आधारित) चुनना ही &lt;b&gt;स्वतंत्र इच्छा&lt;/b&gt; दिखाता है। पर क्या ऐसे ऑपरेटिंग सिस्टम या वितरणों को श्रेष्ट विकल्पों का चयन नहीं करना चाहिए? KaOS मानता है कि इस तरफ भी ध्यान दें की ज़रूरत है। संभवतः सबसे बेहतर वितरण को चाहिए कि वह उपयोक्ता को श्रेष्ठम उपलब्ध विकल्प मुहैया कराएं। यह कतई संभव नहीं है कि सर्वोच्च डेस्कटॉप अनुभव के लिए सभी मौजूद पैकेज उपलब्ध कराएं जाएँ।&lt;/p&gt;
 
-&lt;p&gt;KaOS ने &lt;b&gt;लिनक्स कर्नेल&lt;/b&gt; को मूल चुना है (हालाँकि Illumos कर्नेल पर भी विचार किया जा रहा है व शायद ये भविष्य में हो भी जाएँ)। इसके बाद बारी आती है पैकेज व प्रबंधन हेतु सर्वोच्च पैकेज प्रबंधक की, &lt;b&gt;pacman/makepkg जो KaOS जैसे हमेशा नवीनतम रहने वाले वितरण&lt;/b&gt; के लिए आवश्यक है। डेस्कटॉप वातावरण KDE व टूलकिट हमेशा Qt ही रहेगी चाहे सिस्टम लिनक्स आधारित हो या Illumos। इन सबको मद्देनज़र रखते हुए अप्रैल, 2013 में इस स्वतंत्र वितरण की नींव रखी गई।&lt;/p&gt;
+&lt;p&gt;KaOS ने &lt;b&gt;लिनक्स कर्नेल&lt;/b&gt; को मूल चुना है (हालाँकि Illumos कर्नेल पर भी विचार किया जा रहा है व शायद ये भविष्य में हो भी जाएँ)। इसके बाद बारी आती है पैकेज व प्रबंधन हेतु सर्वोच्च पैकेज प्रबंधक की, &lt;b&gt;पैकमैन/makepkg जो KaOS जैसे हमेशा नवीनतम रहने वाले वितरण&lt;/b&gt; के लिए आवश्यक है। डेस्कटॉप वातावरण KDE व टूलकिट हमेशा Qt ही रहेगी चाहे सिस्टम लिनक्स आधारित हो या Illumos। इन सबको मद्देनज़र रखते हुए अप्रैल, 2013 में इस स्वतंत्र वितरण की नींव रखी गई।&lt;/p&gt;
 
 &lt;p&gt;KaOS का निर्माण मूल से ही शुरू किया गया है, &lt;b&gt;प्रत्येक पैकेज KaOS के लिए ही निर्मित है&lt;/b&gt;। जुलाई, 2013 तक 1500 पैकेज का आरंभिक लक्ष्य हासिल किया गया।&lt;/p&gt;
 
@@ -309,7 +309,7 @@ KaOS के पीछे उद्देश्य है आज के आधु
 
 &lt;p&gt;&lt;b&gt;लक्षित उपयोक्ता&lt;/b&gt; वे हैं जो कई ऑपरेटिंग सिस्टम/वितरण/डेस्कटॉप वातावरण उपयोग कर चुके हैं और मानते हैं कि उन्हें एक ऐसा वितरण चाहिए जो एक डेस्कटॉप वातावरण पर पूर्णतया केंद्रित हो, और वह डेस्कटॉप वातावरण KDE हो। 2005 के बाद का कोई भी हार्डवेयर सेटअप, बिना किसी समस्या के 64-bit सॉफ्टवेयर चला सकता है। लक्षित उपयोक्ता अपने पसंदीदा अनुप्रयोगों के KDE/Qt संस्करण उपयोग करने के इच्छुक हो, भले ही उन्हें नए अनुप्रयोग द्वारा कार्य करने के नए तरीके सीखने पड़ें। लेकिन, इस तरह के केवल 5-6 अनुप्रयोग ही हैं।&lt;/p&gt;
 
-&lt;p&gt;KDE एक आधुनिक डेस्कटॉप वातावरण है, जो हर तरह के ग्राफ़िक्स व ध्वनि कार्ड का प्रशस्त उपयोग करें में सक्षम है। इसका अर्थ यह नहीं है कि KDE सामान्य से नीचे के हार्डवेयर पर नहीं चल सकता, पर इस तरह के सिस्टम के लिए दूसरे बेहतर विकल्प (जैसे OpenBox) मौजूद है। आपकी &lt;b&gt; हार्ड डिस्क में कम-से-कम 8GB स्पेस होना चाहिए, पर 25GB है&lt;/b&gt; तो बेहतर रहेगा। इसी तरह KaOS 1.5GB RAM के साथ इंस्टॉल हो जाएगा, पर &lt;b&gt;2GB RAM&lt;/b&gt; के साथ आपका अनुभव ज़्यादा अच्छा होगा। क्योंकि सिर्फ x86_64 पैकेज ही मौजूद है, तो स्वाभाविक रूप से &lt;b&gt;CPU 64-bit समर्थित&lt;/b&gt; होना चाहिए। हर लगातार अपडेट होने वाले वितरण की ही भाँति, अपडेट काफी त्वरित व बड़ी हो सकती हैं, इसी कारणवश इंटरनेट कनेक्शन भी तेज होना चाहिए (धीमे होने के कारण dial-up इसके लिए उपयुक्त नहीं है) व महीने में 2GB तक डाटा की खपत हो सकती है।&lt;/p&gt;</translation>
+&lt;p&gt;KDE एक आधुनिक डेस्कटॉप वातावरण है, जो हर तरह के ग्राफ़िक्स व ध्वनि कार्ड का प्रशस्त उपयोग करने में सक्षम है। इसका अर्थ यह नहीं है कि KDE सामान्य से नीचे के हार्डवेयर पर नहीं चल सकता, पर इस तरह के सिस्टम के लिए दूसरे बेहतर विकल्प (जैसे OpenBox) मौजूद है। आपकी &lt;b&gt; हार्ड डिस्क में कम-से-कम 8GB स्पेस होना चाहिए, पर 25GB है&lt;/b&gt; तो बेहतर रहेगा। इसी तरह KaOS 1.5GB RAM के साथ इंस्टॉल हो जाएगा, पर &lt;b&gt;2GB RAM&lt;/b&gt; के साथ आपका अनुभव ज़्यादा अच्छा होगा। क्योंकि सिर्फ x86_64 पैकेज ही मौजूद है, तो स्वाभाविक रूप से &lt;b&gt;CPU 64-bit समर्थित&lt;/b&gt; होना चाहिए। हर लगातार अपडेट होने वाले वितरण की ही भाँति, अपडेट काफी त्वरित व बड़ी हो सकती हैं, इसी कारणवश इंटरनेट कनेक्शन भी तेज होना चाहिए (धीमे होने के कारण डायल-अप कनेक्शन इसके लिए उपयुक्त नहीं है) व महीने में 2GB तक डाटा की खपत हो सकती है।&lt;/p&gt;</translation>
     </message>
 </context>
 <context>

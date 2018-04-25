@@ -53,6 +53,8 @@
         <file>lang/croeso_uk.qm</file>
         <file>lang/croeso_hr_HR.qm</file>
         <file>lang/croeso_hi_IN.qm</file>
+        <file>lang/croeso_hu.qm</file>
+        <file>lang/croeso_tr_TR.qm</file>
         <!--Fontawesome images-->
         <file>images/fontawesome/bell.svg</file>
         <file>images/fontawesome/comments.svg</file>

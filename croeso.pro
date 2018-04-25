@@ -53,6 +53,7 @@ TRANSLATIONS  += lang/croeso.ts \
               lang/croeso_pl.ts \
               lang/croeso_pt_BR.ts \
               lang/croeso_uk.ts \
+              lang/croeso_tr_TR.ts \
 
 # Default rules for deployment.
 #qnx: target.path = /tmp/$${TARGET}/bin
