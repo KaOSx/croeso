@@ -90,7 +90,7 @@
     <message>
         <location filename="../Page3Form.ui.qml" line="48"/>
         <source>Firewall</source>
-        <translation>Firewal</translation>
+        <translation>Firewall</translation>
     </message>
     <message>
         <location filename="../Page3Form.ui.qml" line="76"/>

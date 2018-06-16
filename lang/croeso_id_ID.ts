@@ -4,52 +4,52 @@
     <message>
         <location filename="../Page1Form.ui.qml" line="51"/>
         <source>Widget Style</source>
-        <translation type="unfinished"/>
+        <translation>Gaya Widget</translation>
     </message>
     <message>
         <location filename="../Page1Form.ui.qml" line="77"/>
         <source>Plasma Theme</source>
-        <translation type="unfinished"/>
+        <translation>Tema Plasma</translation>
     </message>
     <message>
         <location filename="../Page1Form.ui.qml" line="104"/>
         <source>Window Decoration</source>
-        <translation type="unfinished"/>
+        <translation>Dekorasi Jendela</translation>
     </message>
     <message>
         <location filename="../Page1Form.ui.qml" line="149"/>
         <source>Mouse Behavior</source>
-        <translation type="unfinished"/>
+        <translation>Perilaku Mouse</translation>
     </message>
     <message>
         <location filename="../Page1Form.ui.qml" line="175"/>
         <source>Icon Set</source>
-        <translation type="unfinished"/>
+        <translation>Set Icon</translation>
     </message>
     <message>
         <location filename="../Page1Form.ui.qml" line="200"/>
         <source>Virtual Desktops</source>
-        <translation type="unfinished"/>
+        <translation>Desktop Virtual</translation>
     </message>
     <message>
         <location filename="../Page1Form.ui.qml" line="232"/>
         <source>Screen Settings</source>
-        <translation type="unfinished"/>
+        <translation>Setelan Layar</translation>
     </message>
     <message>
         <location filename="../Page1Form.ui.qml" line="259"/>
         <source>Colors</source>
-        <translation type="unfinished"/>
+        <translation>Warna</translation>
     </message>
     <message>
         <location filename="../Page1Form.ui.qml" line="285"/>
         <source>Font Settings</source>
-        <translation type="unfinished"/>
+        <translation>Setelan Font</translation>
     </message>
     <message>
         <location filename="../Page1Form.ui.qml" line="315"/>
         <source>Launch at System Start</source>
-        <translation type="unfinished"/>
+        <translation>Luncurkan di saat Memulai Sistem</translation>
     </message>
 </context>
 <context>
@@ -57,32 +57,32 @@
     <message>
         <location filename="../Page2Form.ui.qml" line="46"/>
         <source>Asking Smart</source>
-        <translation type="unfinished"/>
+        <translation>Bertanya Cerdas</translation>
     </message>
     <message>
         <location filename="../Page2Form.ui.qml" line="74"/>
         <source>Pacman</source>
-        <translation type="unfinished"/>
+        <translation>Pacman</translation>
     </message>
     <message>
         <location filename="../Page2Form.ui.qml" line="101"/>
         <source>Switching NVidia</source>
-        <translation type="unfinished"/>
+        <translation>Peralihan NVidia</translation>
     </message>
     <message>
         <location filename="../Page2Form.ui.qml" line="146"/>
         <source>Additional Kernels</source>
-        <translation type="unfinished"/>
+        <translation>Kernel Tambahan</translation>
     </message>
     <message>
         <location filename="../Page2Form.ui.qml" line="174"/>
         <source>KCP</source>
-        <translation type="unfinished"/>
+        <translation>KCP</translation>
     </message>
     <message>
         <location filename="../Page2Form.ui.qml" line="199"/>
         <source>Forum</source>
-        <translation type="unfinished"/>
+        <translation>Forum</translation>
     </message>
 </context>
 <context>
@@ -90,47 +90,47 @@
     <message>
         <location filename="../Page3Form.ui.qml" line="48"/>
         <source>Firewall</source>
-        <translation type="unfinished"/>
+        <translation>Firewall</translation>
     </message>
     <message>
         <location filename="../Page3Form.ui.qml" line="76"/>
         <source>Energy Savings</source>
-        <translation type="unfinished"/>
+        <translation>Hemat Energi</translation>
     </message>
     <message>
         <location filename="../Page3Form.ui.qml" line="103"/>
         <source>Systemd Daemon</source>
-        <translation type="unfinished"/>
+        <translation>Systemd Daemon</translation>
     </message>
     <message>
         <location filename="../Page3Form.ui.qml" line="150"/>
         <source>Add Users</source>
-        <translation type="unfinished"/>
+        <translation>Tambahkan Pengguna</translation>
     </message>
     <message>
         <location filename="../Page3Form.ui.qml" line="176"/>
         <source>Network Management</source>
-        <translation type="unfinished"/>
+        <translation>Pengelolaan Jaringan</translation>
     </message>
     <message>
         <location filename="../Page3Form.ui.qml" line="201"/>
         <source>KDE Wallet</source>
-        <translation type="unfinished"/>
+        <translation>KDE Wallet</translation>
     </message>
     <message>
         <location filename="../Page3Form.ui.qml" line="236"/>
         <source>Configure Search</source>
-        <translation type="unfinished"/>
+        <translation>Konfigurasi Pencarian</translation>
     </message>
     <message>
         <location filename="../Page3Form.ui.qml" line="261"/>
         <source>Pacman Cache</source>
-        <translation type="unfinished"/>
+        <translation>Cache Pacman</translation>
     </message>
     <message>
         <location filename="../Page3Form.ui.qml" line="289"/>
         <source>Default Apps</source>
-        <translation type="unfinished"/>
+        <translation>Apl Baku</translation>
     </message>
 </context>
 <context>
@@ -139,23 +139,23 @@
         <location filename="../wallpaper/Photo.qml" line="62"/>
         <source>Downloaded</source>
         <extracomment>Photo action button</extracomment>
-        <translation type="unfinished"/>
+        <translation>Didownload</translation>
     </message>
     <message>
         <location filename="../wallpaper/Photo.qml" line="62"/>
         <source>Download</source>
-        <translation type="unfinished"/>
+        <translation>Download</translation>
     </message>
     <message>
         <location filename="../wallpaper/Photo.qml" line="76"/>
         <source>Remove</source>
-        <translation type="unfinished"/>
+        <translation>Buang</translation>
     </message>
     <message>
         <location filename="../wallpaper/Photo.qml" line="90"/>
         <source>Set wallpaper</source>
         <extracomment>Photo action button</extracomment>
-        <translation type="unfinished"/>
+        <translation>Set wallpaper</translation>
     </message>
 </context>
 <context>
@@ -164,7 +164,7 @@
         <location filename="../wallpaper/PhotoList.qml" line="55"/>
         <source>Load more</source>
         <extracomment>Button at the end of photo list</extracomment>
-        <translation type="unfinished"/>
+        <translation>Muat selebihnya</translation>
     </message>
 </context>
 <context>
@@ -172,7 +172,7 @@
     <message>
         <location filename="../main.qml" line="35"/>
         <source>Croeso</source>
-        <translation type="unfinished"/>
+        <translation>Selamat Datang</translation>
     </message>
     <message>
         <location filename="../main.qml" line="44"/>
@@ -189,7 +189,9 @@
         <source>&lt;p&gt;To familiarize yourself with KaOS, please read some of these documents.&lt;/p&gt;
                             
                             &lt;p&gt;Use the forum for questions, feedback and suggestions.&lt;/p&gt;</source>
-        <translation type="unfinished"/>
+        <translation>&lt;p&gt;Untuk membiasakan dirimu dengan KaOS, silakan baca beberapa dokumen ini.&lt;/p&gt;
+
+&lt;p&gt; Gunakan forum untuk pertanyaan, saran dan tanggapan.&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../main.qml" line="78"/>
@@ -202,62 +204,62 @@
     <message>
         <location filename="../main.qml" line="125"/>
         <source>Code &amp; Bug trackers on Github for KaOS</source>
-        <translation type="unfinished"/>
+        <translation>Pelacakan bug &amp; kode pada Github untuk KaOS</translation>
     </message>
     <message>
         <location filename="../main.qml" line="149"/>
         <source>Join the KaOS IRC Channel</source>
-        <translation type="unfinished"/>
+        <translation>Bergabunglah Channel IRC KaOS</translation>
     </message>
     <message>
         <location filename="../main.qml" line="173"/>
         <source>Google Plus KaOS community</source>
-        <translation type="unfinished"/>
+        <translation>Komunitas KaOS Google Plus</translation>
     </message>
     <message>
         <location filename="../main.qml" line="197"/>
         <source>Gitter Chat for KaOS</source>
-        <translation type="unfinished"/>
+        <translation>Chat Gitter untuk KaOS</translation>
     </message>
     <message>
         <location filename="../main.qml" line="221"/>
         <source>KaOS Mail Group</source>
-        <translation type="unfinished"/>
+        <translation>Grup Mail KaOS</translation>
     </message>
     <message>
         <location filename="../main.qml" line="237"/>
         <source>Customize</source>
-        <translation type="unfinished"/>
+        <translation>Mengkostumisasi</translation>
     </message>
     <message>
         <location filename="../main.qml" line="240"/>
         <source>Wallpaper</source>
-        <translation type="unfinished"/>
+        <translation>Wallpaper</translation>
     </message>
     <message>
         <location filename="../main.qml" line="243"/>
         <source>Docs</source>
-        <translation type="unfinished"/>
+        <translation>Dokumentasi</translation>
     </message>
     <message>
         <location filename="../main.qml" line="246"/>
         <source>Advanced</source>
-        <translation type="unfinished"/>
+        <translation>Lanjutan</translation>
     </message>
     <message>
         <location filename="../main.qml" line="249"/>
         <source>About</source>
-        <translation type="unfinished"/>
+        <translation>Tentang</translation>
     </message>
     <message>
         <location filename="../main.qml" line="252"/>
         <source>News</source>
-        <translation type="unfinished"/>
+        <translation>Kabar</translation>
     </message>
     <message>
         <location filename="../main.qml" line="255"/>
         <source>Quit</source>
-        <translation type="unfinished"/>
+        <translation>Akhiri</translation>
     </message>
 </context>
 <context>
@@ -291,13 +293,13 @@
         <location filename="../wallpaper/wall.qml" line="46"/>
         <source>Latest</source>
         <extracomment>Navbar entry</extracomment>
-        <translation type="unfinished"/>
+        <translation>Terkini</translation>
     </message>
     <message>
         <location filename="../wallpaper/wall.qml" line="53"/>
         <source>Popular</source>
         <extracomment>Navbar entry</extracomment>
-        <translation type="unfinished"/>
+        <translation>Populer</translation>
     </message>
     <message>
         <location filename="../wallpaper/wall.qml" line="60"/>
@@ -309,7 +311,7 @@
         <location filename="../wallpaper/wall.qml" line="67"/>
         <source>Downloaded</source>
         <extracomment>Navbar entry</extracomment>
-        <translation type="unfinished"/>
+        <translation>Didownload</translation>
     </message>
 </context>
 </TS>
