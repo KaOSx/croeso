@@ -53,7 +53,7 @@ Page1Form {
         executer.connectSource("kcmshell5 icons");
     }
     button6.onClicked: {
-        executer.connectSource("kcmshell5 desktop");
+        executer.connectSource("kcmshell5 kcm_kwin_virtualdesktops");
     }
     button7.onClicked: {
         executer.connectSource("kcmshell5 kscreen");
