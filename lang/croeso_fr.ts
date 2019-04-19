@@ -1,4 +1,6 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="fr" version="2.1">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.1" language="fr">
 <context>
     <name>Page1Form.ui</name>
     <message>
@@ -221,52 +223,51 @@ This page lists more advanced settings options.  Même cela ni signifie pour aut
         <translation>Joindre le canal IRC de KaOS</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="173"/>
         <source>Google Plus KaOS community</source>
-        <translation>Communauté Google Plus de KaOS</translation>
+        <translation type="vanished">Communauté Google Plus de KaOS</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="197"/>
+        <location filename="../main.qml" line="173"/>
         <source>Gitter Chat for KaOS</source>
         <translation>Chat Gitter de KaOS</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="221"/>
+        <location filename="../main.qml" line="197"/>
         <source>KaOS Mail Group</source>
         <translation>Groupe de mails de KaOS</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="237"/>
+        <location filename="../main.qml" line="213"/>
         <source>Customize</source>
         <translation>Personnaliser</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="240"/>
+        <location filename="../main.qml" line="216"/>
         <source>Wallpaper</source>
         <translation>Fond d’écran</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="243"/>
+        <location filename="../main.qml" line="219"/>
         <source>Docs</source>
         <translation>Documentations</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="246"/>
+        <location filename="../main.qml" line="222"/>
         <source>Advanced</source>
         <translation>Avancé</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="249"/>
+        <location filename="../main.qml" line="225"/>
         <source>About</source>
         <translation>À propos</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="252"/>
+        <location filename="../main.qml" line="228"/>
         <source>News</source>
         <translation>Nouveautés</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="255"/>
+        <location filename="../main.qml" line="231"/>
         <source>Quit</source>
         <translation>Quitter</translation>
     </message>
@@ -274,7 +275,7 @@ This page lists more advanced settings options.  Même cela ni signifie pour aut
 <context>
     <name>notes</name>
     <message>
-        <location filename="../notes.qml" line="39"/>
+        <location filename="../notes.qml" line="40"/>
         <source>&lt;h3&gt;About KaOS&lt;/h3&gt;
                     &lt;p&gt;The idea behind KaOS is to create a tightly integrated rolling and transparent distribution for the modern desktop, build from scratch with a very specific focus. Focus on &lt;b&gt;one DE (KDE), one toolkit (Qt), one architecture (x86_64)&lt;/b&gt; plus a focus on evaluating and selecting the most suitable tools and applications. All work is geared toward packaging, not developing new tools or applications.&lt;/p&gt;
 
@@ -310,7 +311,7 @@ This page lists more advanced settings options.  Même cela ni signifie pour aut
                     
                     &lt;p&gt;&lt;b&gt;Les utilisateurs ciblés&lt;/b&gt; sont ceux qui ont testé de nombreux systèmes d’exploitation/distributions/environnements de bureaux, et qui cherchent une distribution utilisant toutes ses ressources dans un seul environnement de bureau. D’après leurs tests, ils estiment que KDE KDE est le meilleur d’entre eux. Leur matériel utilisé est plus récent que 2005 et n&apos;a donc aucun problème pour exécuter des logiciels 64 bits. Enfin, l&apos;utilisateur ciblé ne craint pas d&apos;utiliser les versions KDE/Qt de logiciels dont il a besoin, même si cela signifie apprendre à les utiliser. Bien entendu, les applications dédiées à la même chose seront limitées à 5-6.&lt;/p&gt;
                     
-                    &lt;p&gt; KDE est un environnement de bureau moderne qui gère la plupart des capacités des cartes graphiques et cartes son. Cela ne signifie pas KDE ne peut fonctionner sur du matériel de premier choix, mais en général, il existe de meilleures solutions disponibles pour de tels systèmes (OpenBox par exemple). Le strict minimum nécessaire pour &lt;b&gt;l’espace disque dur est de 8 Go, mais 25 Go est recommandé&lt;/b&gt; pour une utilisation confortable. KaOS peut s’installer avec 1,5Go de RAM disponible, mais mais &lt;b&gt;2Go de RAM&lt;/b&gt;rendent l’expérience plus facile. Puisque seuls les paquets x86_64 sont disponibles, un &lt;b&gt;processeur compatible 64 bits&lt;/b&gt; est nécessaire. Comme avec n’importe quelle distribution de type rolling release, les mises à jour sont fréquentes et peuvent être importantes, aussi un abonnement Internet relativement rapide (oubliez le modem !) capable de gérer 2Go de trafic par mois est recommandé.&lt;/p&gt;</translation>
+                    &lt;p&gt;&#xa0;KDE est un environnement de bureau moderne qui gère la plupart des capacités des cartes graphiques et cartes son. Cela ne signifie pas KDE ne peut fonctionner sur du matériel de premier choix, mais en général, il existe de meilleures solutions disponibles pour de tels systèmes (OpenBox par exemple). Le strict minimum nécessaire pour &lt;b&gt;l’espace disque dur est de 8 Go, mais 25 Go est recommandé&lt;/b&gt; pour une utilisation confortable. KaOS peut s’installer avec 1,5Go de RAM disponible, mais mais &lt;b&gt;2Go de RAM&lt;/b&gt;rendent l’expérience plus facile. Puisque seuls les paquets x86_64 sont disponibles, un &lt;b&gt;processeur compatible 64 bits&lt;/b&gt; est nécessaire. Comme avec n’importe quelle distribution de type rolling release, les mises à jour sont fréquentes et peuvent être importantes, aussi un abonnement Internet relativement rapide (oubliez le modem !) capable de gérer 2Go de trafic par mois est recommandé.&lt;/p&gt;</translation>
     </message>
 </context>
 <context>

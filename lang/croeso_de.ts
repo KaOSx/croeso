@@ -1,4 +1,6 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="de" version="2.1">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.1" language="de">
 <context>
     <name>Page1Form.ui</name>
     <message>
@@ -220,52 +222,51 @@ nicht weniger wichtig.&lt;/p&gt;
         <translation>Dem KaOS IRC Channel beitreten</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="173"/>
         <source>Google Plus KaOS community</source>
-        <translation>Google Plus KaOS-Gemeinschaft</translation>
+        <translation type="vanished">Google Plus KaOS-Gemeinschaft</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="197"/>
+        <location filename="../main.qml" line="173"/>
         <source>Gitter Chat for KaOS</source>
         <translation>Gitter-Chat für KaOS</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="221"/>
+        <location filename="../main.qml" line="197"/>
         <source>KaOS Mail Group</source>
         <translation>KaOS Mail-Gruppe</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="237"/>
+        <location filename="../main.qml" line="213"/>
         <source>Customize</source>
         <translation>Anpassen</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="240"/>
+        <location filename="../main.qml" line="216"/>
         <source>Wallpaper</source>
         <translation>Hintergrundbild</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="243"/>
+        <location filename="../main.qml" line="219"/>
         <source>Docs</source>
         <translation>Dokumente</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="246"/>
+        <location filename="../main.qml" line="222"/>
         <source>Advanced</source>
         <translation>Erweitert</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="249"/>
+        <location filename="../main.qml" line="225"/>
         <source>About</source>
         <translation>Über</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="252"/>
+        <location filename="../main.qml" line="228"/>
         <source>News</source>
         <translation>Neuigkeiten</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="255"/>
+        <location filename="../main.qml" line="231"/>
         <source>Quit</source>
         <translation>Beenden</translation>
     </message>
@@ -273,7 +274,7 @@ nicht weniger wichtig.&lt;/p&gt;
 <context>
     <name>notes</name>
     <message>
-        <location filename="../notes.qml" line="39"/>
+        <location filename="../notes.qml" line="40"/>
         <source>&lt;h3&gt;About KaOS&lt;/h3&gt;
                     &lt;p&gt;The idea behind KaOS is to create a tightly integrated rolling and transparent distribution for the modern desktop, build from scratch with a very specific focus. Focus on &lt;b&gt;one DE (KDE), one toolkit (Qt), one architecture (x86_64)&lt;/b&gt; plus a focus on evaluating and selecting the most suitable tools and applications. All work is geared toward packaging, not developing new tools or applications.&lt;/p&gt;
 
