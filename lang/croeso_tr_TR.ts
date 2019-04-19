@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.1" language="tr_TR">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="tr_TR" version="2.1">
 <context>
     <name>Page1Form.ui</name>
     <message>
@@ -220,10 +218,6 @@
         <location filename="../main.qml" line="149"/>
         <source>Join the KaOS IRC Channel</source>
         <translation>IRC üzerinde KaOS odasına Gir</translation>
-    </message>
-    <message>
-        <source>Google Plus KaOS community</source>
-        <translation type="vanished">Google Plus KaOS topluluğu</translation>
     </message>
     <message>
         <location filename="../main.qml" line="173"/>

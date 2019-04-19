@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.1" language="cs">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="cs" version="2.1">
 <context>
     <name>Page1Form.ui</name>
     <message>
@@ -26,7 +24,7 @@
     <message>
         <location filename="../Page1Form.ui.qml" line="175"/>
         <source>Icon Set</source>
-        <translation>Sady ikon</translation>
+        <translation>Sada ikon</translation>
     </message>
     <message>
         <location filename="../Page1Form.ui.qml" line="200"/>
@@ -46,7 +44,7 @@
     <message>
         <location filename="../Page1Form.ui.qml" line="285"/>
         <source>Font Settings</source>
-        <translation>Nastavení pásma</translation>
+        <translation>Nastavení písma</translation>
     </message>
     <message>
         <location filename="../Page1Form.ui.qml" line="315"/>
@@ -132,7 +130,7 @@
     <message>
         <location filename="../Page3Form.ui.qml" line="289"/>
         <source>Default Apps</source>
-        <translation>Výchozí aplikace</translation>
+        <translation>Výchozí programy</translation>
     </message>
 </context>
 <context>
@@ -166,7 +164,7 @@
         <location filename="../wallpaper/PhotoList.qml" line="55"/>
         <source>Load more</source>
         <extracomment>Button at the end of photo list</extracomment>
-        <translation>Načíst více</translation>
+        <translation>Nahrát více</translation>
     </message>
 </context>
 <context>
@@ -214,26 +212,22 @@
     <message>
         <location filename="../main.qml" line="125"/>
         <source>Code &amp; Bug trackers on Github for KaOS</source>
-        <translation>Zdrojový kód KaOS a sledování bugů na Githubu</translation>
+        <translation>Zdrojový kód KaOS a sledování chyb na Githubu</translation>
     </message>
     <message>
         <location filename="../main.qml" line="149"/>
         <source>Join the KaOS IRC Channel</source>
-        <translation>Připojit se na KaOS IRC kanál</translation>
-    </message>
-    <message>
-        <source>Google Plus KaOS community</source>
-        <translation type="vanished">KaOS komunita Google Plus</translation>
+        <translation>Připojit se ke kanálu KaOS IRC</translation>
     </message>
     <message>
         <location filename="../main.qml" line="173"/>
         <source>Gitter Chat for KaOS</source>
-        <translation>KaOS Gitter chat</translation>
+        <translation>Klábosení pro KaOS na Gitteru</translation>
     </message>
     <message>
         <location filename="../main.qml" line="197"/>
         <source>KaOS Mail Group</source>
-        <translation>KaOS emailová skupina</translation>
+        <translation>Poštovní skupina KaOSu</translation>
     </message>
     <message>
         <location filename="../main.qml" line="213"/>
@@ -258,7 +252,7 @@
     <message>
         <location filename="../main.qml" line="225"/>
         <source>About</source>
-        <translation>O</translation>
+        <translation>O programu</translation>
     </message>
     <message>
         <location filename="../main.qml" line="228"/>
@@ -293,7 +287,7 @@
                     &lt;p&gt;&lt;b&gt;The target users&lt;/b&gt; are those who have tried many Operating Systems/Distributions/Desktop Environments and have found they prefer a Distribution that uses all its available resources to work on one DE to make that the best it can be, and know that after their searches, the best for them is KDE. Their used hardware is from about 2005 or later, so there are no issues with running 64 bit software. And the target audience is not afraid to use KDE/Qt versions of their needed applications, likes to see the best available selected for their needs, even if that means learning some new ways of working with a before unused application. There is an understanding selection for similar applications will be limited to 5-6.&lt;/p&gt;
                     
                     &lt;p&gt;KDE is a modern Desktop Environment which can make use of most of any graphics or sound card capabilities. This does not mean KDE can’t be made to run on very low-end hardware, but in general there are better options available for such systems (OpenBox for example). The very minimal needed for &lt;b&gt;hard-drive space is 8 Gb, but 25 Gb&lt;/b&gt; is recommended as minimal. KaOS will install with 1.5Gb of RAM available, though a much better experience will start with &lt;b&gt;2 Gb of RAM&lt;/b&gt;. Since only x86_64 packages are available, a &lt;b&gt;64 bit capable cpu&lt;/b&gt; is needed. As with any rolling distribution, updates are frequent and can be large, so a reasonable fast internet connection (dial-up will become very cumbersome) and available monthly data of over 2 Gb are recommended.&lt;/p&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -308,13 +302,13 @@
         <location filename="../wallpaper/wall.qml" line="53"/>
         <source>Popular</source>
         <extracomment>Navbar entry</extracomment>
-        <translation>Populární</translation>
+        <translation>Oblíbené</translation>
     </message>
     <message>
         <location filename="../wallpaper/wall.qml" line="60"/>
         <source>Curated</source>
         <extracomment>Navbar entry</extracomment>
-        <translation>Kurátor</translation>
+        <translation>Spravováno</translation>
     </message>
     <message>
         <location filename="../wallpaper/wall.qml" line="67"/>

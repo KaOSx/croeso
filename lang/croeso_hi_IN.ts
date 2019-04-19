@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.1" language="hi_IN">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="hi_IN" version="2.1">
 <context>
     <name>Page1Form.ui</name>
     <message>
@@ -220,10 +218,6 @@ KaOS के पीछे उद्देश्य है आज के आधु
         <location filename="../main.qml" line="149"/>
         <source>Join the KaOS IRC Channel</source>
         <translation>KaOS के IRC चैनल से जुड़ें</translation>
-    </message>
-    <message>
-        <source>Google Plus KaOS community</source>
-        <translation type="vanished">गूगल प्लस पर KaOS समुदाय</translation>
     </message>
     <message>
         <location filename="../main.qml" line="173"/>

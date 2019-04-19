@@ -1,57 +1,55 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.1" language="fa_IR">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="fa_IR" version="2.1">
 <context>
     <name>Page1Form.ui</name>
     <message>
         <location filename="../Page1Form.ui.qml" line="51"/>
         <source>Widget Style</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../Page1Form.ui.qml" line="77"/>
         <source>Plasma Theme</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../Page1Form.ui.qml" line="104"/>
         <source>Window Decoration</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../Page1Form.ui.qml" line="149"/>
         <source>Mouse Behavior</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../Page1Form.ui.qml" line="175"/>
         <source>Icon Set</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../Page1Form.ui.qml" line="200"/>
         <source>Virtual Desktops</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../Page1Form.ui.qml" line="232"/>
         <source>Screen Settings</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../Page1Form.ui.qml" line="259"/>
         <source>Colors</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../Page1Form.ui.qml" line="285"/>
         <source>Font Settings</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../Page1Form.ui.qml" line="315"/>
         <source>Launch at System Start</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -59,32 +57,32 @@
     <message>
         <location filename="../Page2Form.ui.qml" line="46"/>
         <source>Asking Smart</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../Page2Form.ui.qml" line="74"/>
         <source>Pacman</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../Page2Form.ui.qml" line="101"/>
         <source>Switching NVidia</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../Page2Form.ui.qml" line="146"/>
         <source>Additional Kernels</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../Page2Form.ui.qml" line="174"/>
         <source>KCP</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../Page2Form.ui.qml" line="199"/>
         <source>Forum</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -92,47 +90,47 @@
     <message>
         <location filename="../Page3Form.ui.qml" line="48"/>
         <source>Firewall</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../Page3Form.ui.qml" line="76"/>
         <source>Energy Savings</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../Page3Form.ui.qml" line="103"/>
         <source>Systemd Daemon</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../Page3Form.ui.qml" line="150"/>
         <source>Add Users</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../Page3Form.ui.qml" line="176"/>
         <source>Network Management</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../Page3Form.ui.qml" line="201"/>
         <source>KDE Wallet</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../Page3Form.ui.qml" line="236"/>
         <source>Configure Search</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../Page3Form.ui.qml" line="261"/>
         <source>Pacman Cache</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../Page3Form.ui.qml" line="289"/>
         <source>Default Apps</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -141,23 +139,23 @@
         <location filename="../wallpaper/Photo.qml" line="62"/>
         <source>Downloaded</source>
         <extracomment>Photo action button</extracomment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../wallpaper/Photo.qml" line="62"/>
         <source>Download</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../wallpaper/Photo.qml" line="76"/>
         <source>Remove</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../wallpaper/Photo.qml" line="90"/>
         <source>Set wallpaper</source>
         <extracomment>Photo action button</extracomment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -166,7 +164,7 @@
         <location filename="../wallpaper/PhotoList.qml" line="55"/>
         <source>Load more</source>
         <extracomment>Button at the end of photo list</extracomment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -174,7 +172,7 @@
     <message>
         <location filename="../main.qml" line="35"/>
         <source>Croeso</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../main.qml" line="44"/>
@@ -184,14 +182,14 @@
                             Focus on one DE (KDE Plasma), one toolkit (Qt) &amp; one architecture (x86_64).&lt;br&gt;
                             Plus a focus on evaluting and selecting the most suitable tools and applications.&lt;br&gt;&lt;br&gt;
                             This page will help you personalize the most commonly used settings in your KaOS workspace quickly.&lt;/div&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../main.qml" line="67"/>
         <source>&lt;p&gt;To familiarize yourself with KaOS, please read some of these documents.&lt;/p&gt;
                             
                             &lt;p&gt;Use the forum for questions, feedback and suggestions.&lt;/p&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../main.qml" line="78"/>
@@ -199,62 +197,62 @@
                             not mean less important.&lt;/p&gt;
                             
                             &lt;p&gt;Consider setting these now or revisit at a later time.&lt;/p&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../main.qml" line="125"/>
         <source>Code &amp; Bug trackers on Github for KaOS</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../main.qml" line="149"/>
         <source>Join the KaOS IRC Channel</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../main.qml" line="173"/>
         <source>Gitter Chat for KaOS</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../main.qml" line="197"/>
         <source>KaOS Mail Group</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../main.qml" line="213"/>
         <source>Customize</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../main.qml" line="216"/>
         <source>Wallpaper</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../main.qml" line="219"/>
         <source>Docs</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../main.qml" line="222"/>
         <source>Advanced</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../main.qml" line="225"/>
         <source>About</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../main.qml" line="228"/>
         <source>News</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../main.qml" line="231"/>
         <source>Quit</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -279,7 +277,7 @@
                     &lt;p&gt;&lt;b&gt;The target users&lt;/b&gt; are those who have tried many Operating Systems/Distributions/Desktop Environments and have found they prefer a Distribution that uses all its available resources to work on one DE to make that the best it can be, and know that after their searches, the best for them is KDE. Their used hardware is from about 2005 or later, so there are no issues with running 64 bit software. And the target audience is not afraid to use KDE/Qt versions of their needed applications, likes to see the best available selected for their needs, even if that means learning some new ways of working with a before unused application. There is an understanding selection for similar applications will be limited to 5-6.&lt;/p&gt;
                     
                     &lt;p&gt;KDE is a modern Desktop Environment which can make use of most of any graphics or sound card capabilities. This does not mean KDE can’t be made to run on very low-end hardware, but in general there are better options available for such systems (OpenBox for example). The very minimal needed for &lt;b&gt;hard-drive space is 8 Gb, but 25 Gb&lt;/b&gt; is recommended as minimal. KaOS will install with 1.5Gb of RAM available, though a much better experience will start with &lt;b&gt;2 Gb of RAM&lt;/b&gt;. Since only x86_64 packages are available, a &lt;b&gt;64 bit capable cpu&lt;/b&gt; is needed. As with any rolling distribution, updates are frequent and can be large, so a reasonable fast internet connection (dial-up will become very cumbersome) and available monthly data of over 2 Gb are recommended.&lt;/p&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -288,25 +286,25 @@
         <location filename="../wallpaper/wall.qml" line="46"/>
         <source>Latest</source>
         <extracomment>Navbar entry</extracomment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../wallpaper/wall.qml" line="53"/>
         <source>Popular</source>
         <extracomment>Navbar entry</extracomment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../wallpaper/wall.qml" line="60"/>
         <source>Curated</source>
         <extracomment>Navbar entry</extracomment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../wallpaper/wall.qml" line="67"/>
         <source>Downloaded</source>
         <extracomment>Navbar entry</extracomment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 </TS>
