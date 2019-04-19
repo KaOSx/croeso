@@ -1,5 +1,5 @@
 /***************************************************************************
- *   Copyright (C) 2018 Anke Boersma <demm@kaosx.us>       *
+ *   Copyright (C) 2018 - 2019 Anke Boersma <demm@kaosx.us>       *
  *                                                                         *
  *   This program is free software; you can redistribute it and/or modify  *
  *   it under the terms of the GNU General Public License as published by  *
@@ -154,30 +154,6 @@ ApplicationWindow {
                 sourceSize.height: 24
                 fillMode: Image.PreserveAspectFit
                 source: "images/fontawesome/comments.svg"
-            }
-        }
-        
-        Button {
-                id: gplus
-                hoverEnabled: true
-                onClicked: {  Qt.openUrlExternally("https://plus.google.com/u/0/communities/116669111554447085724"); }
-                background: Rectangle {
-                    implicitWidth: 24
-                    implicitHeight: 24
-                    color: "transparent"
-                }
-                
-                ToolTip.delay: 500
-                ToolTip.timeout: 5000
-                ToolTip.visible: hovered
-                ToolTip.text: qsTr("Google Plus KaOS community")
-            
-            Image {
-                anchors.fill: parent
-                sourceSize.width: 24
-                sourceSize.height: 24
-                fillMode: Image.PreserveAspectFit
-                source: "images/fontawesome/google-plus-g.svg"
             }
         }
         
