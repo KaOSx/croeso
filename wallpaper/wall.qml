@@ -55,9 +55,9 @@ Item {
             }
 
             Nav {
-                id: curatedPhotoNav
+                id: oldestPhotoNav
                 //: Navbar entry
-                text: qsTr("Curated")
+                text: qsTr("Oldest")
                 active: false
             }
 
@@ -92,11 +92,10 @@ Item {
         }
 
         PhotoList {
-            id: curatedPhotoList
-            visible: curatedPhotoNav.active
+            id: oldestPhotoList
+            visible: oldestPhotoNav.active
             model: PhotoListModel {
-                order: PhotoListModel.Latest
-                curated: true
+                order: PhotoListModel.Oldest
             }
         }
 

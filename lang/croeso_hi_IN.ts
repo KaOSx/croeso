@@ -1,4 +1,6 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="hi_IN" version="2.1">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.1" language="hi_IN">
 <context>
     <name>Page1Form.ui</name>
     <message>
@@ -323,9 +325,14 @@ KaOS के पीछे उद्देश्य है आज के आधु
     </message>
     <message>
         <location filename="../wallpaper/wall.qml" line="60"/>
+        <source>Oldest</source>
+        <extracomment>Navbar entry</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>Curated</source>
         <extracomment>Navbar entry</extracomment>
-        <translation>समन्वित</translation>
+        <translation type="vanished">समन्वित</translation>
     </message>
     <message>
         <location filename="../wallpaper/wall.qml" line="67"/>
