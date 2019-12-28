@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.1" language="fr">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="fr" version="2.1">
 <context>
     <name>Page1Form.ui</name>
     <message>
@@ -307,7 +305,7 @@ This page lists more advanced settings options.  Même cela ni signifie pour aut
                     
                     &lt;p&gt;&lt;b&gt;Les utilisateurs ciblés&lt;/b&gt; sont ceux qui ont testé de nombreux systèmes d’exploitation/distributions/environnements de bureaux, et qui cherchent une distribution utilisant toutes ses ressources dans un seul environnement de bureau. D’après leurs tests, ils estiment que KDE KDE est le meilleur d’entre eux. Leur matériel utilisé est plus récent que 2005 et n&apos;a donc aucun problème pour exécuter des logiciels 64 bits. Enfin, l&apos;utilisateur ciblé ne craint pas d&apos;utiliser les versions KDE/Qt de logiciels dont il a besoin, même si cela signifie apprendre à les utiliser. Bien entendu, les applications dédiées à la même chose seront limitées à 5-6.&lt;/p&gt;
                     
-                    &lt;p&gt;&#xa0;KDE est un environnement de bureau moderne qui gère la plupart des capacités des cartes graphiques et cartes son. Cela ne signifie pas KDE ne peut fonctionner sur du matériel de premier choix, mais en général, il existe de meilleures solutions disponibles pour de tels systèmes (OpenBox par exemple). Le strict minimum nécessaire pour &lt;b&gt;l’espace disque dur est de 8 Go, mais 25 Go est recommandé&lt;/b&gt; pour une utilisation confortable. KaOS peut s’installer avec 1,5Go de RAM disponible, mais mais &lt;b&gt;2Go de RAM&lt;/b&gt;rendent l’expérience plus facile. Puisque seuls les paquets x86_64 sont disponibles, un &lt;b&gt;processeur compatible 64 bits&lt;/b&gt; est nécessaire. Comme avec n’importe quelle distribution de type rolling release, les mises à jour sont fréquentes et peuvent être importantes, aussi un abonnement Internet relativement rapide (oubliez le modem !) capable de gérer 2Go de trafic par mois est recommandé.&lt;/p&gt;</translation>
+                    &lt;p&gt; KDE est un environnement de bureau moderne qui gère la plupart des capacités des cartes graphiques et cartes son. Cela ne signifie pas KDE ne peut fonctionner sur du matériel de premier choix, mais en général, il existe de meilleures solutions disponibles pour de tels systèmes (OpenBox par exemple). Le strict minimum nécessaire pour &lt;b&gt;l’espace disque dur est de 8 Go, mais 25 Go est recommandé&lt;/b&gt; pour une utilisation confortable. KaOS peut s’installer avec 1,5Go de RAM disponible, mais mais &lt;b&gt;2Go de RAM&lt;/b&gt;rendent l’expérience plus facile. Puisque seuls les paquets x86_64 sont disponibles, un &lt;b&gt;processeur compatible 64 bits&lt;/b&gt; est nécessaire. Comme avec n’importe quelle distribution de type rolling release, les mises à jour sont fréquentes et peuvent être importantes, aussi un abonnement Internet relativement rapide (oubliez le modem !) capable de gérer 2Go de trafic par mois est recommandé.&lt;/p&gt;</translation>
     </message>
 </context>
 <context>
@@ -328,12 +326,7 @@ This page lists more advanced settings options.  Même cela ni signifie pour aut
         <location filename="../wallpaper/wall.qml" line="60"/>
         <source>Oldest</source>
         <extracomment>Navbar entry</extracomment>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Curated</source>
-        <extracomment>Navbar entry</extracomment>
-        <translation type="vanished">Organisés</translation>
+        <translation>Plus ancien</translation>
     </message>
     <message>
         <location filename="../wallpaper/wall.qml" line="67"/>

@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.1" language="de">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="de" version="2.1">
 <context>
     <name>Page1Form.ui</name>
     <message>
@@ -327,12 +325,7 @@ nicht weniger wichtig.&lt;/p&gt;
         <location filename="../wallpaper/wall.qml" line="60"/>
         <source>Oldest</source>
         <extracomment>Navbar entry</extracomment>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Curated</source>
-        <extracomment>Navbar entry</extracomment>
-        <translation type="vanished">Gepflegt</translation>
+        <translation>Älteste</translation>
     </message>
     <message>
         <location filename="../wallpaper/wall.qml" line="67"/>

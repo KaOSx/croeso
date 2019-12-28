@@ -296,7 +296,7 @@
     </message>
     <message>
         <location filename="../wallpaper/wall.qml" line="60"/>
-        <source>Curated</source>
+        <source>Oldest</source>
         <extracomment>Navbar entry</extracomment>
         <translation type="unfinished"/>
     </message>
