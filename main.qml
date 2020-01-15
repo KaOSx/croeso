@@ -54,6 +54,16 @@ ApplicationWindow {
             }
         }
         
+        Page4 {
+            Label {
+                textFormat: Text.RichText
+                text: qsTr("<h3>Package Selection</h3>")
+                anchors.horizontalCenter: parent.horizontalCenter
+                horizontalAlignment: Text.AlignHCenter
+            }
+            
+        }
+        
         Page {
             Loader {
                 id: wallpaper
@@ -211,6 +221,9 @@ ApplicationWindow {
         currentIndex: swipeView.currentIndex
         TabButton {
             text: qsTr("Customize")
+        }
+        TabButton {
+            text: qsTr("Packages")
         }
         TabButton {
             text: qsTr("Wallpaper")

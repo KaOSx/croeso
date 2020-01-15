@@ -7,8 +7,16 @@
         <file>Page2Form.ui.qml</file>
         <file>Page3.qml</file>
         <file>Page3Form.ui.qml</file>
+        <file>Page4.qml</file>
+        <file>Page4Form.ui.qml</file>
         <file>qtquickcontrols2.conf</file>
         <file>notes.qml</file>
+        <file>packages/chat.qml</file>
+        <file>packages/image.qml</file>
+        <file>packages/music.qml</file>
+        <file>packages/office.qml</file>
+        <file>packages/video.qml</file>
+        <file>packages/web.qml</file>
         <file>wallpaper/wall.qml</file>
         <file>wallpaper/Nav.qml</file>
         <file>wallpaper/Photo.qml</file>
@@ -59,12 +67,22 @@
         <file>images/fontawesome/bell.svg</file>
         <file>images/fontawesome/comments.svg</file>
         <file>images/fontawesome/envelope.svg</file>
+        <file>images/fontawesome/film-solid.svg</file>
+        <file>images/fontawesome/firefox-brands.svg</file>
         <file>images/fontawesome/github.svg</file>
         <file>images/fontawesome/gitter.svg</file>
         <file>images/fontawesome/google-plus-g.svg</file>
         <file>images/fontawesome/images.svg</file>
         <file>images/fontawesome/linux.svg</file>
+        <file>images/fontawesome/mail-bulk-solid.svg</file>
         <file>images/fontawesome/paypal.svg</file>
+        <file>images/fontawesome/photo-video-solid.svg</file>
         <file>images/fontawesome/usb.svg</file>
+        <file>images/fontawesome/volume-up-solid.svg</file>
+        <!--Package Selection-->
+        <file>images/packages/chrome.png</file>
+        <file>images/packages/firefox.jpg</file>
+        <file>images/packages/opera.png</file>
+        <file>images/packages/otter.jpg</file>
     </qresource>
 </RCC>
