@@ -55,9 +55,9 @@ ApplicationWindow {
         }
         
         Page4 {
-            Label {
-                color: "gray"
-            }
+            //Label {
+            //    color: "gray"
+            //}
             
             PlasmaCore.DataSource {
                 id: executer

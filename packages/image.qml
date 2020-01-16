@@ -1,3 +1,4 @@
+ 
 /***************************************************************************
  *   Copyright (C) 2020 Anke Boersma <demm@kaosx.us>       *
  *                                                                         *
@@ -20,43 +21,78 @@ import QtQuick 2.7
 import QtQuick.Controls 2.0
 import QtQuick.Layouts 1.3
 import QtQuick.Controls.Material 2.1
+import org.kde.plasma.core 2.0 as PlasmaCore
 
 Item {
     width: 960
     height: 600
-        
+    
+    PlasmaCore.DataSource {
+        id: executer
+        engine: "executable"
+        onNewData: {executer.disconnectSource(sourceName);}
+    }
+
     Rectangle {
         id: textArea
         x: 28
         y: 14
         anchors.fill: parent
-        //color: "white"
+        color: "#f2f2f2"
         
         Column {
-        id: column
-        x: 130
-        y: 40
-        width: 120
-        height: 546
-        spacing: 3
+            id: column
+            x: 130
+            y: 40
+            width: 120
+            height: 546
+            spacing: 5
 
             Rectangle {
                 width: 600
                 height: 120
                 radius: 10
-                border.width: 1
+                border.width: 0
                 Text {
+                    width: 393
+                    height: 104
                     anchors.centerIn: parent
-                    text: "Krita"
-                    wrapMode: Text.WrapAtWordBoundaryOrAnywhere
+                    text: "Krita is a professional FREE and open source painting program. It is made by artists that want to see affordable art tools for everyone. It offers an end-to-end solution for creating digital art files from scratch. Supported fields are illustrations, concept art, matte painting, textures, comics and animations."
+                    font.pointSize: 10
+                    anchors.verticalCenterOffset: 0
+                    anchors.horizontalCenterOffset: 96
+                    wrapMode: Text.WordWrap
+                }
+                
+                Switch {
+                    id: element1
+                    x: 405
+                    y: 73
+                    width: 187
+                    height: 39
+                    text: qsTr("Add Krita")
+                    checked: false
+                    hoverEnabled: true
+                    
+                    onCheckedChanged: {
+                        if ( ! checked ) {
+                            executer.connectSource("sed -i -e 's|krita||' /tmp/croeso_list.txt");
+                        }
+                        else {
+                            executer.connectSource("echo 'krita' >> /tmp/croeso_list.txt");
+                        }
+                    }
                 }
 
-                MouseArea {
-                    id: mouseArea
-                    width: 600
-                    height: 120
-                    cursorShape: Qt.PointingHandCursor
+                Image {
+                    id: image
+                    x: 8
+                    y: 12
+                    height: 100
+                    fillMode: Image.PreserveAspectFit
+                    source: "../images/packages/krita.png"
                 }
+
             }
 
             Rectangle {
@@ -65,17 +101,45 @@ Item {
                 height: 120
                 color: "#ffffff"
                 radius: 10
-                border.width: 1
+                border.width: 0
                 Text {
+                    width: 393
+                    height: 104
                     anchors.centerIn: parent
-                    text: "Gimp"
+                    text: "GIMP provides the tools needed for high quality image manipulation. It gives artists the power and flexibility to transform images into truly unique creations. GIMP is used for producing icons, graphical design elements, and art for user interface components and mockups."
+                    font.pointSize: 10
+                    anchors.verticalCenterOffset: 0
+                    anchors.horizontalCenterOffset: 96
+                    wrapMode: Text.WordWrap
                 }
 
-                MouseArea {
-                    id: mouseArea1
-                    width: 600
-                    height: 120
-                    cursorShape: Qt.PointingHandCursor
+                Switch {
+                    id: element2
+                    x: 405
+                    y: 73
+                    width: 187
+                    height: 39
+                    text: qsTr("Add Gimp")
+                    checked: false
+                    hoverEnabled: true
+                    
+                    onCheckedChanged: {
+                        if ( ! checked ) {
+                            executer.connectSource("sed -i -e 's|gimp||' /tmp/croeso_list.txt");
+                        }
+                        else {
+                            executer.connectSource("echo 'gimp' >> /tmp/croeso_list.txt");
+                        }
+                    }
+                }
+                
+                Image {
+                    id: image2
+                    x: 8
+                    y: 12
+                    height: 100
+                    fillMode: Image.PreserveAspectFit
+                    source: "../images/packages/gimp.png"
                 }
             }
 
@@ -85,17 +149,45 @@ Item {
                 height: 120
                 color: "#ffffff"
                 radius: 10
-                border.width: 1
+                border.width: 0
                 Text {
+                    width: 371
+                    height: 104
                     anchors.centerIn: parent
-                    text: "Digikam"
+                    text: "digiKam is an advanced open-source digital photo management application. The application provides a comprehensive set of tools for importing, managing, editing, and sharing photos and raw files. digiKam organizes photos, raw files, and videos into albums."
+                    font.pointSize: 10
+                    anchors.verticalCenterOffset: 0
+                    anchors.horizontalCenterOffset: 96
+                    wrapMode: Text.WordWrap
                 }
-
-                MouseArea {
-                    id: mouseArea2
-                    width: 600
-                    height: 120
-                    cursorShape: Qt.PointingHandCursor
+                
+                Switch {
+                    id: element3
+                    x: 405
+                    y: 73
+                    width: 187
+                    height: 39
+                    text: qsTr("Add Digikam")
+                    checked: false
+                    hoverEnabled: true
+                    
+                    onCheckedChanged: {
+                        if ( ! checked ) {
+                            executer.connectSource("sed -i -e 's|digikam||' /tmp/croeso_list.txt");
+                        }
+                        else {
+                            executer.connectSource("echo 'digikam' >> /tmp/croeso_list.txt");
+                        }
+                    }
+                }
+                
+                Image {
+                    id: image3
+                    x: 8
+                    y: 12
+                    height: 100
+                    fillMode: Image.PreserveAspectFit
+                    source: "../images/packages/digikam.png"
                 }
             }
             
@@ -105,28 +197,68 @@ Item {
                 height: 120
                 color: "#ffffff"
                 radius: 10
-                border.width: 1
+                border.width: 0
                 Text {
+                    width: 371
+                    height: 104
                     anchors.centerIn: parent
-                    text: "Nomacs"
+                    text: "Nomacs is a free, open source image viewer, which supports multiple platforms. You can use it for viewing all common image formats including RAW and psd images. It includes image manipulation methods for adjusting brightness, contrast, saturation, hue, gamma, exposure."
+                    font.pointSize: 10
+                    anchors.verticalCenterOffset: 0
+                    anchors.horizontalCenterOffset: 96
+                    wrapMode: Text.WordWrap
                 }
-
-                MouseArea {
-                    id: mouseArea3
-                    width: 600
-                    height: 120
-                    cursorShape: Qt.PointingHandCursor
+                
+                Switch {
+                    id: element4
+                    x: 405
+                    y: 73
+                    width: 187
+                    height: 39
+                    text: qsTr("Add Nomacs")
+                    checked: false
+                    hoverEnabled: true
+                    
+                    onCheckedChanged: {
+                        if ( ! checked ) {
+                            executer.connectSource("sed -i -e 's|nomacs||' /tmp/croeso_list.txt");
+                        }
+                        else {
+                            executer.connectSource("echo 'nomacs' >> /tmp/croeso_list.txt");
+                        }
+                    }
+                }
+                
+                Image {
+                    id: image4
+                    x: 8
+                    y: 12
+                    height: 100
+                    fillMode: Image.PreserveAspectFit
+                    source: "../images/packages/nomacs.png"
                 }
             }
         }
 
-        Button {
-            id: button
-            x: 781
-            y: 100
-            text: qsTr("Back to group index")
+        ToolButton {
+            id: toolButton
+            x: 19
+            y: 29
+            width: 105
+            height: 48
+            text: qsTr("Back")
+            hoverEnabled: true
             onClicked: loader.source = ""
-            //cursorShape: Qt.PointingHandCursor
+
+            Image {
+                id: image1
+                x: 0
+                y: 13
+                width: 22
+                height: 22
+                source: "../images/fontawesome/chevron-left-solid.svg"
+                fillMode: Image.PreserveAspectFit
+            }
         }
     }
 

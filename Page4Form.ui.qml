@@ -85,7 +85,7 @@ Rectangle {
                 x: 50
                 y: 158
                 anchors.bottom: parent.bottom
-                text: "Office-Suites"
+                text: "Email Clients"
                 anchors.bottomMargin: 8
             }
 
@@ -257,7 +257,7 @@ Rectangle {
         width: 238
         height: 218
         text: "<h3>Package Groups</h3>\n
-Please choose one of the groups to see and select the various packages each group contains."
+        Please choose one of the groups to see and select the various packages each group contains."
         horizontalAlignment: Text.AlignHCenter
         font.weight: Font.DemiBold
         wrapMode: Text.WordWrap

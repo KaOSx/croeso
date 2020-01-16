@@ -1,3 +1,4 @@
+ 
 /***************************************************************************
  *   Copyright (C) 2020 Anke Boersma <demm@kaosx.us>       *
  *                                                                         *
@@ -20,43 +21,78 @@ import QtQuick 2.7
 import QtQuick.Controls 2.0
 import QtQuick.Layouts 1.3
 import QtQuick.Controls.Material 2.1
+import org.kde.plasma.core 2.0 as PlasmaCore
 
 Item {
     width: 960
     height: 600
-        
+    
+    PlasmaCore.DataSource {
+        id: executer
+        engine: "executable"
+        onNewData: {executer.disconnectSource(sourceName);}
+    }
+
     Rectangle {
         id: textArea
         x: 28
         y: 14
         anchors.fill: parent
-        //color: "white"
+        color: "#f2f2f2"
         
         Column {
-        id: column
-        x: 130
-        y: 40
-        width: 120
-        height: 546
-        spacing: 3
+            id: column
+            x: 130
+            y: 40
+            width: 120
+            height: 546
+            spacing: 5
 
             Rectangle {
                 width: 600
                 height: 120
                 radius: 10
-                border.width: 1
+                border.width: 0
                 Text {
+                    width: 393
+                    height: 104
                     anchors.centerIn: parent
-                    text: "Kdenlive"
-                    wrapMode: Text.WrapAtWordBoundaryOrAnywhere
+                    text: "Kdenlive is an acronym for KDE Non-Linear Video Editor. Through the MLT framework, Kdenlive integrates many plugin effects for video and sound processing or creation. Furthermore Kdenlive brings a powerful titling tool, a DVD authoring solution, and can then be used as a complete studio for video creation."
+                    font.pointSize: 10
+                    anchors.verticalCenterOffset: 0
+                    anchors.horizontalCenterOffset: 96
+                    wrapMode: Text.WordWrap
+                }
+                
+                Switch {
+                    id: element1
+                    x: 405
+                    y: 73
+                    width: 187
+                    height: 39
+                    text: qsTr("Add Kdenlive")
+                    checked: false
+                    hoverEnabled: true
+                    
+                    onCheckedChanged: {
+                        if ( ! checked ) {
+                            executer.connectSource("sed -i -e 's|kdenlive||' /tmp/croeso_list.txt");
+                        }
+                        else {
+                            executer.connectSource("echo 'kdenlive' >> /tmp/croeso_list.txt");
+                        }
+                    }
                 }
 
-                MouseArea {
-                    id: mouseArea
-                    width: 600
-                    height: 120
-                    cursorShape: Qt.PointingHandCursor
+                Image {
+                    id: image
+                    x: 8
+                    y: 12
+                    height: 100
+                    fillMode: Image.PreserveAspectFit
+                    source: "../images/packages/kdenlive.jpg"
                 }
+
             }
 
             Rectangle {
@@ -65,17 +101,45 @@ Item {
                 height: 120
                 color: "#ffffff"
                 radius: 10
-                border.width: 1
+                border.width: 0
                 Text {
+                    width: 393
+                    height: 104
                     anchors.centerIn: parent
-                    text: "Openshot"
+                    text: "Openshot is based on the powerful FFmpeg library, OpenShot can read and write most video and image formats. Over 400 transitions are included, which lets you gradually fade from one clip to another. Getting started is as easy as dragging files into OpenShot from your file manager."
+                    font.pointSize: 10
+                    anchors.verticalCenterOffset: 0
+                    anchors.horizontalCenterOffset: 96
+                    wrapMode: Text.WordWrap
                 }
 
-                MouseArea {
-                    id: mouseArea1
-                    width: 600
-                    height: 120
-                    cursorShape: Qt.PointingHandCursor
+                Switch {
+                    id: element2
+                    x: 405
+                    y: 73
+                    width: 187
+                    height: 39
+                    text: qsTr("Add Openshot")
+                    checked: false
+                    hoverEnabled: true
+                    
+                    onCheckedChanged: {
+                        if ( ! checked ) {
+                            executer.connectSource("sed -i -e 's|openshot||' /tmp/croeso_list.txt");
+                        }
+                        else {
+                            executer.connectSource("echo 'openshot' >> /tmp/croeso_list.txt");
+                        }
+                    }
+                }
+                
+                Image {
+                    id: image2
+                    x: 8
+                    y: 12
+                    height: 100
+                    fillMode: Image.PreserveAspectFit
+                    source: "../images/packages/openshot.jpg"
                 }
             }
 
@@ -85,17 +149,45 @@ Item {
                 height: 120
                 color: "#ffffff"
                 radius: 10
-                border.width: 1
+                border.width: 0
                 Text {
+                    width: 371
+                    height: 104
                     anchors.centerIn: parent
-                    text: "Lightworks"
+                    text: "Lightworks has been at the forefront of film editing, having been used on many of the finest films in cinema history including LA Confidential, Pulp Fiction and many more. Lightworks is the only Academy and Emmy award winning editing software that allows you to start on a free plan."
+                    font.pointSize: 10
+                    anchors.verticalCenterOffset: 0
+                    anchors.horizontalCenterOffset: 96
+                    wrapMode: Text.WordWrap
                 }
-
-                MouseArea {
-                    id: mouseArea2
-                    width: 600
-                    height: 120
-                    cursorShape: Qt.PointingHandCursor
+                
+                Switch {
+                    id: element3
+                    x: 405
+                    y: 73
+                    width: 187
+                    height: 39
+                    text: qsTr("Add Lightworks")
+                    checked: false
+                    hoverEnabled: true
+                    
+                    onCheckedChanged: {
+                        if ( ! checked ) {
+                            executer.connectSource("sed -i -e 's|lightworks||' /tmp/croeso_list.txt");
+                        }
+                        else {
+                            executer.connectSource("echo 'lightworks' >> /tmp/croeso_list.txt");
+                        }
+                    }
+                }
+                
+                Image {
+                    id: image3
+                    x: 8
+                    y: 12
+                    height: 100
+                    fillMode: Image.PreserveAspectFit
+                    source: "../images/packages/lightworks.png"
                 }
             }
             
@@ -105,28 +197,68 @@ Item {
                 height: 120
                 color: "#ffffff"
                 radius: 10
-                border.width: 1
+                border.width: 0
                 Text {
+                    width: 371
+                    height: 104
                     anchors.centerIn: parent
-                    text: "Avidemux"
+                    text: "Avidemux is a free video editor designed for simple cutting, filtering and encoding tasks. It supports many file types, including AVI, DVD compatible MPEG files, MP4 and ASF, using a variety of codecs. Tasks can be automated using projects, job queue and powerful scripting capabilities."
+                    font.pointSize: 10
+                    anchors.verticalCenterOffset: 0
+                    anchors.horizontalCenterOffset: 96
+                    wrapMode: Text.WordWrap
                 }
-
-                MouseArea {
-                    id: mouseArea3
-                    width: 600
-                    height: 120
-                    cursorShape: Qt.PointingHandCursor
+                
+                Switch {
+                    id: element4
+                    x: 405
+                    y: 73
+                    width: 187
+                    height: 39
+                    text: qsTr("Add Avidemux")
+                    checked: false
+                    hoverEnabled: true
+                    
+                    onCheckedChanged: {
+                        if ( ! checked ) {
+                            executer.connectSource("sed -i -e 's|avidemux||' /tmp/croeso_list.txt");
+                        }
+                        else {
+                            executer.connectSource("echo 'avidemux' >> /tmp/croeso_list.txt");
+                        }
+                    }
+                }
+                
+                Image {
+                    id: image4
+                    x: 8
+                    y: 12
+                    height: 100
+                    fillMode: Image.PreserveAspectFit
+                    source: "../images/packages/avidemux.jpg"
                 }
             }
         }
 
-        Button {
-            id: button
-            x: 781
-            y: 500
-            text: qsTr("Back to group index")
+        ToolButton {
+            id: toolButton
+            x: 19
+            y: 29
+            width: 105
+            height: 48
+            text: qsTr("Back")
+            hoverEnabled: true
             onClicked: loader.source = ""
-            //cursorShape: Qt.PointingHandCursor
+
+            Image {
+                id: image1
+                x: 0
+                y: 13
+                width: 22
+                height: 22
+                source: "../images/fontawesome/chevron-left-solid.svg"
+                fillMode: Image.PreserveAspectFit
+            }
         }
     }
 

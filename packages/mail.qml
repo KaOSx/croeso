@@ -57,7 +57,7 @@ Item {
                     width: 393
                     height: 104
                     anchors.centerIn: parent
-                    text: "Elisa"
+                    text: "KMail is the email component of Kontact, the integrated personal information manager from KDE. Default settings rather compromise on features than security or privacy and separates identities from accounts, giving you a lot of flexibility when wearing different hats in multiple organizations."
                     font.pointSize: 10
                     anchors.verticalCenterOffset: 0
                     anchors.horizontalCenterOffset: 96
@@ -70,16 +70,16 @@ Item {
                     y: 73
                     width: 187
                     height: 39
-                    text: qsTr("Add Elisa")
+                    text: qsTr("Add Kmail")
                     checked: false
                     hoverEnabled: true
                     
                     onCheckedChanged: {
                         if ( ! checked ) {
-                            executer.connectSource("sed -i -e 's|elisa||' /tmp/croeso_list.txt");
+                            executer.connectSource("sed -i -e 's|kmail||' /tmp/croeso_list.txt");
                         }
                         else {
-                            executer.connectSource("echo 'elisa' >> /tmp/croeso_list.txt");
+                            executer.connectSource("echo 'kmail' >> /tmp/croeso_list.txt");
                         }
                     }
                 }
@@ -90,7 +90,7 @@ Item {
                     y: 12
                     height: 100
                     fillMode: Image.PreserveAspectFit
-                    source: "../images/packages/firefox.jpg"
+                    source: "../images/packages/kmail.png"
                 }
 
             }
@@ -106,7 +106,7 @@ Item {
                     width: 393
                     height: 104
                     anchors.centerIn: parent
-                    text: "Strawberry"
+                    text: "Thunderbird makes email better for you, bringing together speed, privacy and the latest technologies. Focus on what matters and forget about complexity. Multiple features, such as built-in Do Not Track and remote content blocking, work together to ensure your safety and privacy."
                     font.pointSize: 10
                     anchors.verticalCenterOffset: 0
                     anchors.horizontalCenterOffset: 96
@@ -119,16 +119,16 @@ Item {
                     y: 73
                     width: 187
                     height: 39
-                    text: qsTr("Add Strawberry")
+                    text: qsTr("Add Thunderbird")
                     checked: false
                     hoverEnabled: true
                     
                     onCheckedChanged: {
                         if ( ! checked ) {
-                            executer.connectSource("sed -i -e 's|strawberry||' /tmp/croeso_list.txt");
+                            executer.connectSource("sed -i -e 's|thunderbird||' /tmp/croeso_list.txt");
                         }
                         else {
-                            executer.connectSource("echo 'strawberry' >> /tmp/croeso_list.txt");
+                            executer.connectSource("echo 'thunderbird' >> /tmp/croeso_list.txt");
                         }
                     }
                 }
@@ -139,7 +139,7 @@ Item {
                     y: 12
                     height: 100
                     fillMode: Image.PreserveAspectFit
-                    source: "../images/packages/chrome.png"
+                    source: "../images/packages/thunderbird.jpg"
                 }
             }
 
@@ -154,7 +154,7 @@ Item {
                     width: 371
                     height: 104
                     anchors.centerIn: parent
-                    text: "Cantata"
+                    text: "Trojitá, a fast Qt IMAP e-mail client. Enables you to access your mail anytime, anywhere. Respects open standards and facilitate modern technologies. We value the vendor-neutrality that IMAP provides and are committed to be as interoperable as possible."
                     font.pointSize: 10
                     anchors.verticalCenterOffset: 0
                     anchors.horizontalCenterOffset: 96
@@ -167,16 +167,16 @@ Item {
                     y: 73
                     width: 187
                     height: 39
-                    text: qsTr("Add Cantata")
+                    text: qsTr("Add Trojita")
                     checked: false
                     hoverEnabled: true
                     
                     onCheckedChanged: {
                         if ( ! checked ) {
-                            executer.connectSource("sed -i -e 's|cantata||' /tmp/croeso_list.txt");
+                            executer.connectSource("sed -i -e 's|trojita||' /tmp/croeso_list.txt");
                         }
                         else {
-                            executer.connectSource("echo 'cantata' >> /tmp/croeso_list.txt");
+                            executer.connectSource("echo 'trojita' >> /tmp/croeso_list.txt");
                         }
                     }
                 }
@@ -187,7 +187,7 @@ Item {
                     y: 12
                     height: 100
                     fillMode: Image.PreserveAspectFit
-                    source: "../images/packages/opera.png"
+                    source: "../images/packages/trojita.jpg"
                 }
             }
             
@@ -202,7 +202,7 @@ Item {
                     width: 371
                     height: 104
                     anchors.centerIn: parent
-                    text: "Qmmp is an audio-player, written with the help of the Qt library. The user interface is similar to winamp or xmms. Alternative user interface also is available."
+                    text: "Kube is a modern communication and collaboration client built to just work. It provides online and offline access to all your mail, contacts and calendars. With a strong focus on usability, the team works to build a product that is not only visually appealing but also a joy to use."
                     font.pointSize: 10
                     anchors.verticalCenterOffset: 0
                     anchors.horizontalCenterOffset: 96
@@ -215,16 +215,16 @@ Item {
                     y: 73
                     width: 187
                     height: 39
-                    text: qsTr("Add Qmmp")
+                    text: qsTr("Add Kube")
                     checked: false
                     hoverEnabled: true
                     
                     onCheckedChanged: {
                         if ( ! checked ) {
-                            executer.connectSource("sed -i -e 's|qmmp||' /tmp/croeso_list.txt");
+                            executer.connectSource("sed -i -e 's|kube||' /tmp/croeso_list.txt");
                         }
                         else {
-                            executer.connectSource("echo 'qmmp' >> /tmp/croeso_list.txt");
+                            executer.connectSource("echo 'kube' >> /tmp/croeso_list.txt");
                         }
                     }
                 }
@@ -235,7 +235,7 @@ Item {
                     y: 12
                     height: 100
                     fillMode: Image.PreserveAspectFit
-                    source: "../images/packages/qmmp.png"
+                    source: "../images/packages/kube.png"
                 }
             }
         }

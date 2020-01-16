@@ -12,7 +12,7 @@
         <file>qtquickcontrols2.conf</file>
         <file>notes.qml</file>
         <file>packages/chat.qml</file>
-        <file>packages/error.qml</file>
+        <file>packages/mail.qml</file>
         <file>packages/image.qml</file>
         <file>packages/music.qml</file>
         <file>packages/office.qml</file>
@@ -81,10 +81,23 @@
         <file>images/fontawesome/photo-video-solid.svg</file>
         <file>images/fontawesome/usb.svg</file>
         <file>images/fontawesome/volume-up-solid.svg</file>
-        <!--Package Selection-->
+        <!--Images Package Selection-->
+        <file>images/packages/avidemux.jpg</file>
         <file>images/packages/chrome.png</file>
+        <file>images/packages/digikam.png</file>
         <file>images/packages/firefox.jpg</file>
+        <file>images/packages/gimp.png</file>
+        <file>images/packages/kdenlive.jpg</file>
+        <file>images/packages/kmail.png</file>
+        <file>images/packages/krita.png</file>
+        <file>images/packages/kube.png</file>
+        <file>images/packages/lightworks.png</file>
+        <file>images/packages/nomacs.png</file>
+        <file>images/packages/openshot.jpg</file>
         <file>images/packages/opera.png</file>
         <file>images/packages/otter.jpg</file>
+        <file>images/packages/qmmp.png</file>
+        <file>images/packages/thunderbird.jpg</file>
+        <file>images/packages/trojita.jpg</file>
     </qresource>
 </RCC>

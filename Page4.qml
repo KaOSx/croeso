@@ -19,8 +19,6 @@
 import QtQuick 2.7
 import QtQuick.Controls 2.0
 import QtQuick.Layouts 1.3
-import QtQuick.Dialogs 1.1
-import org.kde.plasma.core 2.0 as PlasmaCore
 
 Page4Form {
     Loader {
@@ -30,7 +28,7 @@ Page4Form {
             loader.source = "packages/web.qml"
         }
         mouseArea1.onClicked: {
-            loader.source = "packages/office.qml"
+            loader.source = "packages/mail.qml"
         }
         mouseArea2.onClicked: {
             loader.source = "packages/video.qml"
