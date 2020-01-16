@@ -103,7 +103,7 @@ Item {
         Button {
             id: button
             x: 781
-            y: 100
+            y: 500
             text: qsTr("Back to group index")
             onClicked: loader.source = ""
             //cursorShape: Qt.PointingHandCursor

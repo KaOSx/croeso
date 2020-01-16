@@ -31,56 +31,69 @@ Item {
         engine: "executable"
         onNewData: {executer.disconnectSource(sourceName);}
     }
-        
+
     Rectangle {
         id: textArea
         x: 28
         y: 14
         anchors.fill: parent
-        //color: "white"
+        color: "#f2f2f2"
         
         Column {
-        id: column
-        x: 130
-        y: 40
-        width: 120
-        height: 546
-        spacing: 3
+            id: column
+            x: 130
+            y: 40
+            width: 120
+            height: 546
+            spacing: 5
 
-        Rectangle {
-            width: 600
-            height: 120
-            radius: 10
-            border.width: 1
-            Text {
-                width: 393
-                height: 104
-                anchors.centerIn: parent
-                text: "Firefox is the trusted Web browser of choice for half a billion people around the world. At Mozilla, we design Firefox for how you use the Web. We make Firefox completely customizable so you can be in control of creating your best Web experience. Firefox has a streamlined and extremely intuitive design to let you focus on any content app or website. <b>Click to install.</b>"
-                font.pointSize: 10
-                anchors.verticalCenterOffset: 0
-                anchors.horizontalCenterOffset: 96
-                wrapMode: Text.WordWrap
-            }
-
-            MouseArea {
-                id: mouseArea
+            Rectangle {
                 width: 600
                 height: 120
-                cursorShape: Qt.PointingHandCursor
-                onClicked: {
-                    executer.connectSource("konsole -e sudo pacman -Syu firefox");
+                radius: 10
+                border.width: 0
+                Text {
+                    width: 393
+                    height: 104
+                    anchors.centerIn: parent
+                    text: "Firefox is the trusted Web browser of choice for half a billion people around the world. At Mozilla, we design Firefox for how you use the Web. We make Firefox completely customizable so you can be in control of creating your best Web experience."
+                    font.pointSize: 10
+                    anchors.verticalCenterOffset: 0
+                    anchors.horizontalCenterOffset: 96
+                    wrapMode: Text.WordWrap
                 }
-
-                    Image {
-                        id: image
-                        x: 8
-                        y: 12
-                        height: 100
-                        fillMode: Image.PreserveAspectFit
-                        source: "../images/packages/firefox.jpg"
+                
+                Switch {
+                    id: element1
+                    x: 405
+                    y: 73
+                    width: 187
+                    height: 39
+                    text: qsTr("Add Firefox")
+                    checked: false
+                    hoverEnabled: true
+                    
+                    onCheckedChanged: {
+                        if ( ! checked ) {
+                            executer.connectSource("sed -i -e 's|firefox||' /tmp/croeso_list.txt");
+                            console.log("firefox removed")
+                        }
+                        else {
+                            executer.connectSource("echo 'firefox' >> /tmp/croeso_list.txt");
+                            console.log("firefox")
+                        }
                     }
                 }
+
+                Image {
+                    id: image
+                    x: 8
+                    y: 12
+                    height: 100
+                    fillMode: Image.PreserveAspectFit
+                    source: "../images/packages/firefox.jpg"
+                }
+
             }
 
             Rectangle {
@@ -89,36 +102,48 @@ Item {
                 height: 120
                 color: "#ffffff"
                 radius: 10
-                border.width: 1
+                border.width: 0
                 Text {
                     width: 393
                     height: 104
                     anchors.centerIn: parent
-                    text: "Chrome has everything you need to make the most of the web, like quick answers in your address bar, one-click translation, and personalized articles for you on your phone. <b>Click to install.</b>"
+                    text: "Chrome has everything you need to make the most of the web, like quick answers in your address bar, one-click translation, and personalized articles for you."
                     font.pointSize: 10
                     anchors.verticalCenterOffset: 0
                     anchors.horizontalCenterOffset: 96
                     wrapMode: Text.WordWrap
                 }
 
-                MouseArea {
-                    id: mouseArea1
-                    width: 600
-                    height: 120
-                    cursorShape: Qt.PointingHandCursor
-                    onClicked: {
-                        executer.connectSource("konsole -e sudo pacman -Syu google-chrome");
+                Switch {
+                    id: element2
+                    x: 405
+                    y: 73
+                    width: 187
+                    height: 39
+                    text: qsTr("Add Chrome")
+                    checked: false
+                    hoverEnabled: true
+                    
+                    onCheckedChanged: {
+                        if ( ! checked ) {
+                            executer.connectSource("sed -i -e 's|google-chrome||' /tmp/croeso_list.txt");
+                            console.log("chrome removed")
+                        }
+                        else {
+                            executer.connectSource("echo 'google-chrome' >> /tmp/croeso_list.txt");
+                            console.log("chrome")
+                        }
                     }
                 }
                 
-                    Image {
-                            id: image2
-                            x: 8
-                            y: 12
-                            height: 100
-                            fillMode: Image.PreserveAspectFit
-                            source: "../images/packages/chrome.png"
-                    }
+                Image {
+                    id: image2
+                    x: 8
+                    y: 12
+                    height: 100
+                    fillMode: Image.PreserveAspectFit
+                    source: "../images/packages/chrome.png"
+                }
             }
 
             Rectangle {
@@ -127,36 +152,46 @@ Item {
                 height: 120
                 color: "#ffffff"
                 radius: 10
-                border.width: 1
+                border.width: 0
                 Text {
                     width: 371
                     height: 104
                     anchors.centerIn: parent
-                    text: "You deserve a better browser Free VPN, ad blocker and Flow - Just a few of the must-have features built into Opera for faster, smoother and distraction-free browsing. <b>Click to install.</b>"
+                    text: "You deserve a better browser Free VPN, ad blocker and Flow - Just a few of the must-have features built into Opera for faster, smoother and distraction-free browsing."
                     font.pointSize: 10
                     anchors.verticalCenterOffset: 0
                     anchors.horizontalCenterOffset: 96
                     wrapMode: Text.WordWrap
                 }
-
-                MouseArea {
-                    id: mouseArea2
-                    width: 600
-                    height: 120
-                    cursorShape: Qt.PointingHandCursor
-                    onClicked: {
-                        executer.connectSource("konsole -e sudo pacman -Syu opera");
+                
+                Switch {
+                    id: element3
+                    x: 405
+                    y: 73
+                    width: 187
+                    height: 39
+                    text: qsTr("Add Opera")
+                    checked: false
+                    hoverEnabled: true
+                    
+                    onCheckedChanged: {
+                        if ( ! checked ) {
+                            executer.connectSource("sed -i -e 's|opera||' /tmp/croeso_list.txt");
+                        }
+                        else {
+                            executer.connectSource("echo 'opera' >> /tmp/croeso_list.txt");
+                        }
                     }
                 }
                 
-                        Image {
-                            id: image3
-                            x: 8
-                            y: 12
-                            height: 100
-                            fillMode: Image.PreserveAspectFit
-                            source: "../images/packages/opera.png"
-                        }
+                Image {
+                    id: image3
+                    x: 8
+                    y: 12
+                    height: 100
+                    fillMode: Image.PreserveAspectFit
+                    source: "../images/packages/opera.png"
+                }
             }
             
             Rectangle {
@@ -165,46 +200,68 @@ Item {
                 height: 120
                 color: "#ffffff"
                 radius: 10
-                border.width: 1
+                border.width: 0
                 Text {
                     width: 371
                     height: 104
                     anchors.centerIn: parent
-                    text: "Otter Browser aims to recreate the best aspects of the classic Opera (12.x) UI using Qt5. We are focused on providing the powerful features power users want while keeping the browser fast and lightweight. We also learned from history and decided to release the browser under the GNU GPL v3. <b>Click to install.</b>"
+                    text: "Otter Browser aims to recreate the best aspects of the classic Opera (12.x) UI using Qt5. We are focused on providing the powerful features power users want while keeping the browser fast and lightweight."
                     font.pointSize: 10
                     anchors.verticalCenterOffset: 0
                     anchors.horizontalCenterOffset: 96
                     wrapMode: Text.WordWrap
                 }
-
-                MouseArea {
-                    id: mouseArea3
-                    width: 600
-                    height: 120
-                    cursorShape: Qt.PointingHandCursor
-                    onClicked: {
-                        executer.connectSource("konsole -e sudo pacman -Syu otter-browser");
+                
+                Switch {
+                    id: element4
+                    x: 405
+                    y: 73
+                    width: 187
+                    height: 39
+                    text: qsTr("Add Otter Browser")
+                    checked: false
+                    hoverEnabled: true
+                    
+                    onCheckedChanged: {
+                        if ( ! checked ) {
+                            executer.connectSource("sed -i -e 's|otter-browser||' /tmp/croeso_list.txt");
+                        }
+                        else {
+                            executer.connectSource("echo 'otter-browser' >> /tmp/croeso_list.txt");
+                        }
                     }
                 }
                 
-                        Image {
-                            id: image4
-                            x: 8
-                            y: 12
-                            height: 100
-                            fillMode: Image.PreserveAspectFit
-                            source: "../images/packages/otter.jpg"
-                        }
+                Image {
+                    id: image4
+                    x: 8
+                    y: 12
+                    height: 100
+                    fillMode: Image.PreserveAspectFit
+                    source: "../images/packages/otter.jpg"
+                }
             }
         }
 
-        Button {
-            id: button
-            x: 781
-            y: 500
-            text: qsTr("Back to group index")
+        ToolButton {
+            id: toolButton
+            x: 19
+            y: 29
+            width: 105
+            height: 48
+            text: qsTr("Back")
+            hoverEnabled: true
             onClicked: loader.source = ""
-            //cursorShape: Qt.PointingHandCursor
+
+            Image {
+                id: image1
+                x: 0
+                y: 13
+                width: 22
+                height: 22
+                source: "../images/fontawesome/chevron-left-solid.svg"
+                fillMode: Image.PreserveAspectFit
+            }
         }
     }
 

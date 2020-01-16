@@ -1,5 +1,5 @@
 /***************************************************************************
- *   Copyright (C) 2018 - 2019 Anke Boersma <demm@kaosx.us>       *
+ *   Copyright (C) 2020 Anke Boersma <demm@kaosx.us>       *
  *                                                                         *
  *   This program is free software; you can redistribute it and/or modify  *
  *   it under the terms of the GNU General Public License as published by  *
@@ -19,6 +19,7 @@
 import QtQuick 2.7
 import QtQuick.Controls 2.0
 import QtQuick.Layouts 1.3
+import QtQuick.Dialogs 1.1
 import org.kde.plasma.core 2.0 as PlasmaCore
 
 Page4Form {
@@ -43,5 +44,4 @@ Page4Form {
         mouseArea5.onClicked: {
             loader.source = "packages/chat.qml"
         }
-    
 }

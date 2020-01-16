@@ -1,5 +1,5 @@
 /***************************************************************************
- *   Copyright (C) 2018 - 2019 Anke Boersma <demm@kaosx.us>       *
+ *   Copyright (C) 2018 - 2020 Anke Boersma <demm@kaosx.us>       *
  *                                                                         *
  *   This program is free software; you can redistribute it and/or modify  *
  *   it under the terms of the GNU General Public License as published by  *
@@ -56,10 +56,23 @@ ApplicationWindow {
         
         Page4 {
             Label {
-                textFormat: Text.RichText
-                text: qsTr("<h3>Package Selection</h3>")
-                anchors.horizontalCenter: parent.horizontalCenter
-                horizontalAlignment: Text.AlignHCenter
+                color: "gray"
+            }
+            
+            PlasmaCore.DataSource {
+                id: executer
+                engine: "executable"
+                onNewData: {executer.disconnectSource(sourceName);}
+            }
+            
+            Button {
+                x: 740
+                y: 530
+                text: qsTr("Install Selected Packages")
+                hoverEnabled: true
+                onClicked: {
+                    executer.connectSource("konsole --hold -e sudo pacman -Syu $(cat /tmp/croeso_list.txt)");
+                }
             }
             
         }

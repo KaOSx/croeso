@@ -1,6 +1,6 @@
 
 /***************************************************************************
- *   Copyright (C) 2018 Anke Boersma <demm@kaosx.us>       *
+ *   Copyright (C) 2020 Anke Boersma <demm@kaosx.us>       *
  *                                                                         *
  *   This program is free software; you can redistribute it and/or modify  *
  *   it under the terms of the GNU General Public License as published by  *
@@ -21,8 +21,9 @@ import QtQuick 2.7
 import QtQuick.Controls 2.0
 import QtQuick.Layouts 1.3
 
-Item {
+Rectangle {
     id: item1
+    color: "#f2f2f2"
 
     width: 900
     height: 600
@@ -35,16 +36,16 @@ Item {
 
     Column {
         id: column
-        x: 130
-        y: 40
+        x: 100
+        y: 25
         width: 180
         height: 546
-        spacing: 3
+        spacing: 5
 
         Rectangle {
             width: 180
             height: 180
-            border.width: 1
+            border.width: 0
             Text {
                 x: 44
                 y: 158
@@ -69,7 +70,8 @@ Item {
                 id: mouseArea
                 width: 180
                 height: 180
-                cursorShape: Qt.PointingHandCursor
+                hoverEnabled: true
+                //cursorShape: Qt.PointingHandCursor
             }
         }
 
@@ -78,7 +80,7 @@ Item {
             width: 180
             height: 180
             color: "#ffffff"
-            border.width: 1
+            border.width: 0
             Text {
                 x: 50
                 y: 158
@@ -102,7 +104,7 @@ Item {
                 id: mouseArea1
                 width: 180
                 height: 180
-                cursorShape: Qt.PointingHandCursor
+                //cursorShape: Qt.PointingHandCursor
             }
         }
 
@@ -111,7 +113,7 @@ Item {
             width: 180
             height: 180
             color: "#ffffff"
-            border.width: 1
+            border.width: 0
             Text {
                 x: 48
                 y: 158
@@ -135,25 +137,25 @@ Item {
                 id: mouseArea2
                 width: 180
                 height: 180
-                cursorShape: Qt.PointingHandCursor
+                //cursorShape: Qt.PointingHandCursor
             }
         }
     }
 
     Column {
         id: column1
-        x: 584
-        y: 40
+        x: 387
+        y: 25
         width: 180
         height: 546
-        spacing: 3
+        spacing: 5
 
         Rectangle {
             id: rectangle2
             width: 180
             height: 180
             color: "#ffffff"
-            border.width: 1
+            border.width: 0
             Text {
                 x: 47
                 y: 158
@@ -177,7 +179,7 @@ Item {
                 id: mouseArea3
                 width: 180
                 height: 180
-                cursorShape: Qt.PointingHandCursor
+                //cursorShape: Qt.PointingHandCursor
             }
         }
 
@@ -186,7 +188,7 @@ Item {
             width: 180
             height: 180
             color: "#ffffff"
-            border.width: 1
+            border.width: 0
             Text {
                 x: 25
                 y: 158
@@ -210,7 +212,7 @@ Item {
                 id: mouseArea4
                 width: 180
                 height: 180
-                cursorShape: Qt.PointingHandCursor
+                //cursorShape: Qt.PointingHandCursor
             }
         }
 
@@ -219,7 +221,7 @@ Item {
             width: 180
             height: 180
             color: "#ffffff"
-            border.width: 1
+            border.width: 0
             Text {
                 x: 52
                 y: 150
@@ -243,8 +245,22 @@ Item {
                 id: mouseArea5
                 width: 180
                 height: 180
-                cursorShape: Qt.PointingHandCursor
+                //cursorShape: Qt.PointingHandCursor
             }
         }
+    }
+
+    Text {
+        id: element
+        x: 609
+        y: 215
+        width: 238
+        height: 218
+        text: "<h3>Package Groups</h3>\n
+Please choose one of the groups to see and select the various packages each group contains."
+        horizontalAlignment: Text.AlignHCenter
+        font.weight: Font.DemiBold
+        wrapMode: Text.WordWrap
+        font.pixelSize: 15
     }
 }

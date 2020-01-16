@@ -12,6 +12,7 @@
         <file>qtquickcontrols2.conf</file>
         <file>notes.qml</file>
         <file>packages/chat.qml</file>
+        <file>packages/error.qml</file>
         <file>packages/image.qml</file>
         <file>packages/music.qml</file>
         <file>packages/office.qml</file>
@@ -65,6 +66,7 @@
         <file>lang/croeso_tr_TR.qm</file>
         <!--Fontawesome images-->
         <file>images/fontawesome/bell.svg</file>
+        <file>images/fontawesome/chevron-left-solid.svg</file>
         <file>images/fontawesome/comments.svg</file>
         <file>images/fontawesome/envelope.svg</file>
         <file>images/fontawesome/film-solid.svg</file>
