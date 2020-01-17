@@ -1,4 +1,6 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="tr_TR" version="2.1">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.1" language="tr_TR">
 <context>
     <name>Page1Form.ui</name>
     <message>
@@ -134,6 +136,39 @@
     </message>
 </context>
 <context>
+    <name>Page4Form.ui</name>
+    <message>
+        <location filename="../Page4Form.ui.qml" line="52"/>
+        <source>Web-Browsers</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../Page4Form.ui.qml" line="87"/>
+        <source>Email Clients</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../Page4Form.ui.qml" line="120"/>
+        <source>Video Editors</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../Page4Form.ui.qml" line="162"/>
+        <source>Music Players</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../Page4Form.ui.qml" line="195"/>
+        <source>Image Manipulation</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../Page4Form.ui.qml" line="228"/>
+        <source>Office Applications</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>Photo</name>
     <message>
         <location filename="../wallpaper/Photo.qml" line="62"/>
@@ -168,6 +203,90 @@
     </message>
 </context>
 <context>
+    <name>chat</name>
+    <message>
+        <location filename="../packages/chat.qml" line="73"/>
+        <source>Add Quassel</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../packages/chat.qml" line="122"/>
+        <source>Add Konversation</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../packages/chat.qml" line="170"/>
+        <source>Add Telegram Desktop</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../packages/chat.qml" line="218"/>
+        <source>Add KDE Telapathy</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../packages/chat.qml" line="249"/>
+        <source>Back</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>image</name>
+    <message>
+        <location filename="../packages/image.qml" line="73"/>
+        <source>Add Krita</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../packages/image.qml" line="122"/>
+        <source>Add Gimp</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../packages/image.qml" line="170"/>
+        <source>Add Digikam</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../packages/image.qml" line="218"/>
+        <source>Add Nomacs</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../packages/image.qml" line="249"/>
+        <source>Back</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>mail</name>
+    <message>
+        <location filename="../packages/mail.qml" line="73"/>
+        <source>Add Kmail</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../packages/mail.qml" line="122"/>
+        <source>Add Thunderbird</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../packages/mail.qml" line="170"/>
+        <source>Add Trojita</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../packages/mail.qml" line="218"/>
+        <source>Add Kube</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../packages/mail.qml" line="249"/>
+        <source>Back</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>main</name>
     <message>
         <location filename="../main.qml" line="35"/>
@@ -190,7 +309,12 @@
                             Bu sayfa, KaOS çalışma alanınızda en sık kullanılan ayarları hızlı bir şekilde kişiselleştirmenize yardımcı olacaktır.&lt;/div&gt;</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="67"/>
+        <location filename="../main.qml" line="71"/>
+        <source>Install Selected Packages</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../main.qml" line="90"/>
         <source>&lt;p&gt;To familiarize yourself with KaOS, please read some of these documents.&lt;/p&gt;
                             
                             &lt;p&gt;Use the forum for questions, feedback and suggestions.&lt;/p&gt;</source>
@@ -199,7 +323,7 @@
                             &lt;p&gt;Soru, görüş ve önerileriniz için forumu kullanın.&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="78"/>
+        <location filename="../main.qml" line="101"/>
         <source>&lt;p&gt;This page lists more advanced settings options.  Eventhough more advanced, this does&lt;br&gt;
                             not mean less important.&lt;/p&gt;
                             
@@ -210,59 +334,92 @@
                             &lt;p&gt;Bunları şimdi ayarlar veya sonra tekrar gözden geçirebilirsiniz.&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="125"/>
+        <location filename="../main.qml" line="148"/>
         <source>Code &amp; Bug trackers on Github for KaOS</source>
         <translation>Github üzerinde KaOS için Kod &amp; Hata izleyicisi</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="149"/>
+        <location filename="../main.qml" line="172"/>
         <source>Join the KaOS IRC Channel</source>
         <translation>IRC üzerinde KaOS odasına Gir</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="173"/>
+        <location filename="../main.qml" line="196"/>
         <source>Gitter Chat for KaOS</source>
         <translation>KaOS için Gitter Sohbet</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="197"/>
+        <location filename="../main.qml" line="220"/>
         <source>KaOS Mail Group</source>
         <translation>KaOS E-posta Grubu</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="213"/>
+        <location filename="../main.qml" line="236"/>
         <source>Customize</source>
         <translation>Özelleştir</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="216"/>
+        <location filename="../main.qml" line="239"/>
+        <source>Packages</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../main.qml" line="242"/>
         <source>Wallpaper</source>
         <translation>Duvarkağıdı</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="219"/>
+        <location filename="../main.qml" line="245"/>
         <source>Docs</source>
         <translation>Belgeler</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="222"/>
+        <location filename="../main.qml" line="248"/>
         <source>Advanced</source>
         <translation>Gelişmiş</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="225"/>
+        <location filename="../main.qml" line="251"/>
         <source>About</source>
         <translation>Hakkında</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="228"/>
+        <location filename="../main.qml" line="254"/>
         <source>News</source>
         <translation>Haberler</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="231"/>
+        <location filename="../main.qml" line="257"/>
         <source>Quit</source>
         <translation>Çıkış</translation>
+    </message>
+</context>
+<context>
+    <name>music</name>
+    <message>
+        <location filename="../packages/music.qml" line="73"/>
+        <source>Add Elisa</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../packages/music.qml" line="122"/>
+        <source>Add Strawberry</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../packages/music.qml" line="170"/>
+        <source>Add Cantata</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../packages/music.qml" line="218"/>
+        <source>Add Qmmp</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../packages/music.qml" line="249"/>
+        <source>Back</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -308,6 +465,62 @@
     </message>
 </context>
 <context>
+    <name>office</name>
+    <message>
+        <location filename="../packages/office.qml" line="73"/>
+        <source>Add Skrooge</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../packages/office.qml" line="122"/>
+        <source>Add Sigil</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../packages/office.qml" line="170"/>
+        <source>Add Scribus</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../packages/office.qml" line="218"/>
+        <source>Add Focuswriter</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../packages/office.qml" line="249"/>
+        <source>Back</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>video</name>
+    <message>
+        <location filename="../packages/video.qml" line="73"/>
+        <source>Add Kdenlive</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../packages/video.qml" line="122"/>
+        <source>Add Openshot</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../packages/video.qml" line="170"/>
+        <source>Add Lightworks</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../packages/video.qml" line="218"/>
+        <source>Add Avidemux</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../packages/video.qml" line="249"/>
+        <source>Back</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>wall</name>
     <message>
         <location filename="../wallpaper/wall.qml" line="46"/>
@@ -325,13 +538,41 @@
         <location filename="../wallpaper/wall.qml" line="60"/>
         <source>Oldest</source>
         <extracomment>Navbar entry</extracomment>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../wallpaper/wall.qml" line="67"/>
         <source>Downloaded</source>
         <extracomment>Navbar entry</extracomment>
         <translation>İndirildi</translation>
+    </message>
+</context>
+<context>
+    <name>web</name>
+    <message>
+        <location filename="../packages/web.qml" line="72"/>
+        <source>Add Firefox</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../packages/web.qml" line="123"/>
+        <source>Add Chrome</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../packages/web.qml" line="173"/>
+        <source>Add Opera</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../packages/web.qml" line="221"/>
+        <source>Add Otter Browser</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../packages/web.qml" line="252"/>
+        <source>Back</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>
