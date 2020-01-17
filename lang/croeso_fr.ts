@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.1" language="fr">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="fr" version="2.1">
 <context>
     <name>Page1Form.ui</name>
     <message>
@@ -140,32 +138,32 @@
     <message>
         <location filename="../Page4Form.ui.qml" line="52"/>
         <source>Web-Browsers</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../Page4Form.ui.qml" line="87"/>
         <source>Email Clients</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../Page4Form.ui.qml" line="120"/>
         <source>Video Editors</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../Page4Form.ui.qml" line="162"/>
         <source>Music Players</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../Page4Form.ui.qml" line="195"/>
         <source>Image Manipulation</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../Page4Form.ui.qml" line="228"/>
         <source>Office Applications</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -207,27 +205,27 @@
     <message>
         <location filename="../packages/chat.qml" line="73"/>
         <source>Add Quassel</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../packages/chat.qml" line="122"/>
         <source>Add Konversation</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../packages/chat.qml" line="170"/>
         <source>Add Telegram Desktop</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../packages/chat.qml" line="218"/>
         <source>Add KDE Telapathy</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../packages/chat.qml" line="249"/>
         <source>Back</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -235,27 +233,27 @@
     <message>
         <location filename="../packages/image.qml" line="73"/>
         <source>Add Krita</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../packages/image.qml" line="122"/>
         <source>Add Gimp</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../packages/image.qml" line="170"/>
         <source>Add Digikam</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../packages/image.qml" line="218"/>
         <source>Add Nomacs</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../packages/image.qml" line="249"/>
         <source>Back</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -263,27 +261,27 @@
     <message>
         <location filename="../packages/mail.qml" line="73"/>
         <source>Add Kmail</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../packages/mail.qml" line="122"/>
         <source>Add Thunderbird</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../packages/mail.qml" line="170"/>
         <source>Add Trojita</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../packages/mail.qml" line="218"/>
         <source>Add Kube</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../packages/mail.qml" line="249"/>
         <source>Back</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -311,7 +309,7 @@
     <message>
         <location filename="../main.qml" line="71"/>
         <source>Install Selected Packages</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../main.qml" line="90"/>
@@ -362,7 +360,7 @@ This page lists more advanced settings options.  Même cela ni signifie pour aut
     <message>
         <location filename="../main.qml" line="239"/>
         <source>Packages</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../main.qml" line="242"/>
@@ -400,27 +398,27 @@ This page lists more advanced settings options.  Même cela ni signifie pour aut
     <message>
         <location filename="../packages/music.qml" line="73"/>
         <source>Add Elisa</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../packages/music.qml" line="122"/>
         <source>Add Strawberry</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../packages/music.qml" line="170"/>
         <source>Add Cantata</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../packages/music.qml" line="218"/>
         <source>Add Qmmp</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../packages/music.qml" line="249"/>
         <source>Back</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -462,7 +460,7 @@ This page lists more advanced settings options.  Même cela ni signifie pour aut
                     
                     &lt;p&gt;&lt;b&gt;Les utilisateurs ciblés&lt;/b&gt; sont ceux qui ont testé de nombreux systèmes d’exploitation/distributions/environnements de bureaux, et qui cherchent une distribution utilisant toutes ses ressources dans un seul environnement de bureau. D’après leurs tests, ils estiment que KDE KDE est le meilleur d’entre eux. Leur matériel utilisé est plus récent que 2005 et n&apos;a donc aucun problème pour exécuter des logiciels 64 bits. Enfin, l&apos;utilisateur ciblé ne craint pas d&apos;utiliser les versions KDE/Qt de logiciels dont il a besoin, même si cela signifie apprendre à les utiliser. Bien entendu, les applications dédiées à la même chose seront limitées à 5-6.&lt;/p&gt;
                     
-                    &lt;p&gt;&#xa0;KDE est un environnement de bureau moderne qui gère la plupart des capacités des cartes graphiques et cartes son. Cela ne signifie pas KDE ne peut fonctionner sur du matériel de premier choix, mais en général, il existe de meilleures solutions disponibles pour de tels systèmes (OpenBox par exemple). Le strict minimum nécessaire pour &lt;b&gt;l’espace disque dur est de 8 Go, mais 25 Go est recommandé&lt;/b&gt; pour une utilisation confortable. KaOS peut s’installer avec 1,5Go de RAM disponible, mais mais &lt;b&gt;2Go de RAM&lt;/b&gt;rendent l’expérience plus facile. Puisque seuls les paquets x86_64 sont disponibles, un &lt;b&gt;processeur compatible 64 bits&lt;/b&gt; est nécessaire. Comme avec n’importe quelle distribution de type rolling release, les mises à jour sont fréquentes et peuvent être importantes, aussi un abonnement Internet relativement rapide (oubliez le modem !) capable de gérer 2Go de trafic par mois est recommandé.&lt;/p&gt;</translation>
+                    &lt;p&gt; KDE est un environnement de bureau moderne qui gère la plupart des capacités des cartes graphiques et cartes son. Cela ne signifie pas KDE ne peut fonctionner sur du matériel de premier choix, mais en général, il existe de meilleures solutions disponibles pour de tels systèmes (OpenBox par exemple). Le strict minimum nécessaire pour &lt;b&gt;l’espace disque dur est de 8 Go, mais 25 Go est recommandé&lt;/b&gt; pour une utilisation confortable. KaOS peut s’installer avec 1,5Go de RAM disponible, mais mais &lt;b&gt;2Go de RAM&lt;/b&gt;rendent l’expérience plus facile. Puisque seuls les paquets x86_64 sont disponibles, un &lt;b&gt;processeur compatible 64 bits&lt;/b&gt; est nécessaire. Comme avec n’importe quelle distribution de type rolling release, les mises à jour sont fréquentes et peuvent être importantes, aussi un abonnement Internet relativement rapide (oubliez le modem !) capable de gérer 2Go de trafic par mois est recommandé.&lt;/p&gt;</translation>
     </message>
 </context>
 <context>
@@ -470,27 +468,27 @@ This page lists more advanced settings options.  Même cela ni signifie pour aut
     <message>
         <location filename="../packages/office.qml" line="73"/>
         <source>Add Skrooge</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../packages/office.qml" line="122"/>
         <source>Add Sigil</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../packages/office.qml" line="170"/>
         <source>Add Scribus</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../packages/office.qml" line="218"/>
         <source>Add Focuswriter</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../packages/office.qml" line="249"/>
         <source>Back</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -498,27 +496,27 @@ This page lists more advanced settings options.  Même cela ni signifie pour aut
     <message>
         <location filename="../packages/video.qml" line="73"/>
         <source>Add Kdenlive</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../packages/video.qml" line="122"/>
         <source>Add Openshot</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../packages/video.qml" line="170"/>
         <source>Add Lightworks</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../packages/video.qml" line="218"/>
         <source>Add Avidemux</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../packages/video.qml" line="249"/>
         <source>Back</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -553,27 +551,27 @@ This page lists more advanced settings options.  Même cela ni signifie pour aut
     <message>
         <location filename="../packages/web.qml" line="72"/>
         <source>Add Firefox</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../packages/web.qml" line="123"/>
         <source>Add Chrome</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../packages/web.qml" line="173"/>
         <source>Add Opera</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../packages/web.qml" line="221"/>
         <source>Add Otter Browser</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../packages/web.qml" line="252"/>
         <source>Back</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 </TS>
