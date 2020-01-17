@@ -69,18 +69,12 @@
         <file>images/fontawesome/chevron-left-solid.svg</file>
         <file>images/fontawesome/comments.svg</file>
         <file>images/fontawesome/envelope.svg</file>
-        <file>images/fontawesome/film-solid.svg</file>
-        <file>images/fontawesome/firefox-brands.svg</file>
         <file>images/fontawesome/github.svg</file>
         <file>images/fontawesome/gitter.svg</file>
-        <file>images/fontawesome/google-plus-g.svg</file>
         <file>images/fontawesome/images.svg</file>
         <file>images/fontawesome/linux.svg</file>
-        <file>images/fontawesome/mail-bulk-solid.svg</file>
         <file>images/fontawesome/paypal.svg</file>
-        <file>images/fontawesome/photo-video-solid.svg</file>
         <file>images/fontawesome/usb.svg</file>
-        <file>images/fontawesome/volume-up-solid.svg</file>
         <!--Images Package Selection-->
         <file>images/packages/avidemux.jpg</file>
         <file>images/packages/cantata.png</file>

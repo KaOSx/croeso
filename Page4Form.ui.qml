@@ -49,10 +49,10 @@ Rectangle {
             Text {
                 x: 44
                 y: 158
+                text: qsTr("Web-Browsers")
                 anchors.bottom: parent.bottom
                 anchors.rightMargin: 44
                 anchors.bottomMargin: 8
-                text: "Web-Browsers"
             }
 
             Image {
@@ -84,8 +84,8 @@ Rectangle {
             Text {
                 x: 50
                 y: 158
+                text: qsTr("Email Clients")
                 anchors.bottom: parent.bottom
-                text: "Email Clients"
                 anchors.bottomMargin: 8
             }
 
@@ -117,8 +117,8 @@ Rectangle {
             Text {
                 x: 48
                 y: 158
+                text: qsTr("Video Editors")
                 anchors.bottom: parent.bottom
-                text: "Video Editors"
                 anchors.bottomMargin: 8
             }
 
@@ -159,8 +159,8 @@ Rectangle {
             Text {
                 x: 47
                 y: 158
+                text: qsTr("Music Players")
                 anchors.bottom: parent.bottom
-                text: "Music Players"
                 anchors.bottomMargin: 8
             }
 
@@ -191,9 +191,9 @@ Rectangle {
             border.width: 0
             Text {
                 x: 25
-                y: 158
+                y: 150
+                text: qsTr("Image Manipulation")
                 anchors.bottom: parent.bottom
-                text: "Image Manipulation"
                 anchors.bottomMargin: 8
             }
 
@@ -223,10 +223,10 @@ Rectangle {
             color: "#ffffff"
             border.width: 0
             Text {
-                x: 52
+                x: 31
                 y: 150
+                text: qsTr("Office Applications")
                 anchors.bottom: parent.bottom
-                text: "Office Applications"
                 anchors.bottomMargin: 8
             }
 
@@ -257,7 +257,7 @@ Rectangle {
         width: 238
         height: 218
         text: "<h3>Package Groups</h3>\n
-        Please choose one of the groups to see the various packages each group contains. Then select applications you wish to add to your install.  Multiple selections per group are possible.  Once done with your selection click the install button."
+Please choose one of the groups to see the various packages each group contains. Then select applications you wish to add to your install.  Multiple selections per group are possible.  Once done with your selection click the install button."
         horizontalAlignment: Text.AlignHCenter
         font.weight: Font.DemiBold
         wrapMode: Text.WordWrap
