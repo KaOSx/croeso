@@ -165,6 +165,13 @@
         <source>Office Applications</source>
         <translation type="unfinished"/>
     </message>
+    <message>
+        <location filename="../Page4Form.ui.qml" line="259"/>
+        <source>&lt;h3&gt;Package Groups&lt;/h3&gt;
+
+Please choose one of the groups to see the various packages each group contains. Then select applications you wish to add to your install.  Multiple selections per group are possible.  Once done with your selection click the install button.</source>
+        <translation type="unfinished"/>
+    </message>
 </context>
 <context>
     <name>Photo</name>
@@ -305,11 +312,6 @@ para um ambiente de trabalho moderno, construida a partir do zero e com foco mui
 Focada em um DE (KDE Plasma), um kit de ferramentas (Qt) e uma arquitetura (x86_64).&lt;br&gt;
 Mais foco em avaliar e selecionar as ferramentas e aplicações mais adequadas.&lt;br&gt;&lt;br&gt;
 Esta página ajudará você a personalizar rapidamente as configurações mais usadas em sua área de trabalho KaOS.&lt;/div&gt;</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="71"/>
-        <source>Install Selected Packages</source>
-        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../main.qml" line="90"/>

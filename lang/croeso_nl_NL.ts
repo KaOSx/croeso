@@ -165,6 +165,15 @@
         <source>Office Applications</source>
         <translation>Kantoortoepassingen</translation>
     </message>
+    <message>
+        <location filename="../Page4Form.ui.qml" line="259"/>
+        <source>&lt;h3&gt;Package Groups&lt;/h3&gt;
+
+Please choose one of the groups to see the various packages each group contains. Then select applications you wish to add to your install.  Multiple selections per group are possible.  Once done with your selection click the install button.</source>
+        <translation>&lt;h3&gt;Pakketgroepen&lt;/h3&gt;
+
+Kies een van de groepen om de verschillende pakketten te zien die elke groep bevat. Selecteer vervolgens toepassingen die je aan je installatie toe wilt voegen. Meerdere selecties per groep zijn mogelijk. Als je klaar bent met je selectie, klikt u op de Installeren knop.</translation>
+    </message>
 </context>
 <context>
     <name>Photo</name>
@@ -305,11 +314,6 @@
                              een zeer specifeke focus. Focus op één DE (KDE), één toolkit (Qt) &amp; één architectuur (x86_64).&lt;br&gt;
                             Plus een focus op de beoordeling en selectie van de meest geschikte tools en applicaties&lt;br&gt;&lt;br&gt;
                             Deze wizard zal je helpen je Kaos werkruimte gemakkelijk en snel te personaliseren.&lt;/div&gt;</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="71"/>
-        <source>Install Selected Packages</source>
-        <translation>Installeer Geselecteerde Pakketten</translation>
     </message>
     <message>
         <location filename="../main.qml" line="90"/>

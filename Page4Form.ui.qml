@@ -256,8 +256,8 @@ Rectangle {
         y: 215
         width: 238
         height: 218
-        text: "<h3>Package Groups</h3>\n
-Please choose one of the groups to see the various packages each group contains. Then select applications you wish to add to your install.  Multiple selections per group are possible.  Once done with your selection click the install button."
+        text: qsTr("<h3>Package Groups</h3>\n
+Please choose one of the groups to see the various packages each group contains. Then select applications you wish to add to your install.  Multiple selections per group are possible.  Once done with your selection click the install button.")
         horizontalAlignment: Text.AlignHCenter
         font.weight: Font.DemiBold
         wrapMode: Text.WordWrap

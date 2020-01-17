@@ -165,6 +165,13 @@
         <source>Office Applications</source>
         <translation type="unfinished"/>
     </message>
+    <message>
+        <location filename="../Page4Form.ui.qml" line="259"/>
+        <source>&lt;h3&gt;Package Groups&lt;/h3&gt;
+
+Please choose one of the groups to see the various packages each group contains. Then select applications you wish to add to your install.  Multiple selections per group are possible.  Once done with your selection click the install button.</source>
+        <translation type="unfinished"/>
+    </message>
 </context>
 <context>
     <name>Photo</name>
@@ -305,11 +312,6 @@ KaOS के पीछे उद्देश्य है आज के आधु
 एक विशिष्ट लक्ष्य के तहत हो। वह लक्ष्य है एक डेस्कटॉप परिवेश (केडीई), एक टूलकिट (क्यूटी) व एक स्थापत्य (x86_64) पर ध्यान केंद्रित करना।&lt;br&gt;
 इसके अलावा मूल्यांकन कर सबसे उपयुक्त साधन व अनुप्रयोगों को चुनना।&lt;br&gt;&lt;br&gt;
 यह पेज आपको KaOS की आमतौर पर उपयोग की जाने वाली सेटिंग्स अपने अनुकूल सेट करने में मदद करेगा ।&lt;/div&gt;</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="71"/>
-        <source>Install Selected Packages</source>
-        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../main.qml" line="90"/>

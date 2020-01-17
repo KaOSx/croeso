@@ -68,7 +68,7 @@ ApplicationWindow {
             Button {
                 x: 740
                 y: 530
-                text: qsTr("Install Selected Packages")
+                text: "Install Selected Packages"
                 hoverEnabled: true
                 onClicked: {
                     executer.connectSource("konsole --hold -e sudo pacman -Syu $(cat /tmp/croeso_list.txt)");
