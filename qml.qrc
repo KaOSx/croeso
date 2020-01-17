@@ -83,9 +83,12 @@
         <file>images/fontawesome/volume-up-solid.svg</file>
         <!--Images Package Selection-->
         <file>images/packages/avidemux.jpg</file>
+        <file>images/packages/cantata.png</file>
         <file>images/packages/chrome.png</file>
         <file>images/packages/digikam.png</file>
+        <file>images/packages/elisa.png</file>
         <file>images/packages/firefox.jpg</file>
+         <file>images/packages/focuswriter.png</file>
         <file>images/packages/gimp.png</file>
         <file>images/packages/kdenlive.jpg</file>
         <file>images/packages/kmail.png</file>
@@ -97,7 +100,18 @@
         <file>images/packages/opera.png</file>
         <file>images/packages/otter.jpg</file>
         <file>images/packages/qmmp.png</file>
+        <file>images/packages/scribus.png</file>
+        <file>images/packages/sigil.jpg</file>
+        <file>images/packages/skrooge.png</file>
+        <file>images/packages/strawberry.png</file>
         <file>images/packages/thunderbird.jpg</file>
         <file>images/packages/trojita.jpg</file>
+        <!--Flaticons-->
+        <file>images/flaticon/adjust.svg</file>
+        <file>images/flaticon/email.svg</file>
+        <file>images/flaticon/mov.svg</file>
+        <file>images/flaticon/internet.svg</file>
+        <file>images/flaticon/png.svg</file>
+        <file>images/flaticon/writer.svg</file>
     </qresource>
 </RCC>

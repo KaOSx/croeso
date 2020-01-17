@@ -63,7 +63,7 @@ Rectangle {
                 sourceSize.width: 96
                 fillMode: Image.PreserveAspectFit
                 anchors.centerIn: parent
-                source: "images/fontawesome/firefox-brands.svg"
+                source: "images/flaticon/internet.svg"
             }
 
             MouseArea {
@@ -97,7 +97,7 @@ Rectangle {
                 sourceSize.width: 96
                 fillMode: Image.PreserveAspectFit
                 anchors.centerIn: parent
-                source: "images/fontawesome/mail-bulk-solid.svg"
+                source: "images/flaticon/email.svg"
             }
 
             MouseArea {
@@ -130,7 +130,7 @@ Rectangle {
                 sourceSize.width: 96
                 fillMode: Image.PreserveAspectFit
                 anchors.centerIn: parent
-                source: "images/fontawesome/film-solid.svg"
+                source: "images/flaticon/mov.svg"
             }
 
             MouseArea {
@@ -172,7 +172,7 @@ Rectangle {
                 sourceSize.width: 96
                 fillMode: Image.PreserveAspectFit
                 anchors.centerIn: parent
-                source: "images/fontawesome/volume-up-solid.svg"
+                source: "images/flaticon/adjust.svg"
             }
 
             MouseArea {
@@ -205,7 +205,7 @@ Rectangle {
                 sourceSize.width: 96
                 fillMode: Image.PreserveAspectFit
                 anchors.centerIn: parent
-                source: "images/fontawesome/photo-video-solid.svg"
+                source: "images/flaticon/png.svg"
             }
 
             MouseArea {
@@ -226,7 +226,7 @@ Rectangle {
                 x: 52
                 y: 150
                 anchors.bottom: parent.bottom
-                text: "Chat Clients"
+                text: "Office Applications"
                 anchors.bottomMargin: 8
             }
 
@@ -238,7 +238,7 @@ Rectangle {
                 sourceSize.width: 96
                 fillMode: Image.PreserveAspectFit
                 anchors.centerIn: parent
-                source: "images/fontawesome/comments.svg"
+                source: "images/flaticon/writer.svg"
             }
 
             MouseArea {
@@ -257,7 +257,7 @@ Rectangle {
         width: 238
         height: 218
         text: "<h3>Package Groups</h3>\n
-        Please choose one of the groups to see and select the various packages each group contains."
+        Please choose one of the groups to see the various packages each group contains. Then select applications you wish to add to your install.  Multiple selections per group are possible.  Once done with your selection click the install button."
         horizontalAlignment: Text.AlignHCenter
         font.weight: Font.DemiBold
         wrapMode: Text.WordWrap

@@ -7,6 +7,8 @@ First run settings and info app for KaOS, written in QML
 ### License
 GPL
 
+Flaticons made by <a href="https://www.flaticon.com/authors/icon-monk" title="Icon Monk">Icon Monk</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+
 ### Dependencies
 
 qt5-quickcontrols2, qt5-webview, plasma-framework

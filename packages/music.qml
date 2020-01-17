@@ -57,7 +57,7 @@ Item {
                     width: 393
                     height: 104
                     anchors.centerIn: parent
-                    text: "Elisa"
+                    text: "Elisa is a music player developed by the KDE community that strives to be simple and nice to use with a focus on easy setup, fully usable offline (or in privacy mode), being a music player (managing your music collection is not a priority) and a joy to use and respects our users privacy "
                     font.pointSize: 10
                     anchors.verticalCenterOffset: 0
                     anchors.horizontalCenterOffset: 96
@@ -90,7 +90,7 @@ Item {
                     y: 12
                     height: 100
                     fillMode: Image.PreserveAspectFit
-                    source: "../images/packages/firefox.jpg"
+                    source: "../images/packages/elisa.png"
                 }
 
             }
@@ -106,7 +106,7 @@ Item {
                     width: 393
                     height: 104
                     anchors.centerIn: parent
-                    text: "Strawberry"
+                    text: "Strawberry is a music player and music collection organizer aimed at music collectors, enthusiasts and audiophiles. It supports WAV, FLAC, WavPack, DSF, DSDIFF, Ogg Vorbis, Speex, MPC, TrueAudio, AIFF, MP4, MP3, ASF and Monkey's Audio and Audio CD playback"
                     font.pointSize: 10
                     anchors.verticalCenterOffset: 0
                     anchors.horizontalCenterOffset: 96
@@ -139,7 +139,7 @@ Item {
                     y: 12
                     height: 100
                     fillMode: Image.PreserveAspectFit
-                    source: "../images/packages/chrome.png"
+                    source: "../images/packages/strawberry.png"
                 }
             }
 
@@ -154,7 +154,7 @@ Item {
                     width: 371
                     height: 104
                     anchors.centerIn: parent
-                    text: "Cantata"
+                    text: "Cantata is a graphical (Qt5) client for MPD. Cantata caches a copy of the MPD music library so that it can create a proper hierarchy of artists and albums to provide album counts, tracks counts, etc in the browser views and tooltips, and also to help with copying songs to/from devices."
                     font.pointSize: 10
                     anchors.verticalCenterOffset: 0
                     anchors.horizontalCenterOffset: 96
@@ -187,7 +187,7 @@ Item {
                     y: 12
                     height: 100
                     fillMode: Image.PreserveAspectFit
-                    source: "../images/packages/opera.png"
+                    source: "../images/packages/cantata.png"
                 }
             }
             

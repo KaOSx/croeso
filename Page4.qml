@@ -40,6 +40,6 @@ Page4Form {
             loader.source = "packages/image.qml"
         }
         mouseArea5.onClicked: {
-            loader.source = "packages/chat.qml"
+            loader.source = "packages/office.qml"
         }
 }
