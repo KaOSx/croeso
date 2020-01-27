@@ -57,7 +57,7 @@ Item {
                     width: 393
                     height: 104
                     anchors.centerIn: parent
-                    text: "Elisa is a music player developed by the KDE community that strives to be simple and nice to use with a focus on easy setup, fully usable offline (or in privacy mode), being a music player (managing your music collection is not a priority) and a joy to use and respects our users privacy "
+                    text: "Elisa is a music player developed by the KDE community that strives to be simple and nice to use with a focus on easy setup, fully usable offline (or in privacy mode), being a music player (managing your music collection is not a priority) with respect for users privacy."
                     font.pointSize: 10
                     anchors.verticalCenterOffset: 0
                     anchors.horizontalCenterOffset: 96
@@ -154,7 +154,7 @@ Item {
                     width: 371
                     height: 104
                     anchors.centerIn: parent
-                    text: "Cantata is a graphical (Qt5) client for MPD. Cantata caches a copy of the MPD music library so that it can create a proper hierarchy of artists and albums to provide album counts, tracks counts, etc in the browser views and tooltips, and also to help with copying songs to/from devices."
+                    text: "Cantata is a graphical (Qt5) client for MPD. Cantata caches a copy of the MPD music library so that it can create a proper hierarchy of artists and albums to provide album counts, tracks counts in the browser views and tooltips, plus help with copying songs to/from devices."
                     font.pointSize: 10
                     anchors.verticalCenterOffset: 0
                     anchors.horizontalCenterOffset: 96

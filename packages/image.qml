@@ -57,7 +57,7 @@ Item {
                     width: 393
                     height: 104
                     anchors.centerIn: parent
-                    text: "Krita is a professional FREE and open source painting program. It is made by artists that want to see affordable art tools for everyone. It offers an end-to-end solution for creating digital art files from scratch. Supported fields are illustrations, concept art, matte painting, textures, comics and animations."
+                    text: "Krita is a professional FREE and open source painting program. It is made by artists that want to see affordable art tools for everyone. Supported fields are illustrations, concept art, matte painting, textures, comics and animations."
                     font.pointSize: 10
                     anchors.verticalCenterOffset: 0
                     anchors.horizontalCenterOffset: 96
@@ -106,7 +106,7 @@ Item {
                     width: 393
                     height: 104
                     anchors.centerIn: parent
-                    text: "GIMP provides the tools needed for high quality image manipulation. It gives artists the power and flexibility to transform images into truly unique creations. GIMP is used for producing icons, graphical design elements, and art for user interface components and mockups."
+                    text: "GIMP provides the tools needed for high quality image manipulation. It gives artists the power and flexibility to transform images into truly unique creations. It is used for producing icons, graphical design elements, and art."
                     font.pointSize: 10
                     anchors.verticalCenterOffset: 0
                     anchors.horizontalCenterOffset: 96
@@ -202,7 +202,7 @@ Item {
                     width: 371
                     height: 104
                     anchors.centerIn: parent
-                    text: "Nomacs is a free, open source image viewer, which supports multiple platforms. You can use it for viewing all common image formats including RAW and psd images. It includes image manipulation methods for adjusting brightness, contrast, saturation, hue, gamma, exposure."
+                    text: "Nomacs is a free, open source image viewer. It can be used for viewing all common image formats including RAW & psd images, and includes image manipulation methods for adjusting brightness, contrast, saturation, hue, gamma, exposure."
                     font.pointSize: 10
                     anchors.verticalCenterOffset: 0
                     anchors.horizontalCenterOffset: 96

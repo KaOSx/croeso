@@ -57,7 +57,7 @@ Item {
                     width: 393
                     height: 104
                     anchors.centerIn: parent
-                    text: "Kdenlive is an acronym for KDE Non-Linear Video Editor. Through the MLT framework, Kdenlive integrates many plugin effects for video and sound processing or creation. Furthermore Kdenlive brings a powerful titling tool, a DVD authoring solution, and can then be used as a complete studio for video creation."
+                    text: "Kdenlive is an acronym for KDE Non-Linear Video Editor. Through the MLT framework, it integrates plugin effects for video and sound processing or creation. It brings a powerful titling tool, DVD authoring solution, and can be used as a complete studio for video creation."
                     font.pointSize: 10
                     anchors.verticalCenterOffset: 0
                     anchors.horizontalCenterOffset: 96
@@ -106,7 +106,7 @@ Item {
                     width: 393
                     height: 104
                     anchors.centerIn: parent
-                    text: "Openshot is based on the powerful FFmpeg library, OpenShot can read and write most video and image formats. Over 400 transitions are included, which lets you gradually fade from one clip to another. Getting started is as easy as dragging files into OpenShot from your file manager."
+                    text: "Openshot is based on the FFmpeg library, OpenShot can read and write most video and image formats. Over 400 transitions are included, which lets you gradually fade from one clip to another. Getting started is as easy as dragging files into OpenShot from your file manager."
                     font.pointSize: 10
                     anchors.verticalCenterOffset: 0
                     anchors.horizontalCenterOffset: 96
@@ -154,7 +154,7 @@ Item {
                     width: 371
                     height: 104
                     anchors.centerIn: parent
-                    text: "Lightworks has been at the forefront of film editing, having been used on many of the finest films in cinema history including LA Confidential, Pulp Fiction and many more. Lightworks is the only Academy and Emmy award winning editing software that allows you to start on a free plan."
+                    text: "Lightworks has been at the forefront of film editing, having been used on many films including LA Confidential, Pulp Fiction and many more. Lightworks is the only Academy and Emmy award winning editing software that allows you to start on a free plan."
                     font.pointSize: 10
                     anchors.verticalCenterOffset: 0
                     anchors.horizontalCenterOffset: 96
@@ -202,7 +202,7 @@ Item {
                     width: 371
                     height: 104
                     anchors.centerIn: parent
-                    text: "Avidemux is a free video editor designed for simple cutting, filtering and encoding tasks. It supports many file types, including AVI, DVD compatible MPEG files, MP4 and ASF, using a variety of codecs. Tasks can be automated using projects, job queue and powerful scripting capabilities."
+                    text: "Avidemux is a free video editor designed for simple cutting, filtering and encoding tasks. It supports many file types, including AVI, DVD compatible MPEG files, MP4 and ASF. Tasks can be automated using projects, job queue and powerful scripting capabilities."
                     font.pointSize: 10
                     anchors.verticalCenterOffset: 0
                     anchors.horizontalCenterOffset: 96

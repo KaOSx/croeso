@@ -57,7 +57,7 @@ Item {
                     width: 393
                     height: 104
                     anchors.centerIn: parent
-                    text: "KMail is the email component of Kontact, the integrated personal information manager from KDE. Default settings rather compromise on features than security or privacy and separates identities from accounts, giving you a lot of flexibility when wearing different hats in multiple organizations."
+                    text: "KMail is the email component of Kontact, the integrated personal information manager from KDE. Default settings rather compromise on features than security or privacy and separates identities from accounts, giving you a lot of flexibility in multiple organizations."
                     font.pointSize: 10
                     anchors.verticalCenterOffset: 0
                     anchors.horizontalCenterOffset: 96
@@ -106,7 +106,7 @@ Item {
                     width: 393
                     height: 104
                     anchors.centerIn: parent
-                    text: "Thunderbird makes email better for you, bringing together speed, privacy and the latest technologies. Focus on what matters and forget about complexity. Multiple features, such as built-in Do Not Track and remote content blocking, work together to ensure your safety and privacy."
+                    text: "Thunderbird makes email better for you, bringing together speed, privacy and the latest technologies.  Multiple features, such as built-in Do Not Track and remote content blocking, work together to ensure your safety and privacy."
                     font.pointSize: 10
                     anchors.verticalCenterOffset: 0
                     anchors.horizontalCenterOffset: 96
@@ -202,7 +202,7 @@ Item {
                     width: 371
                     height: 104
                     anchors.centerIn: parent
-                    text: "Kube is a modern communication and collaboration client built to just work. It provides online and offline access to all your mail, contacts and calendars. With a strong focus on usability, the team works to build a product that is not only visually appealing but also a joy to use."
+                    text: "Kube is a modern communication and collaboration client built to just work. It provides online and offline access to all your mail, contacts and calendars. The team works to build a product that is not only visually appealing but also a joy to use."
                     font.pointSize: 10
                     anchors.verticalCenterOffset: 0
                     anchors.horizontalCenterOffset: 96

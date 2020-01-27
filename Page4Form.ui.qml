@@ -172,7 +172,7 @@ Rectangle {
                 sourceSize.width: 96
                 fillMode: Image.PreserveAspectFit
                 anchors.centerIn: parent
-                source: "images/flaticon/adjust.svg"
+                source: "images/flaticon/music.svg"
             }
 
             MouseArea {

@@ -25,12 +25,11 @@ int main(int argc, char *argv[])
     //settings for wallpaper part
     InitializeMagick(*argv);
     
+    QtWebView::initialize();
     QCoreApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
     QGuiApplication app(argc, argv);
     
     FileSystem::init();
-    
-    QtWebView::initialize();
 
     QQuickStyle::setStyle("Material");
 

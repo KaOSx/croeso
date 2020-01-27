@@ -43,21 +43,21 @@ Item {
         Column {
             id: column
             x: 130
-            y: 40
+            y: 10
             width: 120
-            height: 546
+            height: 598
             spacing: 5
 
             Rectangle {
                 width: 600
-                height: 120
+                height: 110
                 radius: 10
                 border.width: 0
                 Text {
                     width: 393
                     height: 104
                     anchors.centerIn: parent
-                    text: "Skrooge allows you to manage your personal finances, powered by KDE. Thanks to its many features, it is one of the most powerful way to enter, follow, and analyze your expenses. Skrooge support a large number of file formats, so there is every chance that you can import existing data."
+                    text: "Skrooge allows you to manage your personal finances, powered by KDE. Thanks to its many features, it is one of the most powerful way to enter, follow, and analyze your expenses. It support a large number of file formats, so that you can import existing data."
                     font.pointSize: 10
                     anchors.verticalCenterOffset: 0
                     anchors.horizontalCenterOffset: 96
@@ -98,7 +98,7 @@ Item {
             Rectangle {
                 id: rectangle
                 width: 600
-                height: 120
+                height: 110
                 color: "#ffffff"
                 radius: 10
                 border.width: 0
@@ -106,7 +106,7 @@ Item {
                     width: 393
                     height: 104
                     anchors.centerIn: parent
-                    text: "Sigil is a multi-platform EPUB ebook editor. It features EPUB 2 spec support with a lot of EPUB 3 support, Code View and Preview View, complete control over directly editing EPUB syntax in Code View, spell checking with default and user configurable dictionaries and metadata editor"
+                    text: "Sigil is a multi-platform EPUB ebook editor. It features EPUB 2 spec support with a lot of EPUB 3 support, Code View and Preview View, complete control over directly editing EPUB syntax in Code View, spell checking with configurable dictionaries and metadata editor."
                     font.pointSize: 10
                     anchors.verticalCenterOffset: 0
                     anchors.horizontalCenterOffset: 96
@@ -146,7 +146,7 @@ Item {
             Rectangle {
                 id: rectangle1
                 width: 600
-                height: 120
+                height: 110
                 color: "#ffffff"
                 radius: 10
                 border.width: 0
@@ -154,7 +154,7 @@ Item {
                     width: 371
                     height: 104
                     anchors.centerIn: parent
-                    text: "Scribus is one of the premier Open Source desktop applications. It supports professional publishing features, such as CMYK colors, spot colors, ICC color management and versatile PDF creation and has powerful vector drawing tools and rendering of markup languages like LaTeX or Lilypond."
+                    text: "Scribus is one of the premier Open Source desktop applications. It supports professional publishing features, such as CMYK, spot & ICC color management, versatile PDF creation, has vector drawing tools and rendering of markup languages like LaTeX or Lilypond."
                     font.pointSize: 10
                     anchors.verticalCenterOffset: 0
                     anchors.horizontalCenterOffset: 96
@@ -194,7 +194,7 @@ Item {
             Rectangle {
                 id: rectangle2
                 width: 600
-                height: 120
+                height: 110
                 color: "#ffffff"
                 radius: 10
                 border.width: 0
@@ -236,6 +236,53 @@ Item {
                     height: 100
                     fillMode: Image.PreserveAspectFit
                     source: "../images/packages/focuswriter.png"
+                }
+            }
+        Rectangle {
+                id: rectangle3
+                width: 600
+                height: 110
+                color: "#ffffff"
+                radius: 10
+                border.width: 0
+                Text {
+                    width: 371
+                    height: 104
+                    anchors.centerIn: parent
+                    text: "The Calligra Suite offers a comprehensive set of 8 applications which satisfies the office, graphics and management needs, which share some common UI concepts that gives it a modern look better suited for the wide screens of today."
+                    font.pointSize: 10
+                    anchors.verticalCenterOffset: 0
+                    anchors.horizontalCenterOffset: 96
+                    wrapMode: Text.WordWrap
+                }
+                
+                Switch {
+                    id: element5
+                    x: 405
+                    y: 73
+                    width: 187
+                    height: 39
+                    text: qsTr("Add Calligra")
+                    checked: false
+                    hoverEnabled: true
+                    
+                    onCheckedChanged: {
+                        if ( ! checked ) {
+                            executer.connectSource("sed -i -e 's|calligra||' /tmp/croeso_list.txt");
+                        }
+                        else {
+                            executer.connectSource("echo 'calligra' >> /tmp/croeso_list.txt");
+                        }
+                    }
+                }
+                
+                Image {
+                    id: image5
+                    x: 8
+                    y: 12
+                    height: 100
+                    fillMode: Image.PreserveAspectFit
+                    source: "../images/packages/calligra.png"
                 }
             }
         }
