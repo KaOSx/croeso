@@ -138,39 +138,41 @@
     <message>
         <location filename="../Page4Form.ui.qml" line="52"/>
         <source>Web-Browsers</source>
-        <translation type="unfinished"/>
+        <translation>Navigateurs Web</translation>
     </message>
     <message>
         <location filename="../Page4Form.ui.qml" line="87"/>
         <source>Email Clients</source>
-        <translation type="unfinished"/>
+        <translation>Clients mail</translation>
     </message>
     <message>
         <location filename="../Page4Form.ui.qml" line="120"/>
         <source>Video Editors</source>
-        <translation type="unfinished"/>
+        <translation>Éditeurs vidéo</translation>
     </message>
     <message>
         <location filename="../Page4Form.ui.qml" line="162"/>
         <source>Music Players</source>
-        <translation type="unfinished"/>
+        <translation>Lecteurs de musique</translation>
     </message>
     <message>
         <location filename="../Page4Form.ui.qml" line="195"/>
         <source>Image Manipulation</source>
-        <translation type="unfinished"/>
+        <translation>Manipulation d’images</translation>
     </message>
     <message>
         <location filename="../Page4Form.ui.qml" line="228"/>
         <source>Office Applications</source>
-        <translation type="unfinished"/>
+        <translation>Applications bureautiques</translation>
     </message>
     <message>
         <location filename="../Page4Form.ui.qml" line="259"/>
         <source>&lt;h3&gt;Package Groups&lt;/h3&gt;
 
 Please choose one of the groups to see the various packages each group contains. Then select applications you wish to add to your install.  Multiple selections per group are possible.  Once done with your selection click the install button.</source>
-        <translation type="unfinished"/>
+        <translation>&lt;h3&gt;Groupes de paquets&lt;/h3&gt;
+
+Cliquez sur un des groupes pour voir les paquets contenus dans ce groupe. Puis sélectionnez les applications que vous souhaitez ajouter à votre installation. Vous pouvez sélectionner plusieurs paquets par groupe. Une fois la sélection terminée, cliquez sur le bouton Installer.</translation>
     </message>
 </context>
 <context>
@@ -212,27 +214,27 @@ Please choose one of the groups to see the various packages each group contains.
     <message>
         <location filename="../packages/chat.qml" line="73"/>
         <source>Add Quassel</source>
-        <translation type="unfinished"/>
+        <translation>Ajouter Quassel</translation>
     </message>
     <message>
         <location filename="../packages/chat.qml" line="122"/>
         <source>Add Konversation</source>
-        <translation type="unfinished"/>
+        <translation>Ajouter Konversation</translation>
     </message>
     <message>
         <location filename="../packages/chat.qml" line="170"/>
         <source>Add Telegram Desktop</source>
-        <translation type="unfinished"/>
+        <translation>Ajouter Telegram Desktop</translation>
     </message>
     <message>
         <location filename="../packages/chat.qml" line="218"/>
         <source>Add KDE Telapathy</source>
-        <translation type="unfinished"/>
+        <translation>Ajouter KDE Telepathy</translation>
     </message>
     <message>
         <location filename="../packages/chat.qml" line="249"/>
         <source>Back</source>
-        <translation type="unfinished"/>
+        <translation>Retour</translation>
     </message>
 </context>
 <context>
@@ -240,27 +242,27 @@ Please choose one of the groups to see the various packages each group contains.
     <message>
         <location filename="../packages/image.qml" line="73"/>
         <source>Add Krita</source>
-        <translation type="unfinished"/>
+        <translation>Ajouter Krita</translation>
     </message>
     <message>
         <location filename="../packages/image.qml" line="122"/>
         <source>Add Gimp</source>
-        <translation type="unfinished"/>
+        <translation>Ajouter Gimp</translation>
     </message>
     <message>
         <location filename="../packages/image.qml" line="170"/>
         <source>Add Digikam</source>
-        <translation type="unfinished"/>
+        <translation>Ajouter Digikam</translation>
     </message>
     <message>
         <location filename="../packages/image.qml" line="218"/>
         <source>Add Nomacs</source>
-        <translation type="unfinished"/>
+        <translation>Ajouter Nomacs</translation>
     </message>
     <message>
         <location filename="../packages/image.qml" line="249"/>
         <source>Back</source>
-        <translation type="unfinished"/>
+        <translation>Retour</translation>
     </message>
 </context>
 <context>
@@ -268,27 +270,27 @@ Please choose one of the groups to see the various packages each group contains.
     <message>
         <location filename="../packages/mail.qml" line="73"/>
         <source>Add Kmail</source>
-        <translation type="unfinished"/>
+        <translation>Ajouter Kmail</translation>
     </message>
     <message>
         <location filename="../packages/mail.qml" line="122"/>
         <source>Add Thunderbird</source>
-        <translation type="unfinished"/>
+        <translation>Ajouter Thunderbird</translation>
     </message>
     <message>
         <location filename="../packages/mail.qml" line="170"/>
         <source>Add Trojita</source>
-        <translation type="unfinished"/>
+        <translation>Ajouter Trojita</translation>
     </message>
     <message>
         <location filename="../packages/mail.qml" line="218"/>
         <source>Add Kube</source>
-        <translation type="unfinished"/>
+        <translation>Ajouter Kube</translation>
     </message>
     <message>
         <location filename="../packages/mail.qml" line="249"/>
         <source>Back</source>
-        <translation type="unfinished"/>
+        <translation>Retour</translation>
     </message>
 </context>
 <context>
@@ -362,7 +364,7 @@ This page lists more advanced settings options.  Même cela ni signifie pour aut
     <message>
         <location filename="../main.qml" line="239"/>
         <source>Packages</source>
-        <translation type="unfinished"/>
+        <translation>Paquets</translation>
     </message>
     <message>
         <location filename="../main.qml" line="242"/>
@@ -400,27 +402,27 @@ This page lists more advanced settings options.  Même cela ni signifie pour aut
     <message>
         <location filename="../packages/music.qml" line="73"/>
         <source>Add Elisa</source>
-        <translation type="unfinished"/>
+        <translation>Ajouter Elisa</translation>
     </message>
     <message>
         <location filename="../packages/music.qml" line="122"/>
         <source>Add Strawberry</source>
-        <translation type="unfinished"/>
+        <translation>Ajouter Strawberry</translation>
     </message>
     <message>
         <location filename="../packages/music.qml" line="170"/>
         <source>Add Cantata</source>
-        <translation type="unfinished"/>
+        <translation>Ajouter Cantata</translation>
     </message>
     <message>
         <location filename="../packages/music.qml" line="218"/>
         <source>Add Qmmp</source>
-        <translation type="unfinished"/>
+        <translation>Ajouter Qmmp</translation>
     </message>
     <message>
         <location filename="../packages/music.qml" line="249"/>
         <source>Back</source>
-        <translation type="unfinished"/>
+        <translation>Retour</translation>
     </message>
 </context>
 <context>
@@ -470,27 +472,32 @@ This page lists more advanced settings options.  Même cela ni signifie pour aut
     <message>
         <location filename="../packages/office.qml" line="73"/>
         <source>Add Skrooge</source>
-        <translation type="unfinished"/>
+        <translation>Ajouter Skrooge</translation>
     </message>
     <message>
         <location filename="../packages/office.qml" line="122"/>
         <source>Add Sigil</source>
-        <translation type="unfinished"/>
+        <translation>Ajouter Sigil</translation>
     </message>
     <message>
         <location filename="../packages/office.qml" line="170"/>
         <source>Add Scribus</source>
-        <translation type="unfinished"/>
+        <translation>Ajouter Scribus</translation>
     </message>
     <message>
         <location filename="../packages/office.qml" line="218"/>
         <source>Add Focuswriter</source>
+        <translation>Ajouter Focuswriter</translation>
+    </message>
+    <message>
+        <location filename="../packages/office.qml" line="265"/>
+        <source>Add Calligra</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../packages/office.qml" line="249"/>
+        <location filename="../packages/office.qml" line="296"/>
         <source>Back</source>
-        <translation type="unfinished"/>
+        <translation>Retour</translation>
     </message>
 </context>
 <context>
@@ -498,27 +505,27 @@ This page lists more advanced settings options.  Même cela ni signifie pour aut
     <message>
         <location filename="../packages/video.qml" line="73"/>
         <source>Add Kdenlive</source>
-        <translation type="unfinished"/>
+        <translation>Ajouter Kdenlive</translation>
     </message>
     <message>
         <location filename="../packages/video.qml" line="122"/>
         <source>Add Openshot</source>
-        <translation type="unfinished"/>
+        <translation>Ajouter Openshot</translation>
     </message>
     <message>
         <location filename="../packages/video.qml" line="170"/>
         <source>Add Lightworks</source>
-        <translation type="unfinished"/>
+        <translation>Ajouter Lightworks</translation>
     </message>
     <message>
         <location filename="../packages/video.qml" line="218"/>
         <source>Add Avidemux</source>
-        <translation type="unfinished"/>
+        <translation>Ajouter Avidemux</translation>
     </message>
     <message>
         <location filename="../packages/video.qml" line="249"/>
         <source>Back</source>
-        <translation type="unfinished"/>
+        <translation>Retour</translation>
     </message>
 </context>
 <context>
@@ -553,27 +560,27 @@ This page lists more advanced settings options.  Même cela ni signifie pour aut
     <message>
         <location filename="../packages/web.qml" line="72"/>
         <source>Add Firefox</source>
-        <translation type="unfinished"/>
+        <translation>Ajouter Firefox</translation>
     </message>
     <message>
         <location filename="../packages/web.qml" line="123"/>
         <source>Add Chrome</source>
-        <translation type="unfinished"/>
+        <translation>Ajouter Chrome</translation>
     </message>
     <message>
         <location filename="../packages/web.qml" line="173"/>
         <source>Add Opera</source>
-        <translation type="unfinished"/>
+        <translation>Ajouter Opera</translation>
     </message>
     <message>
         <location filename="../packages/web.qml" line="221"/>
         <source>Add Otter Browser</source>
-        <translation type="unfinished"/>
+        <translation>Ajouter Otter Browser</translation>
     </message>
     <message>
         <location filename="../packages/web.qml" line="252"/>
         <source>Back</source>
-        <translation type="unfinished"/>
+        <translation>Retour</translation>
     </message>
 </context>
 </TS>

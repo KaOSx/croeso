@@ -4,7 +4,7 @@
     <message>
         <location filename="../Page1Form.ui.qml" line="51"/>
         <source>Widget Style</source>
-        <translation>Widgetstil</translation>
+        <translation>Steuerelementstil</translation>
     </message>
     <message>
         <location filename="../Page1Form.ui.qml" line="77"/>
@@ -138,7 +138,7 @@
     <message>
         <location filename="../Page4Form.ui.qml" line="52"/>
         <source>Web-Browsers</source>
-        <translation type="unfinished"/>
+        <translation>Webbrowser</translation>
     </message>
     <message>
         <location filename="../Page4Form.ui.qml" line="87"/>
@@ -158,12 +158,12 @@
     <message>
         <location filename="../Page4Form.ui.qml" line="195"/>
         <source>Image Manipulation</source>
-        <translation type="unfinished"/>
+        <translation>Bildbearbeitung</translation>
     </message>
     <message>
         <location filename="../Page4Form.ui.qml" line="228"/>
         <source>Office Applications</source>
-        <translation type="unfinished"/>
+        <translation>Büroanwendungen</translation>
     </message>
     <message>
         <location filename="../Page4Form.ui.qml" line="259"/>
@@ -212,17 +212,17 @@ Please choose one of the groups to see the various packages each group contains.
     <message>
         <location filename="../packages/chat.qml" line="73"/>
         <source>Add Quassel</source>
-        <translation type="unfinished"/>
+        <translation>Quassel hinzufügen</translation>
     </message>
     <message>
         <location filename="../packages/chat.qml" line="122"/>
         <source>Add Konversation</source>
-        <translation type="unfinished"/>
+        <translation>Konversation hinzufügen</translation>
     </message>
     <message>
         <location filename="../packages/chat.qml" line="170"/>
         <source>Add Telegram Desktop</source>
-        <translation type="unfinished"/>
+        <translation>Telegram Desktop hinzufügen</translation>
     </message>
     <message>
         <location filename="../packages/chat.qml" line="218"/>
@@ -232,7 +232,7 @@ Please choose one of the groups to see the various packages each group contains.
     <message>
         <location filename="../packages/chat.qml" line="249"/>
         <source>Back</source>
-        <translation type="unfinished"/>
+        <translation>Zurück</translation>
     </message>
 </context>
 <context>
@@ -240,27 +240,27 @@ Please choose one of the groups to see the various packages each group contains.
     <message>
         <location filename="../packages/image.qml" line="73"/>
         <source>Add Krita</source>
-        <translation type="unfinished"/>
+        <translation>Krita hinzufügen</translation>
     </message>
     <message>
         <location filename="../packages/image.qml" line="122"/>
         <source>Add Gimp</source>
-        <translation type="unfinished"/>
+        <translation>Gimp hinzufügen</translation>
     </message>
     <message>
         <location filename="../packages/image.qml" line="170"/>
         <source>Add Digikam</source>
-        <translation type="unfinished"/>
+        <translation>Digikam hinzufügen</translation>
     </message>
     <message>
         <location filename="../packages/image.qml" line="218"/>
         <source>Add Nomacs</source>
-        <translation type="unfinished"/>
+        <translation>Nomacs hinzufügen</translation>
     </message>
     <message>
         <location filename="../packages/image.qml" line="249"/>
         <source>Back</source>
-        <translation type="unfinished"/>
+        <translation>Zurück</translation>
     </message>
 </context>
 <context>
@@ -268,27 +268,27 @@ Please choose one of the groups to see the various packages each group contains.
     <message>
         <location filename="../packages/mail.qml" line="73"/>
         <source>Add Kmail</source>
-        <translation type="unfinished"/>
+        <translation>Kmail hinzufügen</translation>
     </message>
     <message>
         <location filename="../packages/mail.qml" line="122"/>
         <source>Add Thunderbird</source>
-        <translation type="unfinished"/>
+        <translation>Thunderbird hinzufügen</translation>
     </message>
     <message>
         <location filename="../packages/mail.qml" line="170"/>
         <source>Add Trojita</source>
-        <translation type="unfinished"/>
+        <translation>Trojita hinzufügen</translation>
     </message>
     <message>
         <location filename="../packages/mail.qml" line="218"/>
         <source>Add Kube</source>
-        <translation type="unfinished"/>
+        <translation>Kube hinzufügen</translation>
     </message>
     <message>
         <location filename="../packages/mail.qml" line="249"/>
         <source>Back</source>
-        <translation type="unfinished"/>
+        <translation>Zurück</translation>
     </message>
 </context>
 <context>
@@ -361,7 +361,7 @@ nicht weniger wichtig.&lt;/p&gt;
     <message>
         <location filename="../main.qml" line="239"/>
         <source>Packages</source>
-        <translation type="unfinished"/>
+        <translation>Pakete</translation>
     </message>
     <message>
         <location filename="../main.qml" line="242"/>
@@ -399,7 +399,7 @@ nicht weniger wichtig.&lt;/p&gt;
     <message>
         <location filename="../packages/music.qml" line="73"/>
         <source>Add Elisa</source>
-        <translation type="unfinished"/>
+        <translation>Elisa hinzufügen</translation>
     </message>
     <message>
         <location filename="../packages/music.qml" line="122"/>
@@ -414,12 +414,12 @@ nicht weniger wichtig.&lt;/p&gt;
     <message>
         <location filename="../packages/music.qml" line="218"/>
         <source>Add Qmmp</source>
-        <translation type="unfinished"/>
+        <translation>Qmmp hinzufügen</translation>
     </message>
     <message>
         <location filename="../packages/music.qml" line="249"/>
         <source>Back</source>
-        <translation type="unfinished"/>
+        <translation>Zurück</translation>
     </message>
 </context>
 <context>
@@ -474,22 +474,27 @@ nicht weniger wichtig.&lt;/p&gt;
     <message>
         <location filename="../packages/office.qml" line="122"/>
         <source>Add Sigil</source>
-        <translation type="unfinished"/>
+        <translation>Sigil hinzufügen</translation>
     </message>
     <message>
         <location filename="../packages/office.qml" line="170"/>
         <source>Add Scribus</source>
-        <translation type="unfinished"/>
+        <translation>Scribus hinzufügen</translation>
     </message>
     <message>
         <location filename="../packages/office.qml" line="218"/>
         <source>Add Focuswriter</source>
+        <translation>Focuswriter hinzufügen</translation>
+    </message>
+    <message>
+        <location filename="../packages/office.qml" line="265"/>
+        <source>Add Calligra</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../packages/office.qml" line="249"/>
+        <location filename="../packages/office.qml" line="296"/>
         <source>Back</source>
-        <translation type="unfinished"/>
+        <translation>Zurück</translation>
     </message>
 </context>
 <context>
@@ -497,27 +502,27 @@ nicht weniger wichtig.&lt;/p&gt;
     <message>
         <location filename="../packages/video.qml" line="73"/>
         <source>Add Kdenlive</source>
-        <translation type="unfinished"/>
+        <translation>Kdenlive hinzufügen</translation>
     </message>
     <message>
         <location filename="../packages/video.qml" line="122"/>
         <source>Add Openshot</source>
-        <translation type="unfinished"/>
+        <translation>Openshot hinzufügen</translation>
     </message>
     <message>
         <location filename="../packages/video.qml" line="170"/>
         <source>Add Lightworks</source>
-        <translation type="unfinished"/>
+        <translation>Lightworks hinzufügen</translation>
     </message>
     <message>
         <location filename="../packages/video.qml" line="218"/>
         <source>Add Avidemux</source>
-        <translation type="unfinished"/>
+        <translation>Avidemux hinzufügen</translation>
     </message>
     <message>
         <location filename="../packages/video.qml" line="249"/>
         <source>Back</source>
-        <translation type="unfinished"/>
+        <translation>Zurück</translation>
     </message>
 </context>
 <context>
@@ -552,27 +557,27 @@ nicht weniger wichtig.&lt;/p&gt;
     <message>
         <location filename="../packages/web.qml" line="72"/>
         <source>Add Firefox</source>
-        <translation type="unfinished"/>
+        <translation>Firefox hinzufügen</translation>
     </message>
     <message>
         <location filename="../packages/web.qml" line="123"/>
         <source>Add Chrome</source>
-        <translation type="unfinished"/>
+        <translation>Chrome hinzufügen</translation>
     </message>
     <message>
         <location filename="../packages/web.qml" line="173"/>
         <source>Add Opera</source>
-        <translation type="unfinished"/>
+        <translation>Opera hinzufügen</translation>
     </message>
     <message>
         <location filename="../packages/web.qml" line="221"/>
         <source>Add Otter Browser</source>
-        <translation type="unfinished"/>
+        <translation>Otter Browser hinzufügen</translation>
     </message>
     <message>
         <location filename="../packages/web.qml" line="252"/>
         <source>Back</source>
-        <translation type="unfinished"/>
+        <translation>Zurück</translation>
     </message>
 </context>
 </TS>

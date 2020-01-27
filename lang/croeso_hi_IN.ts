@@ -487,7 +487,12 @@ KaOS के पीछे उद्देश्य है आज के आधु
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../packages/office.qml" line="249"/>
+        <location filename="../packages/office.qml" line="265"/>
+        <source>Add Calligra</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../packages/office.qml" line="296"/>
         <source>Back</source>
         <translation type="unfinished"/>
     </message>

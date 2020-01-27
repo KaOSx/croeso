@@ -138,39 +138,41 @@
     <message>
         <location filename="../Page4Form.ui.qml" line="52"/>
         <source>Web-Browsers</source>
-        <translation type="unfinished"/>
+        <translation>Navegadors web</translation>
     </message>
     <message>
         <location filename="../Page4Form.ui.qml" line="87"/>
         <source>Email Clients</source>
-        <translation type="unfinished"/>
+        <translation>Clients de correu</translation>
     </message>
     <message>
         <location filename="../Page4Form.ui.qml" line="120"/>
         <source>Video Editors</source>
-        <translation type="unfinished"/>
+        <translation>Editors de vídeo</translation>
     </message>
     <message>
         <location filename="../Page4Form.ui.qml" line="162"/>
         <source>Music Players</source>
-        <translation type="unfinished"/>
+        <translation>Reproductors de música</translation>
     </message>
     <message>
         <location filename="../Page4Form.ui.qml" line="195"/>
         <source>Image Manipulation</source>
-        <translation type="unfinished"/>
+        <translation>Manipulació d&apos;imatges</translation>
     </message>
     <message>
         <location filename="../Page4Form.ui.qml" line="228"/>
         <source>Office Applications</source>
-        <translation type="unfinished"/>
+        <translation>Aplicacions d&apos;oficina</translation>
     </message>
     <message>
         <location filename="../Page4Form.ui.qml" line="259"/>
         <source>&lt;h3&gt;Package Groups&lt;/h3&gt;
 
 Please choose one of the groups to see the various packages each group contains. Then select applications you wish to add to your install.  Multiple selections per group are possible.  Once done with your selection click the install button.</source>
-        <translation type="unfinished"/>
+        <translation>&lt;h3&gt;Grups de paquets&lt;/h3&gt;
+
+Si us plau, trieu un dels grups per veure els diversos paquets que conté. A continuació, seleccioneu les aplicacions que voleu afegir a la  instal·lació. Es poden fer múltiples seleccions per grup. Un cop feta la selecció, feu clic al botó d&apos;instal·lació.</translation>
     </message>
 </context>
 <context>
@@ -212,27 +214,27 @@ Please choose one of the groups to see the various packages each group contains.
     <message>
         <location filename="../packages/chat.qml" line="73"/>
         <source>Add Quassel</source>
-        <translation type="unfinished"/>
+        <translation>Afegiu Quassel</translation>
     </message>
     <message>
         <location filename="../packages/chat.qml" line="122"/>
         <source>Add Konversation</source>
-        <translation type="unfinished"/>
+        <translation>Afegiu Konversa</translation>
     </message>
     <message>
         <location filename="../packages/chat.qml" line="170"/>
         <source>Add Telegram Desktop</source>
-        <translation type="unfinished"/>
+        <translation>Afegiu Telegram Desktop</translation>
     </message>
     <message>
         <location filename="../packages/chat.qml" line="218"/>
         <source>Add KDE Telapathy</source>
-        <translation type="unfinished"/>
+        <translation>Afegiu KDE Telapathy</translation>
     </message>
     <message>
         <location filename="../packages/chat.qml" line="249"/>
         <source>Back</source>
-        <translation type="unfinished"/>
+        <translation>Enrere</translation>
     </message>
 </context>
 <context>
@@ -240,27 +242,27 @@ Please choose one of the groups to see the various packages each group contains.
     <message>
         <location filename="../packages/image.qml" line="73"/>
         <source>Add Krita</source>
-        <translation type="unfinished"/>
+        <translation>Afegiu Krita</translation>
     </message>
     <message>
         <location filename="../packages/image.qml" line="122"/>
         <source>Add Gimp</source>
-        <translation type="unfinished"/>
+        <translation>Afegiu Gimp</translation>
     </message>
     <message>
         <location filename="../packages/image.qml" line="170"/>
         <source>Add Digikam</source>
-        <translation type="unfinished"/>
+        <translation>Afegiu Digikam</translation>
     </message>
     <message>
         <location filename="../packages/image.qml" line="218"/>
         <source>Add Nomacs</source>
-        <translation type="unfinished"/>
+        <translation>Afegiu Nomacs</translation>
     </message>
     <message>
         <location filename="../packages/image.qml" line="249"/>
         <source>Back</source>
-        <translation type="unfinished"/>
+        <translation>Enrere</translation>
     </message>
 </context>
 <context>
@@ -268,27 +270,27 @@ Please choose one of the groups to see the various packages each group contains.
     <message>
         <location filename="../packages/mail.qml" line="73"/>
         <source>Add Kmail</source>
-        <translation type="unfinished"/>
+        <translation>Afegiu Kmail</translation>
     </message>
     <message>
         <location filename="../packages/mail.qml" line="122"/>
         <source>Add Thunderbird</source>
-        <translation type="unfinished"/>
+        <translation>Afegiu Thunderbird</translation>
     </message>
     <message>
         <location filename="../packages/mail.qml" line="170"/>
         <source>Add Trojita</source>
-        <translation type="unfinished"/>
+        <translation>Afegiu Trojita</translation>
     </message>
     <message>
         <location filename="../packages/mail.qml" line="218"/>
         <source>Add Kube</source>
-        <translation type="unfinished"/>
+        <translation>Afegiu Kube</translation>
     </message>
     <message>
         <location filename="../packages/mail.qml" line="249"/>
         <source>Back</source>
-        <translation type="unfinished"/>
+        <translation>Enrere</translation>
     </message>
 </context>
 <context>
@@ -361,7 +363,7 @@ Please choose one of the groups to see the various packages each group contains.
     <message>
         <location filename="../main.qml" line="239"/>
         <source>Packages</source>
-        <translation type="unfinished"/>
+        <translation>Paquets</translation>
     </message>
     <message>
         <location filename="../main.qml" line="242"/>
@@ -399,27 +401,27 @@ Please choose one of the groups to see the various packages each group contains.
     <message>
         <location filename="../packages/music.qml" line="73"/>
         <source>Add Elisa</source>
-        <translation type="unfinished"/>
+        <translation>Afegiu Elisa</translation>
     </message>
     <message>
         <location filename="../packages/music.qml" line="122"/>
         <source>Add Strawberry</source>
-        <translation type="unfinished"/>
+        <translation>Afegiu Strawberry</translation>
     </message>
     <message>
         <location filename="../packages/music.qml" line="170"/>
         <source>Add Cantata</source>
-        <translation type="unfinished"/>
+        <translation>Afegiu Cantata</translation>
     </message>
     <message>
         <location filename="../packages/music.qml" line="218"/>
         <source>Add Qmmp</source>
-        <translation type="unfinished"/>
+        <translation>Afegiu Qmmp</translation>
     </message>
     <message>
         <location filename="../packages/music.qml" line="249"/>
         <source>Back</source>
-        <translation type="unfinished"/>
+        <translation>Enrere</translation>
     </message>
 </context>
 <context>
@@ -469,27 +471,32 @@ Please choose one of the groups to see the various packages each group contains.
     <message>
         <location filename="../packages/office.qml" line="73"/>
         <source>Add Skrooge</source>
-        <translation type="unfinished"/>
+        <translation>Afegiu Skrooge</translation>
     </message>
     <message>
         <location filename="../packages/office.qml" line="122"/>
         <source>Add Sigil</source>
-        <translation type="unfinished"/>
+        <translation>Afegiu Sigil</translation>
     </message>
     <message>
         <location filename="../packages/office.qml" line="170"/>
         <source>Add Scribus</source>
-        <translation type="unfinished"/>
+        <translation>Afegiu Scribus</translation>
     </message>
     <message>
         <location filename="../packages/office.qml" line="218"/>
         <source>Add Focuswriter</source>
+        <translation>Afegiu Focuswriter</translation>
+    </message>
+    <message>
+        <location filename="../packages/office.qml" line="265"/>
+        <source>Add Calligra</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../packages/office.qml" line="249"/>
+        <location filename="../packages/office.qml" line="296"/>
         <source>Back</source>
-        <translation type="unfinished"/>
+        <translation>Enrere</translation>
     </message>
 </context>
 <context>
@@ -497,27 +504,27 @@ Please choose one of the groups to see the various packages each group contains.
     <message>
         <location filename="../packages/video.qml" line="73"/>
         <source>Add Kdenlive</source>
-        <translation type="unfinished"/>
+        <translation>Afegiu Kdenlive</translation>
     </message>
     <message>
         <location filename="../packages/video.qml" line="122"/>
         <source>Add Openshot</source>
-        <translation type="unfinished"/>
+        <translation>Afegiu Openshot</translation>
     </message>
     <message>
         <location filename="../packages/video.qml" line="170"/>
         <source>Add Lightworks</source>
-        <translation type="unfinished"/>
+        <translation>Afegiu Lightworks</translation>
     </message>
     <message>
         <location filename="../packages/video.qml" line="218"/>
         <source>Add Avidemux</source>
-        <translation type="unfinished"/>
+        <translation>Afegiu Avidemux</translation>
     </message>
     <message>
         <location filename="../packages/video.qml" line="249"/>
         <source>Back</source>
-        <translation type="unfinished"/>
+        <translation>Enrere</translation>
     </message>
 </context>
 <context>
@@ -552,27 +559,27 @@ Please choose one of the groups to see the various packages each group contains.
     <message>
         <location filename="../packages/web.qml" line="72"/>
         <source>Add Firefox</source>
-        <translation type="unfinished"/>
+        <translation>Afegiu Firefox</translation>
     </message>
     <message>
         <location filename="../packages/web.qml" line="123"/>
         <source>Add Chrome</source>
-        <translation type="unfinished"/>
+        <translation>Afegiu Chrome</translation>
     </message>
     <message>
         <location filename="../packages/web.qml" line="173"/>
         <source>Add Opera</source>
-        <translation type="unfinished"/>
+        <translation>Afegiu Opera</translation>
     </message>
     <message>
         <location filename="../packages/web.qml" line="221"/>
         <source>Add Otter Browser</source>
-        <translation type="unfinished"/>
+        <translation>Afegiu un altre navegador</translation>
     </message>
     <message>
         <location filename="../packages/web.qml" line="252"/>
         <source>Back</source>
-        <translation type="unfinished"/>
+        <translation>Enrere</translation>
     </message>
 </context>
 </TS>

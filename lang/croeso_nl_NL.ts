@@ -172,7 +172,7 @@
 Please choose one of the groups to see the various packages each group contains. Then select applications you wish to add to your install.  Multiple selections per group are possible.  Once done with your selection click the install button.</source>
         <translation>&lt;h3&gt;Pakketgroepen&lt;/h3&gt;
 
-Kies een van de groepen om de verschillende pakketten te zien die elke groep bevat. Selecteer vervolgens toepassingen die je aan je installatie toe wilt voegen. Meerdere selecties per groep zijn mogelijk. Als je klaar bent met je selectie, klikt u op de Installeren knop.</translation>
+Kies een van de groepen om de verschillende pakketten te zien die elke groep bevat. Selecteer vervolgens toepassingen die je aan je installatie toe wilt voegen. Meerdere selecties per groep zijn mogelijk. Als je klaar bent met je selectie, klikt op de Installeren knop.</translation>
     </message>
 </context>
 <context>
@@ -313,7 +313,7 @@ Kies een van de groepen om de verschillende pakketten te zien die elke groep bev
                             distributie voor de moderne desktop te maken, opgebouwd vanuit het niets met&lt;br&gt;
                              een zeer specifeke focus. Focus op één DE (KDE), één toolkit (Qt) &amp; één architectuur (x86_64).&lt;br&gt;
                             Plus een focus op de beoordeling en selectie van de meest geschikte tools en applicaties&lt;br&gt;&lt;br&gt;
-                            Deze wizard zal je helpen je Kaos werkruimte gemakkelijk en snel te personaliseren.&lt;/div&gt;</translation>
+                            Deze wizard zal je helpen je KaOS werkruimte gemakkelijk en snel te personaliseren.&lt;/div&gt;</translation>
     </message>
     <message>
         <location filename="../main.qml" line="90"/>
@@ -472,7 +472,12 @@ Kies een van de groepen om de verschillende pakketten te zien die elke groep bev
         <translation>Focuswriter Toevoegen</translation>
     </message>
     <message>
-        <location filename="../packages/office.qml" line="249"/>
+        <location filename="../packages/office.qml" line="265"/>
+        <source>Add Calligra</source>
+        <translation>Calligra Toevoegen</translation>
+    </message>
+    <message>
+        <location filename="../packages/office.qml" line="296"/>
         <source>Back</source>
         <translation>Terug</translation>
     </message>
