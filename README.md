@@ -2,7 +2,8 @@
 First run settings and info app for KaOS, written in QML
 
 ![Screenshot](images/croeso1.png)
-![Screenshot2](images/croeso2.png)
+![Package Selection](images/croeso2.png)
+![Wallpapers](images/croeso3.png)
 
 ### License
 GPL
