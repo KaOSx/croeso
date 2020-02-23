@@ -492,7 +492,7 @@ This page lists more advanced settings options.  Même cela ni signifie pour aut
     <message>
         <location filename="../packages/office.qml" line="265"/>
         <source>Add Calligra</source>
-        <translation type="unfinished"/>
+        <translation>Ajouter Calligra</translation>
     </message>
     <message>
         <location filename="../packages/office.qml" line="296"/>

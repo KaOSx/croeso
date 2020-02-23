@@ -491,7 +491,7 @@ Si us plau, trieu un dels grups per veure els diversos paquets que conté. A con
     <message>
         <location filename="../packages/office.qml" line="265"/>
         <source>Add Calligra</source>
-        <translation type="unfinished"/>
+        <translation>Afegiu Calligra</translation>
     </message>
     <message>
         <location filename="../packages/office.qml" line="296"/>
