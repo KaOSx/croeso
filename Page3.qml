@@ -29,7 +29,7 @@ Page3Form {
     }
     
     button1.onClicked: {
-        executer.connectSource("kcmshell5 org_nxos_firewall");
+        executer.connectSource("kcmshell5 kcm_firewall");
     }
     button2.onClicked: {
         executer.connectSource("kcmshell5 powerdevilprofilesconfig");
