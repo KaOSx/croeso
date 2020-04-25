@@ -143,17 +143,17 @@
     <message>
         <location filename="../Page4Form.ui.qml" line="87"/>
         <source>Email Clients</source>
-        <translation type="unfinished"/>
+        <translation>Email-Clients</translation>
     </message>
     <message>
         <location filename="../Page4Form.ui.qml" line="120"/>
         <source>Video Editors</source>
-        <translation type="unfinished"/>
+        <translation>Video-Editoren</translation>
     </message>
     <message>
         <location filename="../Page4Form.ui.qml" line="162"/>
         <source>Music Players</source>
-        <translation type="unfinished"/>
+        <translation>Music-Player</translation>
     </message>
     <message>
         <location filename="../Page4Form.ui.qml" line="195"/>
@@ -227,7 +227,7 @@ Please choose one of the groups to see the various packages each group contains.
     <message>
         <location filename="../packages/chat.qml" line="218"/>
         <source>Add KDE Telapathy</source>
-        <translation type="unfinished"/>
+        <translation>KDE Telepathy hinzufügen</translation>
     </message>
     <message>
         <location filename="../packages/chat.qml" line="249"/>
@@ -404,12 +404,12 @@ nicht weniger wichtig.&lt;/p&gt;
     <message>
         <location filename="../packages/music.qml" line="122"/>
         <source>Add Strawberry</source>
-        <translation type="unfinished"/>
+        <translation>Strawberry hinzufügen</translation>
     </message>
     <message>
         <location filename="../packages/music.qml" line="170"/>
         <source>Add Cantata</source>
-        <translation type="unfinished"/>
+        <translation>Cantata hinzufügen</translation>
     </message>
     <message>
         <location filename="../packages/music.qml" line="218"/>
@@ -469,7 +469,7 @@ nicht weniger wichtig.&lt;/p&gt;
     <message>
         <location filename="../packages/office.qml" line="73"/>
         <source>Add Skrooge</source>
-        <translation type="unfinished"/>
+        <translation>Skrooge hinzufügen</translation>
     </message>
     <message>
         <location filename="../packages/office.qml" line="122"/>
@@ -489,7 +489,7 @@ nicht weniger wichtig.&lt;/p&gt;
     <message>
         <location filename="../packages/office.qml" line="265"/>
         <source>Add Calligra</source>
-        <translation type="unfinished"/>
+        <translation>Calligra hinzufügen</translation>
     </message>
     <message>
         <location filename="../packages/office.qml" line="296"/>

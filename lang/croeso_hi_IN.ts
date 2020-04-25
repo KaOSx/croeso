@@ -138,17 +138,17 @@
     <message>
         <location filename="../Page4Form.ui.qml" line="52"/>
         <source>Web-Browsers</source>
-        <translation type="unfinished"/>
+        <translation>वेब-ब्राउज़र</translation>
     </message>
     <message>
         <location filename="../Page4Form.ui.qml" line="87"/>
         <source>Email Clients</source>
-        <translation type="unfinished"/>
+        <translation>ईमेल क्लाइंट</translation>
     </message>
     <message>
         <location filename="../Page4Form.ui.qml" line="120"/>
         <source>Video Editors</source>
-        <translation type="unfinished"/>
+        <translation>वीडियो एडिटर</translation>
     </message>
     <message>
         <location filename="../Page4Form.ui.qml" line="162"/>
@@ -232,7 +232,7 @@ Please choose one of the groups to see the various packages each group contains.
     <message>
         <location filename="../packages/chat.qml" line="249"/>
         <source>Back</source>
-        <translation type="unfinished"/>
+        <translation>वापस</translation>
     </message>
 </context>
 <context>
@@ -260,7 +260,7 @@ Please choose one of the groups to see the various packages each group contains.
     <message>
         <location filename="../packages/image.qml" line="249"/>
         <source>Back</source>
-        <translation type="unfinished"/>
+        <translation>वापस</translation>
     </message>
 </context>
 <context>
@@ -288,7 +288,7 @@ Please choose one of the groups to see the various packages each group contains.
     <message>
         <location filename="../packages/mail.qml" line="249"/>
         <source>Back</source>
-        <translation type="unfinished"/>
+        <translation>वापस</translation>
     </message>
 </context>
 <context>
@@ -361,7 +361,7 @@ KaOS के पीछे उद्देश्य है आज के आधु
     <message>
         <location filename="../main.qml" line="239"/>
         <source>Packages</source>
-        <translation type="unfinished"/>
+        <translation>पैकेज</translation>
     </message>
     <message>
         <location filename="../main.qml" line="242"/>
@@ -419,7 +419,7 @@ KaOS के पीछे उद्देश्य है आज के आधु
     <message>
         <location filename="../packages/music.qml" line="249"/>
         <source>Back</source>
-        <translation type="unfinished"/>
+        <translation>वापस</translation>
     </message>
 </context>
 <context>
@@ -494,7 +494,7 @@ KaOS के पीछे उद्देश्य है आज के आधु
     <message>
         <location filename="../packages/office.qml" line="296"/>
         <source>Back</source>
-        <translation type="unfinished"/>
+        <translation>वापस</translation>
     </message>
 </context>
 <context>
@@ -522,7 +522,7 @@ KaOS के पीछे उद्देश्य है आज के आधु
     <message>
         <location filename="../packages/video.qml" line="249"/>
         <source>Back</source>
-        <translation type="unfinished"/>
+        <translation>वापस</translation>
     </message>
 </context>
 <context>
@@ -577,7 +577,7 @@ KaOS के पीछे उद्देश्य है आज के आधु
     <message>
         <location filename="../packages/web.qml" line="252"/>
         <source>Back</source>
-        <translation type="unfinished"/>
+        <translation>वापस</translation>
     </message>
 </context>
 </TS>
