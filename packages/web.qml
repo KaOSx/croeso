@@ -38,6 +38,9 @@ Item {
         y: 14
         anchors.fill: parent
         color: "#f2f2f2"
+        MouseArea {
+            anchors.fill: parent
+        }
         
         Column {
             id: column
