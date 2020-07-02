@@ -153,24 +153,26 @@
     <message>
         <location filename="../Page4Form.ui.qml" line="162"/>
         <source>Music Players</source>
-        <translation type="unfinished"/>
+        <translation>संगीत प्लेयर</translation>
     </message>
     <message>
         <location filename="../Page4Form.ui.qml" line="195"/>
         <source>Image Manipulation</source>
-        <translation type="unfinished"/>
+        <translation>छवि फेरबदल</translation>
     </message>
     <message>
         <location filename="../Page4Form.ui.qml" line="228"/>
         <source>Office Applications</source>
-        <translation type="unfinished"/>
+        <translation>ऑफिस अनुप्रयोग</translation>
     </message>
     <message>
         <location filename="../Page4Form.ui.qml" line="259"/>
         <source>&lt;h3&gt;Package Groups&lt;/h3&gt;
 
 Please choose one of the groups to see the various packages each group contains. Then select applications you wish to add to your install.  Multiple selections per group are possible.  Once done with your selection click the install button.</source>
-        <translation type="unfinished"/>
+        <translation>&lt;h3&gt;पैकेज समूह&lt;/h3&gt;
+
+प्रत्येक समूह में सम्मिलित विभिन्न अनुप्रयोग देखने हेतु कृपया संबंधित समूह को चुनें। फिर वे अनुप्रयोग चुनें जिन्हें आप अपने इंस्टॉल करना चाहते हैं। हर समूह से एकाधिक चयन संभव हैं। चयन के उपरांत इंस्टॉल बटन पर क्लिक करें।</translation>
     </message>
 </context>
 <context>
@@ -212,22 +214,22 @@ Please choose one of the groups to see the various packages each group contains.
     <message>
         <location filename="../packages/chat.qml" line="73"/>
         <source>Add Quassel</source>
-        <translation type="unfinished"/>
+        <translation>क्वास्सेल जोड़ें</translation>
     </message>
     <message>
         <location filename="../packages/chat.qml" line="122"/>
         <source>Add Konversation</source>
-        <translation type="unfinished"/>
+        <translation>कॉन्वर्सेशन जोड़ें</translation>
     </message>
     <message>
         <location filename="../packages/chat.qml" line="170"/>
         <source>Add Telegram Desktop</source>
-        <translation type="unfinished"/>
+        <translation>टेलीग्राम जोड़ें</translation>
     </message>
     <message>
         <location filename="../packages/chat.qml" line="218"/>
         <source>Add KDE Telapathy</source>
-        <translation type="unfinished"/>
+        <translation>केडीई टेलीपैथी जोड़ें</translation>
     </message>
     <message>
         <location filename="../packages/chat.qml" line="249"/>
@@ -240,22 +242,22 @@ Please choose one of the groups to see the various packages each group contains.
     <message>
         <location filename="../packages/image.qml" line="73"/>
         <source>Add Krita</source>
-        <translation type="unfinished"/>
+        <translation>कृता जोड़ें</translation>
     </message>
     <message>
         <location filename="../packages/image.qml" line="122"/>
         <source>Add Gimp</source>
-        <translation type="unfinished"/>
+        <translation>Gimp जोड़ें</translation>
     </message>
     <message>
         <location filename="../packages/image.qml" line="170"/>
         <source>Add Digikam</source>
-        <translation type="unfinished"/>
+        <translation>डिजिकैम जोड़ें</translation>
     </message>
     <message>
         <location filename="../packages/image.qml" line="218"/>
         <source>Add Nomacs</source>
-        <translation type="unfinished"/>
+        <translation>Nomacs जोड़ें</translation>
     </message>
     <message>
         <location filename="../packages/image.qml" line="249"/>
@@ -268,22 +270,22 @@ Please choose one of the groups to see the various packages each group contains.
     <message>
         <location filename="../packages/mail.qml" line="73"/>
         <source>Add Kmail</source>
-        <translation type="unfinished"/>
+        <translation>के-मेल जोड़ें</translation>
     </message>
     <message>
         <location filename="../packages/mail.qml" line="122"/>
         <source>Add Thunderbird</source>
-        <translation type="unfinished"/>
+        <translation>थंडरबर्ड जोड़ें</translation>
     </message>
     <message>
         <location filename="../packages/mail.qml" line="170"/>
         <source>Add Trojita</source>
-        <translation type="unfinished"/>
+        <translation>ट्रोजिता जोड़ें</translation>
     </message>
     <message>
         <location filename="../packages/mail.qml" line="218"/>
         <source>Add Kube</source>
-        <translation type="unfinished"/>
+        <translation>क्यूब जोड़ें</translation>
     </message>
     <message>
         <location filename="../packages/mail.qml" line="249"/>
@@ -399,22 +401,22 @@ KaOS के पीछे उद्देश्य है आज के आधु
     <message>
         <location filename="../packages/music.qml" line="73"/>
         <source>Add Elisa</source>
-        <translation type="unfinished"/>
+        <translation>एलिसा जोड़ें</translation>
     </message>
     <message>
         <location filename="../packages/music.qml" line="122"/>
         <source>Add Strawberry</source>
-        <translation type="unfinished"/>
+        <translation>स्ट्रॉबेरी जोड़ें</translation>
     </message>
     <message>
         <location filename="../packages/music.qml" line="170"/>
         <source>Add Cantata</source>
-        <translation type="unfinished"/>
+        <translation>कंटाटा जोड़ें</translation>
     </message>
     <message>
         <location filename="../packages/music.qml" line="218"/>
         <source>Add Qmmp</source>
-        <translation type="unfinished"/>
+        <translation>Qmmp जोड़ें</translation>
     </message>
     <message>
         <location filename="../packages/music.qml" line="249"/>
@@ -469,27 +471,27 @@ KaOS के पीछे उद्देश्य है आज के आधु
     <message>
         <location filename="../packages/office.qml" line="73"/>
         <source>Add Skrooge</source>
-        <translation type="unfinished"/>
+        <translation>स्क्रूज जोड़ें</translation>
     </message>
     <message>
         <location filename="../packages/office.qml" line="122"/>
         <source>Add Sigil</source>
-        <translation type="unfinished"/>
+        <translation>सिगिल जोड़ें</translation>
     </message>
     <message>
         <location filename="../packages/office.qml" line="170"/>
         <source>Add Scribus</source>
-        <translation type="unfinished"/>
+        <translation>स्क्रिबस जोड़ें</translation>
     </message>
     <message>
         <location filename="../packages/office.qml" line="218"/>
         <source>Add Focuswriter</source>
-        <translation type="unfinished"/>
+        <translation>फोकस-राइटर जोड़ें</translation>
     </message>
     <message>
         <location filename="../packages/office.qml" line="265"/>
         <source>Add Calligra</source>
-        <translation type="unfinished"/>
+        <translation>कॉलिग्रा जोड़ें</translation>
     </message>
     <message>
         <location filename="../packages/office.qml" line="296"/>
@@ -502,22 +504,22 @@ KaOS के पीछे उद्देश्य है आज के आधु
     <message>
         <location filename="../packages/video.qml" line="73"/>
         <source>Add Kdenlive</source>
-        <translation type="unfinished"/>
+        <translation>केडीएन-लाइव जोड़ें</translation>
     </message>
     <message>
         <location filename="../packages/video.qml" line="122"/>
         <source>Add Openshot</source>
-        <translation type="unfinished"/>
+        <translation>ओपनशॉट जोड़ें</translation>
     </message>
     <message>
         <location filename="../packages/video.qml" line="170"/>
         <source>Add Lightworks</source>
-        <translation type="unfinished"/>
+        <translation>लाइट-वर्क्स जोड़ें</translation>
     </message>
     <message>
         <location filename="../packages/video.qml" line="218"/>
         <source>Add Avidemux</source>
-        <translation type="unfinished"/>
+        <translation>अवि-डीमक्स जोड़ें</translation>
     </message>
     <message>
         <location filename="../packages/video.qml" line="249"/>
@@ -557,22 +559,22 @@ KaOS के पीछे उद्देश्य है आज के आधु
     <message>
         <location filename="../packages/web.qml" line="72"/>
         <source>Add Firefox</source>
-        <translation type="unfinished"/>
+        <translation>फायरफॉक्स जोड़ें</translation>
     </message>
     <message>
         <location filename="../packages/web.qml" line="123"/>
         <source>Add Chrome</source>
-        <translation type="unfinished"/>
+        <translation>गूगल क्रोम जोड़ें</translation>
     </message>
     <message>
         <location filename="../packages/web.qml" line="173"/>
         <source>Add Opera</source>
-        <translation type="unfinished"/>
+        <translation>ओपेरा जोड़ें</translation>
     </message>
     <message>
         <location filename="../packages/web.qml" line="221"/>
         <source>Add Otter Browser</source>
-        <translation type="unfinished"/>
+        <translation>औटर ब्राउज़र जोड़ें</translation>
     </message>
     <message>
         <location filename="../packages/web.qml" line="252"/>
