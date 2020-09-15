@@ -77,7 +77,7 @@
     <message>
         <location filename="../Page2Form.ui.qml" line="174"/>
         <source>KCP</source>
-        <translation>KCP</translation>
+        <translation>केसीपी</translation>
     </message>
     <message>
         <location filename="../Page2Form.ui.qml" line="199"/>
