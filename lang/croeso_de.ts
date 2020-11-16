@@ -170,7 +170,9 @@
         <source>&lt;h3&gt;Package Groups&lt;/h3&gt;
 
 Please choose one of the groups to see the various packages each group contains. Then select applications you wish to add to your install.  Multiple selections per group are possible.  Once done with your selection click the install button.</source>
-        <translation type="unfinished"/>
+        <translation>&lt;h3&gt;Paketgruppen&lt;/h3&gt;
+
+Bitte wählen Sie eine der Gruppen aus, um die verschiedenen Pakete zu sehen, die jede Gruppe enthält. Wählen Sie dann die Anwendungen aus, die Sie zu Ihrer Installation hinzufügen möchten. Mehrfachauswahlen pro Gruppe sind möglich. Wenn Sie mit Ihrer Auswahl fertig sind, klicken Sie auf die Schaltfläche Installieren.</translation>
     </message>
 </context>
 <context>
