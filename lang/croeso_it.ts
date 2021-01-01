@@ -44,7 +44,7 @@
     <message>
         <location filename="../Page1Form.ui.qml" line="285"/>
         <source>Font Settings</source>
-        <translation type="unfinished"/>
+        <translation>Impostazione Font</translation>
     </message>
     <message>
         <location filename="../Page1Form.ui.qml" line="315"/>
@@ -57,7 +57,7 @@
     <message>
         <location filename="../Page2Form.ui.qml" line="46"/>
         <source>Asking Smart</source>
-        <translation type="unfinished"/>
+        <translation>Chiedendo a Smart</translation>
     </message>
     <message>
         <location filename="../Page2Form.ui.qml" line="74"/>
@@ -67,7 +67,7 @@
     <message>
         <location filename="../Page2Form.ui.qml" line="101"/>
         <source>Switching NVidia</source>
-        <translation type="unfinished"/>
+        <translation>Cambiando NVidia</translation>
     </message>
     <message>
         <location filename="../Page2Form.ui.qml" line="146"/>
@@ -95,12 +95,12 @@
     <message>
         <location filename="../Page3Form.ui.qml" line="76"/>
         <source>Energy Savings</source>
-        <translation type="unfinished"/>
+        <translation>Risparmio energetico</translation>
     </message>
     <message>
         <location filename="../Page3Form.ui.qml" line="103"/>
         <source>Systemd Daemon</source>
-        <translation type="unfinished"/>
+        <translation>Demone di sistema</translation>
     </message>
     <message>
         <location filename="../Page3Form.ui.qml" line="150"/>
@@ -115,7 +115,7 @@
     <message>
         <location filename="../Page3Form.ui.qml" line="201"/>
         <source>KDE Wallet</source>
-        <translation type="unfinished"/>
+        <translation>Portafoglio di KDE</translation>
     </message>
     <message>
         <location filename="../Page3Form.ui.qml" line="236"/>
@@ -130,7 +130,7 @@
     <message>
         <location filename="../Page3Form.ui.qml" line="289"/>
         <source>Default Apps</source>
-        <translation type="unfinished"/>
+        <translation>Applicazioni predefinite</translation>
     </message>
 </context>
 <context>
@@ -138,39 +138,41 @@
     <message>
         <location filename="../Page4Form.ui.qml" line="52"/>
         <source>Web-Browsers</source>
-        <translation type="unfinished"/>
+        <translation>Browser web</translation>
     </message>
     <message>
         <location filename="../Page4Form.ui.qml" line="87"/>
         <source>Email Clients</source>
-        <translation type="unfinished"/>
+        <translation>Client di posta elettronica</translation>
     </message>
     <message>
         <location filename="../Page4Form.ui.qml" line="120"/>
         <source>Video Editors</source>
-        <translation type="unfinished"/>
+        <translation>Video editor</translation>
     </message>
     <message>
         <location filename="../Page4Form.ui.qml" line="162"/>
         <source>Music Players</source>
-        <translation type="unfinished"/>
+        <translation>Player musicali</translation>
     </message>
     <message>
         <location filename="../Page4Form.ui.qml" line="195"/>
         <source>Image Manipulation</source>
-        <translation type="unfinished"/>
+        <translation>Modifica immagini</translation>
     </message>
     <message>
         <location filename="../Page4Form.ui.qml" line="228"/>
         <source>Office Applications</source>
-        <translation type="unfinished"/>
+        <translation>Applicazioni per l&apos;ufficio</translation>
     </message>
     <message>
         <location filename="../Page4Form.ui.qml" line="259"/>
         <source>&lt;h3&gt;Package Groups&lt;/h3&gt;
 
 Please choose one of the groups to see the various packages each group contains. Then select applications you wish to add to your install.  Multiple selections per group are possible.  Once done with your selection click the install button.</source>
-        <translation type="unfinished"/>
+        <translation>&lt;h3&gt;Gruppi di pacchetti &lt;/h3&gt;
+
+Per favore scegli uno dei seguenti gruppi per vedere i diversi pacchetti che ciascun gruppo contiene. Poi, seleziona le applicazioni che vuoi aggiungere alla tua installazione. È possibile selezionare più applicazioni in ogni gruppo. Una volta terminata la scelta, premi il pulsante installa.</translation>
     </message>
 </context>
 <context>
@@ -179,7 +181,7 @@ Please choose one of the groups to see the various packages each group contains.
         <location filename="../wallpaper/Photo.qml" line="62"/>
         <source>Downloaded</source>
         <extracomment>Photo action button</extracomment>
-        <translation type="unfinished"/>
+        <translation>Scaricato.</translation>
     </message>
     <message>
         <location filename="../wallpaper/Photo.qml" line="62"/>
@@ -212,27 +214,27 @@ Please choose one of the groups to see the various packages each group contains.
     <message>
         <location filename="../packages/chat.qml" line="73"/>
         <source>Add Quassel</source>
-        <translation type="unfinished"/>
+        <translation>Aggiungi Quassel</translation>
     </message>
     <message>
         <location filename="../packages/chat.qml" line="122"/>
         <source>Add Konversation</source>
-        <translation type="unfinished"/>
+        <translation>Aggiungi Konversation</translation>
     </message>
     <message>
         <location filename="../packages/chat.qml" line="170"/>
         <source>Add Telegram Desktop</source>
-        <translation type="unfinished"/>
+        <translation>Aggiungi Telegram Desktop</translation>
     </message>
     <message>
         <location filename="../packages/chat.qml" line="218"/>
         <source>Add KDE Telapathy</source>
-        <translation type="unfinished"/>
+        <translation>Aggiungi KDE Telepathy</translation>
     </message>
     <message>
         <location filename="../packages/chat.qml" line="249"/>
         <source>Back</source>
-        <translation type="unfinished"/>
+        <translation>Indietro</translation>
     </message>
 </context>
 <context>
@@ -240,27 +242,27 @@ Please choose one of the groups to see the various packages each group contains.
     <message>
         <location filename="../packages/image.qml" line="73"/>
         <source>Add Krita</source>
-        <translation type="unfinished"/>
+        <translation>Agiungi Krita</translation>
     </message>
     <message>
         <location filename="../packages/image.qml" line="122"/>
         <source>Add Gimp</source>
-        <translation type="unfinished"/>
+        <translation>Aggiungi Gimp</translation>
     </message>
     <message>
         <location filename="../packages/image.qml" line="170"/>
         <source>Add Digikam</source>
-        <translation type="unfinished"/>
+        <translation>Aggiungi Digikam</translation>
     </message>
     <message>
         <location filename="../packages/image.qml" line="218"/>
         <source>Add Nomacs</source>
-        <translation type="unfinished"/>
+        <translation>Aggiungi Nomacs</translation>
     </message>
     <message>
         <location filename="../packages/image.qml" line="249"/>
         <source>Back</source>
-        <translation type="unfinished"/>
+        <translation>Indietro</translation>
     </message>
 </context>
 <context>
@@ -268,27 +270,27 @@ Please choose one of the groups to see the various packages each group contains.
     <message>
         <location filename="../packages/mail.qml" line="73"/>
         <source>Add Kmail</source>
-        <translation type="unfinished"/>
+        <translation>Aggiungi Kmail</translation>
     </message>
     <message>
         <location filename="../packages/mail.qml" line="122"/>
         <source>Add Thunderbird</source>
-        <translation type="unfinished"/>
+        <translation>Aggiungi Thunderbird</translation>
     </message>
     <message>
         <location filename="../packages/mail.qml" line="170"/>
         <source>Add Trojita</source>
-        <translation type="unfinished"/>
+        <translation>Aggiungi Trojita</translation>
     </message>
     <message>
         <location filename="../packages/mail.qml" line="218"/>
         <source>Add Kube</source>
-        <translation type="unfinished"/>
+        <translation>Aggiungi Kube</translation>
     </message>
     <message>
         <location filename="../packages/mail.qml" line="249"/>
         <source>Back</source>
-        <translation type="unfinished"/>
+        <translation>Indietro</translation>
     </message>
 </context>
 <context>
@@ -306,14 +308,21 @@ Please choose one of the groups to see the various packages each group contains.
                             Focus on one DE (KDE Plasma), one toolkit (Qt) &amp; one architecture (x86_64).&lt;br&gt;
                             Plus a focus on evaluting and selecting the most suitable tools and applications.&lt;br&gt;&lt;br&gt;
                             This page will help you personalize the most commonly used settings in your KaOS workspace quickly.&lt;/div&gt;</source>
-        <translation type="unfinished"/>
+        <translation>&lt;div&gt;&lt;h2&gt;Cosa è KaOS?&lt;/h2&gt;
+        L&apos;idea alla base di KaOS è di creare una distribuzione solida e ben integrata per &lt;br&gt;
+          poter offrire un ambiente moderno, costruito con cura da zero, con un&apos;idea ben precisa in mente.. &lt;br&gt;
+         Focus su un DE (KDE), un toolkit (Qt) e un&apos;architettura (x86_64).&lt;br&gt;
+ In più abbiamo valutato e selezionato gli strumenti e le applicazioni più adatte. &lt;br&gt;&lt;br&gt;
+      Questa pagina ti aiuterà a impostare rapidamente gli aspetti personalizzati più di frequente per il tuo spazio di lavoro in KaOS</translation>
     </message>
     <message>
         <location filename="../main.qml" line="90"/>
         <source>&lt;p&gt;To familiarize yourself with KaOS, please read some of these documents.&lt;/p&gt;
                             
                             &lt;p&gt;Use the forum for questions, feedback and suggestions.&lt;/p&gt;</source>
-        <translation type="unfinished"/>
+        <translation>&lt;p&gt;Per familiarizzare con KaOS ti consigliamo di leggere questi documenti. &lt;/p&gt;
+         
+&lt;p&gt;Usa il forum per domande, feedback e suggerimenti.&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../main.qml" line="101"/>
@@ -321,27 +330,30 @@ Please choose one of the groups to see the various packages each group contains.
                             not mean less important.&lt;/p&gt;
                             
                             &lt;p&gt;Consider setting these now or revisit at a later time.&lt;/p&gt;</source>
-        <translation type="unfinished"/>
+        <translation>&lt;p&gt;Questa pagina mostra impostazioni più avanzate. Anche se più avanzate, non per forza&lt;br&gt;
+sono meno importanti.&lt;/p&gt;
+
+&lt;p&gt;Poi scegliere se impostarle ora o in seguito.</translation>
     </message>
     <message>
         <location filename="../main.qml" line="148"/>
         <source>Code &amp; Bug trackers on Github for KaOS</source>
-        <translation type="unfinished"/>
+        <translation>Codice e Bug tracker su Github per KaOS</translation>
     </message>
     <message>
         <location filename="../main.qml" line="172"/>
         <source>Join the KaOS IRC Channel</source>
-        <translation type="unfinished"/>
+        <translation>Unisciti al Canale IRC di KaOS</translation>
     </message>
     <message>
         <location filename="../main.qml" line="196"/>
         <source>Gitter Chat for KaOS</source>
-        <translation type="unfinished"/>
+        <translation>Gitter Chat per KaOS</translation>
     </message>
     <message>
         <location filename="../main.qml" line="220"/>
         <source>KaOS Mail Group</source>
-        <translation type="unfinished"/>
+        <translation>Gruppo mail di KaOS</translation>
     </message>
     <message>
         <location filename="../main.qml" line="236"/>
@@ -351,7 +363,7 @@ Please choose one of the groups to see the various packages each group contains.
     <message>
         <location filename="../main.qml" line="239"/>
         <source>Packages</source>
-        <translation type="unfinished"/>
+        <translation>Pacchetti</translation>
     </message>
     <message>
         <location filename="../main.qml" line="242"/>
@@ -361,7 +373,7 @@ Please choose one of the groups to see the various packages each group contains.
     <message>
         <location filename="../main.qml" line="245"/>
         <source>Docs</source>
-        <translation type="unfinished"/>
+        <translation>Documenti</translation>
     </message>
     <message>
         <location filename="../main.qml" line="248"/>
@@ -371,7 +383,7 @@ Please choose one of the groups to see the various packages each group contains.
     <message>
         <location filename="../main.qml" line="251"/>
         <source>About</source>
-        <translation type="unfinished"/>
+        <translation>Su di noi</translation>
     </message>
     <message>
         <location filename="../main.qml" line="254"/>
@@ -389,27 +401,27 @@ Please choose one of the groups to see the various packages each group contains.
     <message>
         <location filename="../packages/music.qml" line="73"/>
         <source>Add Elisa</source>
-        <translation type="unfinished"/>
+        <translation>Aggiungi Elisa</translation>
     </message>
     <message>
         <location filename="../packages/music.qml" line="122"/>
         <source>Add Strawberry</source>
-        <translation type="unfinished"/>
+        <translation>Aggiungi Strawberry</translation>
     </message>
     <message>
         <location filename="../packages/music.qml" line="170"/>
         <source>Add Cantata</source>
-        <translation type="unfinished"/>
+        <translation>Aggiungi Cantata</translation>
     </message>
     <message>
         <location filename="../packages/music.qml" line="218"/>
         <source>Add Qmmp</source>
-        <translation type="unfinished"/>
+        <translation>Aggiungi Qmmp</translation>
     </message>
     <message>
         <location filename="../packages/music.qml" line="249"/>
         <source>Back</source>
-        <translation type="unfinished"/>
+        <translation>Indietro</translation>
     </message>
 </context>
 <context>
@@ -434,7 +446,27 @@ Please choose one of the groups to see the various packages each group contains.
                     &lt;p&gt;&lt;b&gt;The target users&lt;/b&gt; are those who have tried many Operating Systems/Distributions/Desktop Environments and have found they prefer a Distribution that uses all its available resources to work on one DE to make that the best it can be, and know that after their searches, the best for them is KDE. Their used hardware is from about 2005 or later, so there are no issues with running 64 bit software. And the target audience is not afraid to use KDE/Qt versions of their needed applications, likes to see the best available selected for their needs, even if that means learning some new ways of working with a before unused application. There is an understanding selection for similar applications will be limited to 5-6.&lt;/p&gt;
                     
                     &lt;p&gt;KDE is a modern Desktop Environment which can make use of most of any graphics or sound card capabilities. This does not mean KDE can’t be made to run on very low-end hardware, but in general there are better options available for such systems (OpenBox for example). The very minimal needed for &lt;b&gt;hard-drive space is 8 Gb, but 25 Gb&lt;/b&gt; is recommended as minimal. KaOS will install with 1.5Gb of RAM available, though a much better experience will start with &lt;b&gt;2 Gb of RAM&lt;/b&gt;. Since only x86_64 packages are available, a &lt;b&gt;64 bit capable cpu&lt;/b&gt; is needed. As with any rolling distribution, updates are frequent and can be large, so a reasonable fast internet connection (dial-up will become very cumbersome) and available monthly data of over 2 Gb are recommended.&lt;/p&gt;</source>
-        <translation type="unfinished"/>
+        <translation>&lt;h3&gt;A proposito di KaOS&lt;/h3&gt;
+&lt;p&gt;L&apos;idea alla base di KaOS è di creare una distribuzione rolling, solida e ben integrata per poter offrire un ambiente moderno, costruito con cura da zero, con un&apos;idea ben precisa in mente.
+ &lt;b&gt;Focus su un DE (KDE), un toolkit (Qt) e un&apos;architettura (x86_64).&lt;/b&gt;
+e in più abbiamo valutato e selezionato gli strumenti e le applicazioni più adatte. Tutto il lavoro è destinato allla creazione dei pacchetti, non allo sviluppo di nuovi strumenti o applicazioni..&lt;/p&gt;
+
+                    &lt;p&gt;Passando da sistemi operativi proprietari a opzioni open source (basate su Linux. BSD o Solaris) è una questione
+&lt;b&gt;di libertà e possibilità di scelta&lt;/b&gt; nella maggioranza dei casi. Ma un sistema operativo o una distribuzione open source deve per forza evitare di fare alcune scelte? KaOS vede in questo una mancanza di attenzione. Per creare una distribuzione della più alta qualità è necessario che ci sia un focus per assicurarsi che l&apos;utente ottenga il meglio da qualsiasi scelta faccia. È semplicemente impossibile includere tutti i pacchetti in modo che ognuno sia integrato perfettamente in tutti i Desktop Environment o i Toolkit.&lt;/p&gt;
+                    
+                    &lt;p&gt;KaOS ha scelto di usare il &lt;b&gt;kernel Linux&lt;/b&gt; come base (tanche se il kernel Illumos è continuamente preso in considerazione, ed è auspicabile un futuro passaggio ad esso). In base a questa scelta, il miglior package manager disponibile, il modo più flessibile di fare package building, e di mantenere i repository per una distribuzione rolling come KaOs è &lt;b&gt;pacman/makepkg&lt;/b&gt;. Per quanto riguarda il Desktop Environment, non ci sarà mai un cambiamento, che il kernel sia Linux o Illumos, e KDE sarà sempre la scelta, mentre il Toolkit sarà sempre Qt. Forti di queste scelte, nell&apos;aprile del 2013 è cominciato il package building per questa distribuzione indipendente.&lt;/p&gt;
+
+                    &lt;p&gt;KaOS è una distribuzione costruita da zero, &lt;b&gt;ogni pacchetto di ogni repository è stato costruito da e per KaOS&lt;/b&gt;. L&apos;obiettivo iniziale di 1500 pacchetti è stato raggiunto a luglio 2013.&lt;/p&gt;
+
+                    &lt;p&gt;Quando ci si sofferma sul numero relativamente basso di pacchetti totali disponibili, bisogna tenere a mente una cosa.Poiché  ci si concentra su un toolkit e un DE,&lt;b&gt; non c&apos;è bisogno di un frazionamento eccessivo dei pacchetti &lt;/b&gt; da provare e rendere funzionanti nei vari ambienti. In altre situazioni molti pacchetti sono divisi in 3-4-5, a volte perfino 15-20 pacchetti; KaOS semplifica le cose il più possibile per evitare il frazionamento  (ad esempio le app xorg, circa 50 pacchetti in origine, è costituito da 3 pacchetti, mesa di 2 invece che di 15).&lt;/p&gt;
+                    
+                    &lt;p&gt;Scegliere KDE/QT non significa che KaOS perda di vista l&apos;importanza di avere &lt;b&gt;gli strumenti migliori per un compito&lt;/b&gt;. La maggior parte delle volte si reputa che KDE/Qt offra strumenti superiori, ma ci sono alcune applicazioni in cui l&apos;opzione GTK è l&apos;unica possibile (Inkscape, Ardour per nominarne due), o per esempio nel caso dei browser web l&apos;opzione Qt non sta al passo con le controparti GTK. In queste situazioni, le applicazioni GTK sono disponibili, anche se il loro numero rimarrà limitato. In ogni caso, l&apos;ISO è una dimostrazione delle possibilità di Qt/KDE quindi &lt;b&gt;l&apos;ISO è GTK free&lt;/b&gt;, quindi non sono disponibili Firefox, Chrome o LibreOffice ad esempio, poiché dipendono da GTK&lt;/p&gt;
+                    
+                    &lt;p&gt;La struttura del repository è semplice e consiste di tre gruppi: Core, Main e Apps. Un aggiornamento di sistema ordinario e completo offrirà sempre le ultime novità,, &lt;b&gt;senza la necessità di reinstallare&lt;/b&gt; il sistema. &lt;i&gt;Core&lt;/i&gt; contiene i pacchetti di base necessari all&apos;accensione, alla comunicazione con il BIOS, al collegamento dell&apos;hardware di base e all&apos;impostazione di base della shell. Tra i pacchetti inclusi ci sono ad esempio il kernel, systemd, toolchain per il building e strumenti da riga di comando di base. &lt;i&gt;Main&lt;/i&gt; contiene tutte le librerie necessarie, i driver extra e i firmware necessari per far funzionare il desktop e le applicazioni. &lt;i&gt;Apps&lt;/i&gt; contiene tutti i pacchetti visti e usati dall&apos;utente, inclusi KDE e gli strumenti necessari. &lt;i&gt;Build&lt;/i&gt; è dove partono tutti i pacchetti, che siano una rebuild, un aggiornamento o un&apos;aggiunta, tutto parte da lì. Una volta superati i test opportuni, i pacchetti sono spostati ai repository rispettivi.&lt;/p&gt;
+                    
+                    &lt;p&gt;&lt;b&gt;L&apos;utente target&lt;/b&gt; è quello che ha provato diversi Sistemi operativi/Distributioni/Desktop Environment è ha capito di preferire una distribuzione che usa tutte le sue risorse per lavorare ad un DE per farlo rendere al meglio; inoltre, a seguito delle ricerche, ha scoperto che il migliroe in questo caso è KDE. L&apos;hardware usato è almeno del 2005, in modo che non ci siano problemi con i software a 64 bit.. Il pubblico di riferimento non ha problemi ad usare le versioni KDE/Qt delle applicazioni di cui ha bisogno, gradisce veder selezionate le migliori alternative per i propri bisogni, anche se questo significa imparare nuovi modi di lavorare o lavorare con nuove applicazioni. La scelta tra applicazioni simili è ridotta comprensibilmente a 5-6 alternative.&lt;/p&gt;
+                    
+                    &lt;p&gt;KDE è un Desktop Environment moderno che permette di sfruttare al meglio le capacità di qualsiasi scheda grafica o audio. Questo non significa che KDE non può girare su hardware scarso, ma in generale ci sono alternative più adatte per questi sistemi (OpenBox per esempio). Il minimo necessario è 8 GB di spazio&lt;b&gt;libero su disco, ma 25 Gb&lt;/b&gt; raccomandato come limite inferiore; KaOS può essere installato con 1.5 GB di RAM disponibile, anche se si gode di un&apos;esperienza molto migliore con almeno &lt;b&gt;2 GB of RAM&lt;/b&gt;. Poiché sono disponibili solo pacchetti x86_64, è necessaria &lt;b&gt;una cpu che supporta registri a 64 bit&lt;/b&gt; Come per ogni altra distribuzione rolling, gli aggiornamenti sono frequenti e possono anche essere corposi, quindi è necessaria una connessione internet ragionevolmente veloce (il dial-up può risultare difficoltoso) ed è raccomandata una disponibilità mensile di almeno 2 GB.&lt;/p&gt;</translation>
     </message>
 </context>
 <context>
@@ -442,32 +474,32 @@ Please choose one of the groups to see the various packages each group contains.
     <message>
         <location filename="../packages/office.qml" line="73"/>
         <source>Add Skrooge</source>
-        <translation type="unfinished"/>
+        <translation>Aggiungi Skrooge</translation>
     </message>
     <message>
         <location filename="../packages/office.qml" line="122"/>
         <source>Add Sigil</source>
-        <translation type="unfinished"/>
+        <translation>Aggiungi Sigil</translation>
     </message>
     <message>
         <location filename="../packages/office.qml" line="170"/>
         <source>Add Scribus</source>
-        <translation type="unfinished"/>
+        <translation>Aggiungi Scribus</translation>
     </message>
     <message>
         <location filename="../packages/office.qml" line="218"/>
         <source>Add Focuswriter</source>
-        <translation type="unfinished"/>
+        <translation>Aggiungi Focuswriter</translation>
     </message>
     <message>
         <location filename="../packages/office.qml" line="265"/>
         <source>Add Calligra</source>
-        <translation type="unfinished"/>
+        <translation>Aggiungi Calligra</translation>
     </message>
     <message>
         <location filename="../packages/office.qml" line="296"/>
         <source>Back</source>
-        <translation type="unfinished"/>
+        <translation>Indietro</translation>
     </message>
 </context>
 <context>
@@ -475,27 +507,27 @@ Please choose one of the groups to see the various packages each group contains.
     <message>
         <location filename="../packages/video.qml" line="73"/>
         <source>Add Kdenlive</source>
-        <translation type="unfinished"/>
+        <translation>Aggiungi Kdenlive</translation>
     </message>
     <message>
         <location filename="../packages/video.qml" line="122"/>
         <source>Add Openshot</source>
-        <translation type="unfinished"/>
+        <translation>Aggiungi Openshot</translation>
     </message>
     <message>
         <location filename="../packages/video.qml" line="170"/>
         <source>Add Lightworks</source>
-        <translation type="unfinished"/>
+        <translation>Aggiungi Lightworks</translation>
     </message>
     <message>
         <location filename="../packages/video.qml" line="218"/>
         <source>Add Avidemux</source>
-        <translation type="unfinished"/>
+        <translation>Aggiungi Avidemux</translation>
     </message>
     <message>
         <location filename="../packages/video.qml" line="249"/>
         <source>Back</source>
-        <translation type="unfinished"/>
+        <translation>Indietro</translation>
     </message>
 </context>
 <context>
@@ -516,13 +548,13 @@ Please choose one of the groups to see the various packages each group contains.
         <location filename="../wallpaper/wall.qml" line="60"/>
         <source>Oldest</source>
         <extracomment>Navbar entry</extracomment>
-        <translation type="unfinished"/>
+        <translation>Più vecchio</translation>
     </message>
     <message>
         <location filename="../wallpaper/wall.qml" line="67"/>
         <source>Downloaded</source>
         <extracomment>Navbar entry</extracomment>
-        <translation type="unfinished"/>
+        <translation>Scaricato</translation>
     </message>
 </context>
 <context>
@@ -530,27 +562,27 @@ Please choose one of the groups to see the various packages each group contains.
     <message>
         <location filename="../packages/web.qml" line="72"/>
         <source>Add Firefox</source>
-        <translation type="unfinished"/>
+        <translation>Aggiungi Firefox</translation>
     </message>
     <message>
         <location filename="../packages/web.qml" line="123"/>
         <source>Add Chrome</source>
-        <translation type="unfinished"/>
+        <translation>Aggiungi Chrome</translation>
     </message>
     <message>
         <location filename="../packages/web.qml" line="173"/>
         <source>Add Opera</source>
-        <translation type="unfinished"/>
+        <translation>Aggiungi Opera</translation>
     </message>
     <message>
         <location filename="../packages/web.qml" line="221"/>
         <source>Add Otter Browser</source>
-        <translation type="unfinished"/>
+        <translation>Aggiungi Otter Browser</translation>
     </message>
     <message>
         <location filename="../packages/web.qml" line="252"/>
         <source>Back</source>
-        <translation type="unfinished"/>
+        <translation>Indietro</translation>
     </message>
 </context>
 </TS>
