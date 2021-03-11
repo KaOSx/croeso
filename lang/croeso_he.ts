@@ -77,12 +77,12 @@
     <message>
         <location filename="../Page2Form.ui.qml" line="174"/>
         <source>KCP</source>
-        <translation type="unfinished"/>
+        <translation>KCP</translation>
     </message>
     <message>
         <location filename="../Page2Form.ui.qml" line="199"/>
         <source>Forum</source>
-        <translation type="unfinished"/>
+        <translation>פורום</translation>
     </message>
 </context>
 <context>
@@ -184,7 +184,7 @@ Please choose one of the groups to see the various packages each group contains.
     <message>
         <location filename="../wallpaper/Photo.qml" line="62"/>
         <source>Download</source>
-        <translation type="unfinished"/>
+        <translation>הורדה</translation>
     </message>
     <message>
         <location filename="../wallpaper/Photo.qml" line="76"/>
@@ -232,7 +232,7 @@ Please choose one of the groups to see the various packages each group contains.
     <message>
         <location filename="../packages/chat.qml" line="249"/>
         <source>Back</source>
-        <translation type="unfinished"/>
+        <translation>הקודם</translation>
     </message>
 </context>
 <context>
@@ -260,7 +260,7 @@ Please choose one of the groups to see the various packages each group contains.
     <message>
         <location filename="../packages/image.qml" line="249"/>
         <source>Back</source>
-        <translation type="unfinished"/>
+        <translation>הקודם</translation>
     </message>
 </context>
 <context>
@@ -288,7 +288,7 @@ Please choose one of the groups to see the various packages each group contains.
     <message>
         <location filename="../packages/mail.qml" line="249"/>
         <source>Back</source>
-        <translation type="unfinished"/>
+        <translation>הקודם</translation>
     </message>
 </context>
 <context>
@@ -351,7 +351,7 @@ Please choose one of the groups to see the various packages each group contains.
     <message>
         <location filename="../main.qml" line="239"/>
         <source>Packages</source>
-        <translation type="unfinished"/>
+        <translation>חבילות</translation>
     </message>
     <message>
         <location filename="../main.qml" line="242"/>
@@ -371,12 +371,12 @@ Please choose one of the groups to see the various packages each group contains.
     <message>
         <location filename="../main.qml" line="251"/>
         <source>About</source>
-        <translation type="unfinished"/>
+        <translation>על אודות</translation>
     </message>
     <message>
         <location filename="../main.qml" line="254"/>
         <source>News</source>
-        <translation type="unfinished"/>
+        <translation>חדשות</translation>
     </message>
     <message>
         <location filename="../main.qml" line="257"/>
@@ -409,7 +409,7 @@ Please choose one of the groups to see the various packages each group contains.
     <message>
         <location filename="../packages/music.qml" line="249"/>
         <source>Back</source>
-        <translation type="unfinished"/>
+        <translation>הקודם</translation>
     </message>
 </context>
 <context>
@@ -467,7 +467,7 @@ Please choose one of the groups to see the various packages each group contains.
     <message>
         <location filename="../packages/office.qml" line="296"/>
         <source>Back</source>
-        <translation type="unfinished"/>
+        <translation>הקודם</translation>
     </message>
 </context>
 <context>
@@ -495,7 +495,7 @@ Please choose one of the groups to see the various packages each group contains.
     <message>
         <location filename="../packages/video.qml" line="249"/>
         <source>Back</source>
-        <translation type="unfinished"/>
+        <translation>הקודם</translation>
     </message>
 </context>
 <context>
@@ -550,7 +550,7 @@ Please choose one of the groups to see the various packages each group contains.
     <message>
         <location filename="../packages/web.qml" line="252"/>
         <source>Back</source>
-        <translation type="unfinished"/>
+        <translation>הקודם</translation>
     </message>
 </context>
 </TS>
