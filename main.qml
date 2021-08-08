@@ -159,7 +159,7 @@ ApplicationWindow {
         Button {
                 id: irc
                 hoverEnabled: true
-                onClicked: {  Qt.openUrlExternally("https://kiwiirc.com/client/irc.freenode.net/#kaosx"); }
+                onClicked: {  Qt.openUrlExternally("https://web.libera.chat/#KaOS"); }
                 background: Rectangle {
                     implicitWidth: 24
                     implicitHeight: 24
