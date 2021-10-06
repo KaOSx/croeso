@@ -40,6 +40,7 @@ TRANSLATIONS  += lang/croeso.ts \
               lang/croeso_ast.ts \
               lang/croeso_ca.ts \
               lang/croeso_cs.ts \
+              lang/croeso_da.ts \
               lang/croeso_de.ts \
               lang/croeso_es.ts \
               lang/croeso_es_AR.ts \
