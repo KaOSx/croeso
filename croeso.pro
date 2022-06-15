@@ -51,6 +51,7 @@ TRANSLATIONS  += lang/croeso.ts \
               lang/croeso_hu.ts \
               lang/croeso_id_ID.ts \
               lang/croeso_it.ts \
+              lang/croeso_ja.ts \
               lang/croeso_pl.ts \
               lang/croeso_pt_BR.ts \
               lang/croeso_uk.ts \

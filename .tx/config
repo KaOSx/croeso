@@ -1,7 +1,7 @@
 [main]
 host = https://www.transifex.com
 
-[kaos.croesots]
+[o:kaos:p:kaos:r:croesots]
 file_filter = lang/croeso_<lang>.ts
 source_file = lang/croeso.ts
 source_lang = en

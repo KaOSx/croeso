@@ -1,4 +1,4 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="it" version="2.1">
+<?xml version="1.0" ?><!DOCTYPE TS><TS version="2.1" language="it">
 <context>
     <name>Page1Form.ui</name>
     <message>
@@ -57,7 +57,7 @@
     <message>
         <location filename="../Page2Form.ui.qml" line="46"/>
         <source>Asking Smart</source>
-        <translation>Chiedendo a Smart</translation>
+        <translation>Chiedere correttamente</translation>
     </message>
     <message>
         <location filename="../Page2Form.ui.qml" line="74"/>
@@ -67,7 +67,7 @@
     <message>
         <location filename="../Page2Form.ui.qml" line="101"/>
         <source>Switching NVidia</source>
-        <translation>Cambiando NVidia</translation>
+        <translation>Cambiare NVidia</translation>
     </message>
     <message>
         <location filename="../Page2Form.ui.qml" line="146"/>
@@ -181,7 +181,7 @@ Per favore scegli uno dei seguenti gruppi per vedere i diversi pacchetti che cia
         <location filename="../wallpaper/Photo.qml" line="62"/>
         <source>Downloaded</source>
         <extracomment>Photo action button</extracomment>
-        <translation>Scaricato.</translation>
+        <translation>Scaricato</translation>
     </message>
     <message>
         <location filename="../wallpaper/Photo.qml" line="62"/>
