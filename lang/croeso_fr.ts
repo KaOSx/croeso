@@ -1,4 +1,6 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="fr" version="2.1">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.1" language="fr">
 <context>
     <name>Page1Form.ui</name>
     <message>
@@ -240,27 +242,27 @@ Cliquez sur un des groupes pour voir les paquets contenus dans ce groupe. Puis s
 <context>
     <name>image</name>
     <message>
-        <location filename="../packages/image.qml" line="73"/>
+        <location filename="../packages/image.qml" line="76"/>
         <source>Add Krita</source>
         <translation>Ajouter Krita</translation>
     </message>
     <message>
-        <location filename="../packages/image.qml" line="122"/>
+        <location filename="../packages/image.qml" line="125"/>
         <source>Add Gimp</source>
         <translation>Ajouter Gimp</translation>
     </message>
     <message>
-        <location filename="../packages/image.qml" line="170"/>
+        <location filename="../packages/image.qml" line="173"/>
         <source>Add Digikam</source>
         <translation>Ajouter Digikam</translation>
     </message>
     <message>
-        <location filename="../packages/image.qml" line="218"/>
+        <location filename="../packages/image.qml" line="221"/>
         <source>Add Nomacs</source>
         <translation>Ajouter Nomacs</translation>
     </message>
     <message>
-        <location filename="../packages/image.qml" line="249"/>
+        <location filename="../packages/image.qml" line="252"/>
         <source>Back</source>
         <translation>Retour</translation>
     </message>
@@ -268,27 +270,27 @@ Cliquez sur un des groupes pour voir les paquets contenus dans ce groupe. Puis s
 <context>
     <name>mail</name>
     <message>
-        <location filename="../packages/mail.qml" line="73"/>
+        <location filename="../packages/mail.qml" line="76"/>
         <source>Add Kmail</source>
         <translation>Ajouter Kmail</translation>
     </message>
     <message>
-        <location filename="../packages/mail.qml" line="122"/>
+        <location filename="../packages/mail.qml" line="125"/>
         <source>Add Thunderbird</source>
         <translation>Ajouter Thunderbird</translation>
     </message>
     <message>
-        <location filename="../packages/mail.qml" line="170"/>
+        <location filename="../packages/mail.qml" line="173"/>
         <source>Add Trojita</source>
         <translation>Ajouter Trojita</translation>
     </message>
     <message>
-        <location filename="../packages/mail.qml" line="218"/>
+        <location filename="../packages/mail.qml" line="221"/>
         <source>Add Kube</source>
         <translation>Ajouter Kube</translation>
     </message>
     <message>
-        <location filename="../packages/mail.qml" line="249"/>
+        <location filename="../packages/mail.qml" line="252"/>
         <source>Back</source>
         <translation>Retour</translation>
     </message>
@@ -400,27 +402,27 @@ This page lists more advanced settings options.  Même cela ni signifie pour aut
 <context>
     <name>music</name>
     <message>
-        <location filename="../packages/music.qml" line="73"/>
+        <location filename="../packages/music.qml" line="76"/>
         <source>Add Elisa</source>
         <translation>Ajouter Elisa</translation>
     </message>
     <message>
-        <location filename="../packages/music.qml" line="122"/>
+        <location filename="../packages/music.qml" line="125"/>
         <source>Add Strawberry</source>
         <translation>Ajouter Strawberry</translation>
     </message>
     <message>
-        <location filename="../packages/music.qml" line="170"/>
+        <location filename="../packages/music.qml" line="173"/>
         <source>Add Cantata</source>
         <translation>Ajouter Cantata</translation>
     </message>
     <message>
-        <location filename="../packages/music.qml" line="218"/>
+        <location filename="../packages/music.qml" line="221"/>
         <source>Add Qmmp</source>
         <translation>Ajouter Qmmp</translation>
     </message>
     <message>
-        <location filename="../packages/music.qml" line="249"/>
+        <location filename="../packages/music.qml" line="252"/>
         <source>Back</source>
         <translation>Retour</translation>
     </message>
@@ -464,38 +466,38 @@ This page lists more advanced settings options.  Même cela ni signifie pour aut
                     
                     &lt;p&gt;&lt;b&gt;Les utilisateurs ciblés&lt;/b&gt; sont ceux qui ont testé de nombreux systèmes d’exploitation/distributions/environnements de bureaux, et qui cherchent une distribution utilisant toutes ses ressources dans un seul environnement de bureau. D’après leurs tests, ils estiment que KDE KDE est le meilleur d’entre eux. Leur matériel utilisé est plus récent que 2005 et n&apos;a donc aucun problème pour exécuter des logiciels 64 bits. Enfin, l&apos;utilisateur ciblé ne craint pas d&apos;utiliser les versions KDE/Qt de logiciels dont il a besoin, même si cela signifie apprendre à les utiliser. Bien entendu, les applications dédiées à la même chose seront limitées à 5-6.&lt;/p&gt;
                     
-                    &lt;p&gt; KDE est un environnement de bureau moderne qui gère la plupart des capacités des cartes graphiques et cartes son. Cela ne signifie pas KDE ne peut fonctionner sur du matériel de premier choix, mais en général, il existe de meilleures solutions disponibles pour de tels systèmes (OpenBox par exemple). Le strict minimum nécessaire pour &lt;b&gt;l’espace disque dur est de 8 Go, mais 25 Go est recommandé&lt;/b&gt; pour une utilisation confortable. KaOS peut s’installer avec 1,5Go de RAM disponible, mais mais &lt;b&gt;2Go de RAM&lt;/b&gt;rendent l’expérience plus facile. Puisque seuls les paquets x86_64 sont disponibles, un &lt;b&gt;processeur compatible 64 bits&lt;/b&gt; est nécessaire. Comme avec n’importe quelle distribution de type rolling release, les mises à jour sont fréquentes et peuvent être importantes, aussi un abonnement Internet relativement rapide (oubliez le modem !) capable de gérer 2Go de trafic par mois est recommandé.&lt;/p&gt;</translation>
+                    &lt;p&gt;&#xa0;KDE est un environnement de bureau moderne qui gère la plupart des capacités des cartes graphiques et cartes son. Cela ne signifie pas KDE ne peut fonctionner sur du matériel de premier choix, mais en général, il existe de meilleures solutions disponibles pour de tels systèmes (OpenBox par exemple). Le strict minimum nécessaire pour &lt;b&gt;l’espace disque dur est de 8 Go, mais 25 Go est recommandé&lt;/b&gt; pour une utilisation confortable. KaOS peut s’installer avec 1,5Go de RAM disponible, mais mais &lt;b&gt;2Go de RAM&lt;/b&gt;rendent l’expérience plus facile. Puisque seuls les paquets x86_64 sont disponibles, un &lt;b&gt;processeur compatible 64 bits&lt;/b&gt; est nécessaire. Comme avec n’importe quelle distribution de type rolling release, les mises à jour sont fréquentes et peuvent être importantes, aussi un abonnement Internet relativement rapide (oubliez le modem !) capable de gérer 2Go de trafic par mois est recommandé.&lt;/p&gt;</translation>
     </message>
 </context>
 <context>
     <name>office</name>
     <message>
-        <location filename="../packages/office.qml" line="73"/>
+        <location filename="../packages/office.qml" line="76"/>
         <source>Add Skrooge</source>
         <translation>Ajouter Skrooge</translation>
     </message>
     <message>
-        <location filename="../packages/office.qml" line="122"/>
+        <location filename="../packages/office.qml" line="125"/>
         <source>Add Sigil</source>
         <translation>Ajouter Sigil</translation>
     </message>
     <message>
-        <location filename="../packages/office.qml" line="170"/>
+        <location filename="../packages/office.qml" line="173"/>
         <source>Add Scribus</source>
         <translation>Ajouter Scribus</translation>
     </message>
     <message>
-        <location filename="../packages/office.qml" line="218"/>
+        <location filename="../packages/office.qml" line="221"/>
         <source>Add Focuswriter</source>
         <translation>Ajouter Focuswriter</translation>
     </message>
     <message>
-        <location filename="../packages/office.qml" line="265"/>
+        <location filename="../packages/office.qml" line="268"/>
         <source>Add Calligra</source>
         <translation>Ajouter Calligra</translation>
     </message>
     <message>
-        <location filename="../packages/office.qml" line="296"/>
+        <location filename="../packages/office.qml" line="299"/>
         <source>Back</source>
         <translation>Retour</translation>
     </message>
@@ -503,27 +505,27 @@ This page lists more advanced settings options.  Même cela ni signifie pour aut
 <context>
     <name>video</name>
     <message>
-        <location filename="../packages/video.qml" line="73"/>
+        <location filename="../packages/video.qml" line="76"/>
         <source>Add Kdenlive</source>
         <translation>Ajouter Kdenlive</translation>
     </message>
     <message>
-        <location filename="../packages/video.qml" line="122"/>
+        <location filename="../packages/video.qml" line="125"/>
         <source>Add Openshot</source>
         <translation>Ajouter Openshot</translation>
     </message>
     <message>
-        <location filename="../packages/video.qml" line="170"/>
+        <location filename="../packages/video.qml" line="173"/>
         <source>Add Lightworks</source>
         <translation>Ajouter Lightworks</translation>
     </message>
     <message>
-        <location filename="../packages/video.qml" line="218"/>
+        <location filename="../packages/video.qml" line="221"/>
         <source>Add Avidemux</source>
         <translation>Ajouter Avidemux</translation>
     </message>
     <message>
-        <location filename="../packages/video.qml" line="249"/>
+        <location filename="../packages/video.qml" line="252"/>
         <source>Back</source>
         <translation>Retour</translation>
     </message>
@@ -558,27 +560,27 @@ This page lists more advanced settings options.  Même cela ni signifie pour aut
 <context>
     <name>web</name>
     <message>
-        <location filename="../packages/web.qml" line="72"/>
+        <location filename="../packages/web.qml" line="75"/>
         <source>Add Firefox</source>
         <translation>Ajouter Firefox</translation>
     </message>
     <message>
-        <location filename="../packages/web.qml" line="123"/>
+        <location filename="../packages/web.qml" line="126"/>
         <source>Add Chrome</source>
         <translation>Ajouter Chrome</translation>
     </message>
     <message>
-        <location filename="../packages/web.qml" line="173"/>
+        <location filename="../packages/web.qml" line="176"/>
         <source>Add Opera</source>
         <translation>Ajouter Opera</translation>
     </message>
     <message>
-        <location filename="../packages/web.qml" line="221"/>
+        <location filename="../packages/web.qml" line="224"/>
         <source>Add Otter Browser</source>
         <translation>Ajouter Otter Browser</translation>
     </message>
     <message>
-        <location filename="../packages/web.qml" line="252"/>
+        <location filename="../packages/web.qml" line="255"/>
         <source>Back</source>
         <translation>Retour</translation>
     </message>

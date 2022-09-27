@@ -1,4 +1,6 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="ca" version="2.1">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.1" language="ca">
 <context>
     <name>Page1Form.ui</name>
     <message>
@@ -240,27 +242,27 @@ Si us plau, trieu un dels grups per veure els diversos paquets que conté. A con
 <context>
     <name>image</name>
     <message>
-        <location filename="../packages/image.qml" line="73"/>
+        <location filename="../packages/image.qml" line="76"/>
         <source>Add Krita</source>
         <translation>Afegiu Krita</translation>
     </message>
     <message>
-        <location filename="../packages/image.qml" line="122"/>
+        <location filename="../packages/image.qml" line="125"/>
         <source>Add Gimp</source>
         <translation>Afegiu Gimp</translation>
     </message>
     <message>
-        <location filename="../packages/image.qml" line="170"/>
+        <location filename="../packages/image.qml" line="173"/>
         <source>Add Digikam</source>
         <translation>Afegiu Digikam</translation>
     </message>
     <message>
-        <location filename="../packages/image.qml" line="218"/>
+        <location filename="../packages/image.qml" line="221"/>
         <source>Add Nomacs</source>
         <translation>Afegiu Nomacs</translation>
     </message>
     <message>
-        <location filename="../packages/image.qml" line="249"/>
+        <location filename="../packages/image.qml" line="252"/>
         <source>Back</source>
         <translation>Enrere</translation>
     </message>
@@ -268,27 +270,27 @@ Si us plau, trieu un dels grups per veure els diversos paquets que conté. A con
 <context>
     <name>mail</name>
     <message>
-        <location filename="../packages/mail.qml" line="73"/>
+        <location filename="../packages/mail.qml" line="76"/>
         <source>Add Kmail</source>
         <translation>Afegiu Kmail</translation>
     </message>
     <message>
-        <location filename="../packages/mail.qml" line="122"/>
+        <location filename="../packages/mail.qml" line="125"/>
         <source>Add Thunderbird</source>
         <translation>Afegiu Thunderbird</translation>
     </message>
     <message>
-        <location filename="../packages/mail.qml" line="170"/>
+        <location filename="../packages/mail.qml" line="173"/>
         <source>Add Trojita</source>
         <translation>Afegiu Trojita</translation>
     </message>
     <message>
-        <location filename="../packages/mail.qml" line="218"/>
+        <location filename="../packages/mail.qml" line="221"/>
         <source>Add Kube</source>
         <translation>Afegiu Kube</translation>
     </message>
     <message>
-        <location filename="../packages/mail.qml" line="249"/>
+        <location filename="../packages/mail.qml" line="252"/>
         <source>Back</source>
         <translation>Enrere</translation>
     </message>
@@ -399,27 +401,27 @@ Si us plau, trieu un dels grups per veure els diversos paquets que conté. A con
 <context>
     <name>music</name>
     <message>
-        <location filename="../packages/music.qml" line="73"/>
+        <location filename="../packages/music.qml" line="76"/>
         <source>Add Elisa</source>
         <translation>Afegiu Elisa</translation>
     </message>
     <message>
-        <location filename="../packages/music.qml" line="122"/>
+        <location filename="../packages/music.qml" line="125"/>
         <source>Add Strawberry</source>
         <translation>Afegiu Strawberry</translation>
     </message>
     <message>
-        <location filename="../packages/music.qml" line="170"/>
+        <location filename="../packages/music.qml" line="173"/>
         <source>Add Cantata</source>
         <translation>Afegiu Cantata</translation>
     </message>
     <message>
-        <location filename="../packages/music.qml" line="218"/>
+        <location filename="../packages/music.qml" line="221"/>
         <source>Add Qmmp</source>
         <translation>Afegiu Qmmp</translation>
     </message>
     <message>
-        <location filename="../packages/music.qml" line="249"/>
+        <location filename="../packages/music.qml" line="252"/>
         <source>Back</source>
         <translation>Enrere</translation>
     </message>
@@ -469,32 +471,32 @@ Si us plau, trieu un dels grups per veure els diversos paquets que conté. A con
 <context>
     <name>office</name>
     <message>
-        <location filename="../packages/office.qml" line="73"/>
+        <location filename="../packages/office.qml" line="76"/>
         <source>Add Skrooge</source>
         <translation>Afegiu Skrooge</translation>
     </message>
     <message>
-        <location filename="../packages/office.qml" line="122"/>
+        <location filename="../packages/office.qml" line="125"/>
         <source>Add Sigil</source>
         <translation>Afegiu Sigil</translation>
     </message>
     <message>
-        <location filename="../packages/office.qml" line="170"/>
+        <location filename="../packages/office.qml" line="173"/>
         <source>Add Scribus</source>
         <translation>Afegiu Scribus</translation>
     </message>
     <message>
-        <location filename="../packages/office.qml" line="218"/>
+        <location filename="../packages/office.qml" line="221"/>
         <source>Add Focuswriter</source>
         <translation>Afegiu Focuswriter</translation>
     </message>
     <message>
-        <location filename="../packages/office.qml" line="265"/>
+        <location filename="../packages/office.qml" line="268"/>
         <source>Add Calligra</source>
         <translation>Afegiu Calligra</translation>
     </message>
     <message>
-        <location filename="../packages/office.qml" line="296"/>
+        <location filename="../packages/office.qml" line="299"/>
         <source>Back</source>
         <translation>Enrere</translation>
     </message>
@@ -502,27 +504,27 @@ Si us plau, trieu un dels grups per veure els diversos paquets que conté. A con
 <context>
     <name>video</name>
     <message>
-        <location filename="../packages/video.qml" line="73"/>
+        <location filename="../packages/video.qml" line="76"/>
         <source>Add Kdenlive</source>
         <translation>Afegiu Kdenlive</translation>
     </message>
     <message>
-        <location filename="../packages/video.qml" line="122"/>
+        <location filename="../packages/video.qml" line="125"/>
         <source>Add Openshot</source>
         <translation>Afegiu Openshot</translation>
     </message>
     <message>
-        <location filename="../packages/video.qml" line="170"/>
+        <location filename="../packages/video.qml" line="173"/>
         <source>Add Lightworks</source>
         <translation>Afegiu Lightworks</translation>
     </message>
     <message>
-        <location filename="../packages/video.qml" line="218"/>
+        <location filename="../packages/video.qml" line="221"/>
         <source>Add Avidemux</source>
         <translation>Afegiu Avidemux</translation>
     </message>
     <message>
-        <location filename="../packages/video.qml" line="249"/>
+        <location filename="../packages/video.qml" line="252"/>
         <source>Back</source>
         <translation>Enrere</translation>
     </message>
@@ -557,27 +559,27 @@ Si us plau, trieu un dels grups per veure els diversos paquets que conté. A con
 <context>
     <name>web</name>
     <message>
-        <location filename="../packages/web.qml" line="72"/>
+        <location filename="../packages/web.qml" line="75"/>
         <source>Add Firefox</source>
         <translation>Afegiu Firefox</translation>
     </message>
     <message>
-        <location filename="../packages/web.qml" line="123"/>
+        <location filename="../packages/web.qml" line="126"/>
         <source>Add Chrome</source>
         <translation>Afegiu Chrome</translation>
     </message>
     <message>
-        <location filename="../packages/web.qml" line="173"/>
+        <location filename="../packages/web.qml" line="176"/>
         <source>Add Opera</source>
         <translation>Afegiu Opera</translation>
     </message>
     <message>
-        <location filename="../packages/web.qml" line="221"/>
+        <location filename="../packages/web.qml" line="224"/>
         <source>Add Otter Browser</source>
         <translation>Afegiu un altre navegador</translation>
     </message>
     <message>
-        <location filename="../packages/web.qml" line="252"/>
+        <location filename="../packages/web.qml" line="255"/>
         <source>Back</source>
         <translation>Enrere</translation>
     </message>

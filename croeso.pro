@@ -38,6 +38,7 @@ DEFINES += QT_DEPRECATED_WARNINGS
 TRANSLATIONS  += lang/croeso.ts \
               lang/croeso_nl_NL.ts \
               lang/croeso_ast.ts \
+              lang/croeso_bg.ts \
               lang/croeso_ca.ts \
               lang/croeso_cs.ts \
               lang/croeso_da.ts \

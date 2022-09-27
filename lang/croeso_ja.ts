@@ -1,4 +1,6 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS version="2.1" language="ja">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.1" language="ja">
 <context>
     <name>Page1Form.ui</name>
     <message>
@@ -57,7 +59,7 @@
     <message>
         <location filename="../Page2Form.ui.qml" line="46"/>
         <source>Asking Smart</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../Page2Form.ui.qml" line="74"/>
@@ -67,12 +69,12 @@
     <message>
         <location filename="../Page2Form.ui.qml" line="101"/>
         <source>Switching NVidia</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../Page2Form.ui.qml" line="146"/>
         <source>Additional Kernels</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../Page2Form.ui.qml" line="174"/>
@@ -120,12 +122,12 @@
     <message>
         <location filename="../Page3Form.ui.qml" line="236"/>
         <source>Configure Search</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../Page3Form.ui.qml" line="261"/>
         <source>Pacman Cache</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../Page3Form.ui.qml" line="289"/>
@@ -158,7 +160,7 @@
     <message>
         <location filename="../Page4Form.ui.qml" line="195"/>
         <source>Image Manipulation</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../Page4Form.ui.qml" line="228"/>
@@ -170,7 +172,7 @@
         <source>&lt;h3&gt;Package Groups&lt;/h3&gt;
 
 Please choose one of the groups to see the various packages each group contains. Then select applications you wish to add to your install.  Multiple selections per group are possible.  Once done with your selection click the install button.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -238,27 +240,27 @@ Please choose one of the groups to see the various packages each group contains.
 <context>
     <name>image</name>
     <message>
-        <location filename="../packages/image.qml" line="73"/>
+        <location filename="../packages/image.qml" line="76"/>
         <source>Add Krita</source>
         <translation>Kritaを追加</translation>
     </message>
     <message>
-        <location filename="../packages/image.qml" line="122"/>
+        <location filename="../packages/image.qml" line="125"/>
         <source>Add Gimp</source>
         <translation>Gimpを追加</translation>
     </message>
     <message>
-        <location filename="../packages/image.qml" line="170"/>
+        <location filename="../packages/image.qml" line="173"/>
         <source>Add Digikam</source>
         <translation>Digikamを追加</translation>
     </message>
     <message>
-        <location filename="../packages/image.qml" line="218"/>
+        <location filename="../packages/image.qml" line="221"/>
         <source>Add Nomacs</source>
         <translation>Nomacsを追加</translation>
     </message>
     <message>
-        <location filename="../packages/image.qml" line="249"/>
+        <location filename="../packages/image.qml" line="252"/>
         <source>Back</source>
         <translation>戻る</translation>
     </message>
@@ -266,27 +268,27 @@ Please choose one of the groups to see the various packages each group contains.
 <context>
     <name>mail</name>
     <message>
-        <location filename="../packages/mail.qml" line="73"/>
+        <location filename="../packages/mail.qml" line="76"/>
         <source>Add Kmail</source>
         <translation>Kmailを追加</translation>
     </message>
     <message>
-        <location filename="../packages/mail.qml" line="122"/>
+        <location filename="../packages/mail.qml" line="125"/>
         <source>Add Thunderbird</source>
         <translation>Thunderbirdを追加</translation>
     </message>
     <message>
-        <location filename="../packages/mail.qml" line="170"/>
+        <location filename="../packages/mail.qml" line="173"/>
         <source>Add Trojita</source>
         <translation>Trojitaを追加</translation>
     </message>
     <message>
-        <location filename="../packages/mail.qml" line="218"/>
+        <location filename="../packages/mail.qml" line="221"/>
         <source>Add Kube</source>
         <translation>Kubeを追加</translation>
     </message>
     <message>
-        <location filename="../packages/mail.qml" line="249"/>
+        <location filename="../packages/mail.qml" line="252"/>
         <source>Back</source>
         <translation>戻る</translation>
     </message>
@@ -296,7 +298,7 @@ Please choose one of the groups to see the various packages each group contains.
     <message>
         <location filename="../main.qml" line="35"/>
         <source>Croeso</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../main.qml" line="44"/>
@@ -306,14 +308,14 @@ Please choose one of the groups to see the various packages each group contains.
                             Focus on one DE (KDE Plasma), one toolkit (Qt) &amp; one architecture (x86_64).&lt;br&gt;
                             Plus a focus on evaluting and selecting the most suitable tools and applications.&lt;br&gt;&lt;br&gt;
                             This page will help you personalize the most commonly used settings in your KaOS workspace quickly.&lt;/div&gt;</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../main.qml" line="90"/>
         <source>&lt;p&gt;To familiarize yourself with KaOS, please read some of these documents.&lt;/p&gt;
                             
                             &lt;p&gt;Use the forum for questions, feedback and suggestions.&lt;/p&gt;</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../main.qml" line="101"/>
@@ -343,7 +345,7 @@ Please choose one of the groups to see the various packages each group contains.
     <message>
         <location filename="../main.qml" line="220"/>
         <source>KaOS Mail Group</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../main.qml" line="236"/>
@@ -363,17 +365,17 @@ Please choose one of the groups to see the various packages each group contains.
     <message>
         <location filename="../main.qml" line="245"/>
         <source>Docs</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../main.qml" line="248"/>
         <source>Advanced</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../main.qml" line="251"/>
         <source>About</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../main.qml" line="254"/>
@@ -389,27 +391,27 @@ Please choose one of the groups to see the various packages each group contains.
 <context>
     <name>music</name>
     <message>
-        <location filename="../packages/music.qml" line="73"/>
+        <location filename="../packages/music.qml" line="76"/>
         <source>Add Elisa</source>
         <translation>Elisaを追加</translation>
     </message>
     <message>
-        <location filename="../packages/music.qml" line="122"/>
+        <location filename="../packages/music.qml" line="125"/>
         <source>Add Strawberry</source>
         <translation>Strawberryを追加</translation>
     </message>
     <message>
-        <location filename="../packages/music.qml" line="170"/>
+        <location filename="../packages/music.qml" line="173"/>
         <source>Add Cantata</source>
         <translation>Cantataを追加</translation>
     </message>
     <message>
-        <location filename="../packages/music.qml" line="218"/>
+        <location filename="../packages/music.qml" line="221"/>
         <source>Add Qmmp</source>
         <translation>Qmmpを追加</translation>
     </message>
     <message>
-        <location filename="../packages/music.qml" line="249"/>
+        <location filename="../packages/music.qml" line="252"/>
         <source>Back</source>
         <translation>戻る</translation>
     </message>
@@ -460,32 +462,32 @@ Please choose one of the groups to see the various packages each group contains.
 <context>
     <name>office</name>
     <message>
-        <location filename="../packages/office.qml" line="73"/>
+        <location filename="../packages/office.qml" line="76"/>
         <source>Add Skrooge</source>
         <translation>Skroogeを追加</translation>
     </message>
     <message>
-        <location filename="../packages/office.qml" line="122"/>
+        <location filename="../packages/office.qml" line="125"/>
         <source>Add Sigil</source>
         <translation>Sigilを追加</translation>
     </message>
     <message>
-        <location filename="../packages/office.qml" line="170"/>
+        <location filename="../packages/office.qml" line="173"/>
         <source>Add Scribus</source>
         <translation>Scribusを追加</translation>
     </message>
     <message>
-        <location filename="../packages/office.qml" line="218"/>
+        <location filename="../packages/office.qml" line="221"/>
         <source>Add Focuswriter</source>
         <translation>Focuswriterを追加</translation>
     </message>
     <message>
-        <location filename="../packages/office.qml" line="265"/>
+        <location filename="../packages/office.qml" line="268"/>
         <source>Add Calligra</source>
         <translation>Calligraを追加</translation>
     </message>
     <message>
-        <location filename="../packages/office.qml" line="296"/>
+        <location filename="../packages/office.qml" line="299"/>
         <source>Back</source>
         <translation>戻る</translation>
     </message>
@@ -493,27 +495,27 @@ Please choose one of the groups to see the various packages each group contains.
 <context>
     <name>video</name>
     <message>
-        <location filename="../packages/video.qml" line="73"/>
+        <location filename="../packages/video.qml" line="76"/>
         <source>Add Kdenlive</source>
         <translation>Kdenliveを追加</translation>
     </message>
     <message>
-        <location filename="../packages/video.qml" line="122"/>
+        <location filename="../packages/video.qml" line="125"/>
         <source>Add Openshot</source>
         <translation>Openshotを追加</translation>
     </message>
     <message>
-        <location filename="../packages/video.qml" line="170"/>
+        <location filename="../packages/video.qml" line="173"/>
         <source>Add Lightworks</source>
         <translation>Lightworksを追加</translation>
     </message>
     <message>
-        <location filename="../packages/video.qml" line="218"/>
+        <location filename="../packages/video.qml" line="221"/>
         <source>Add Avidemux</source>
         <translation>Avidemuxを追加</translation>
     </message>
     <message>
-        <location filename="../packages/video.qml" line="249"/>
+        <location filename="../packages/video.qml" line="252"/>
         <source>Back</source>
         <translation>戻る</translation>
     </message>
@@ -548,27 +550,27 @@ Please choose one of the groups to see the various packages each group contains.
 <context>
     <name>web</name>
     <message>
-        <location filename="../packages/web.qml" line="72"/>
+        <location filename="../packages/web.qml" line="75"/>
         <source>Add Firefox</source>
         <translation>Firefoxを追加</translation>
     </message>
     <message>
-        <location filename="../packages/web.qml" line="123"/>
+        <location filename="../packages/web.qml" line="126"/>
         <source>Add Chrome</source>
         <translation>Chromeを追加</translation>
     </message>
     <message>
-        <location filename="../packages/web.qml" line="173"/>
+        <location filename="../packages/web.qml" line="176"/>
         <source>Add Opera</source>
         <translation>Operaを追加</translation>
     </message>
     <message>
-        <location filename="../packages/web.qml" line="221"/>
+        <location filename="../packages/web.qml" line="224"/>
         <source>Add Otter Browser</source>
         <translation>Otter Browserを追加</translation>
     </message>
     <message>
-        <location filename="../packages/web.qml" line="252"/>
+        <location filename="../packages/web.qml" line="255"/>
         <source>Back</source>
         <translation>戻る</translation>
     </message>

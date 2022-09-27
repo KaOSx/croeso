@@ -1,4 +1,6 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS version="2.1" language="it">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.1" language="it">
 <context>
     <name>Page1Form.ui</name>
     <message>
@@ -240,27 +242,27 @@ Per favore scegli uno dei seguenti gruppi per vedere i diversi pacchetti che cia
 <context>
     <name>image</name>
     <message>
-        <location filename="../packages/image.qml" line="73"/>
+        <location filename="../packages/image.qml" line="76"/>
         <source>Add Krita</source>
         <translation>Agiungi Krita</translation>
     </message>
     <message>
-        <location filename="../packages/image.qml" line="122"/>
+        <location filename="../packages/image.qml" line="125"/>
         <source>Add Gimp</source>
         <translation>Aggiungi Gimp</translation>
     </message>
     <message>
-        <location filename="../packages/image.qml" line="170"/>
+        <location filename="../packages/image.qml" line="173"/>
         <source>Add Digikam</source>
         <translation>Aggiungi Digikam</translation>
     </message>
     <message>
-        <location filename="../packages/image.qml" line="218"/>
+        <location filename="../packages/image.qml" line="221"/>
         <source>Add Nomacs</source>
         <translation>Aggiungi Nomacs</translation>
     </message>
     <message>
-        <location filename="../packages/image.qml" line="249"/>
+        <location filename="../packages/image.qml" line="252"/>
         <source>Back</source>
         <translation>Indietro</translation>
     </message>
@@ -268,27 +270,27 @@ Per favore scegli uno dei seguenti gruppi per vedere i diversi pacchetti che cia
 <context>
     <name>mail</name>
     <message>
-        <location filename="../packages/mail.qml" line="73"/>
+        <location filename="../packages/mail.qml" line="76"/>
         <source>Add Kmail</source>
         <translation>Aggiungi Kmail</translation>
     </message>
     <message>
-        <location filename="../packages/mail.qml" line="122"/>
+        <location filename="../packages/mail.qml" line="125"/>
         <source>Add Thunderbird</source>
         <translation>Aggiungi Thunderbird</translation>
     </message>
     <message>
-        <location filename="../packages/mail.qml" line="170"/>
+        <location filename="../packages/mail.qml" line="173"/>
         <source>Add Trojita</source>
         <translation>Aggiungi Trojita</translation>
     </message>
     <message>
-        <location filename="../packages/mail.qml" line="218"/>
+        <location filename="../packages/mail.qml" line="221"/>
         <source>Add Kube</source>
         <translation>Aggiungi Kube</translation>
     </message>
     <message>
-        <location filename="../packages/mail.qml" line="249"/>
+        <location filename="../packages/mail.qml" line="252"/>
         <source>Back</source>
         <translation>Indietro</translation>
     </message>
@@ -399,27 +401,27 @@ sono meno importanti.&lt;/p&gt;
 <context>
     <name>music</name>
     <message>
-        <location filename="../packages/music.qml" line="73"/>
+        <location filename="../packages/music.qml" line="76"/>
         <source>Add Elisa</source>
         <translation>Aggiungi Elisa</translation>
     </message>
     <message>
-        <location filename="../packages/music.qml" line="122"/>
+        <location filename="../packages/music.qml" line="125"/>
         <source>Add Strawberry</source>
         <translation>Aggiungi Strawberry</translation>
     </message>
     <message>
-        <location filename="../packages/music.qml" line="170"/>
+        <location filename="../packages/music.qml" line="173"/>
         <source>Add Cantata</source>
         <translation>Aggiungi Cantata</translation>
     </message>
     <message>
-        <location filename="../packages/music.qml" line="218"/>
+        <location filename="../packages/music.qml" line="221"/>
         <source>Add Qmmp</source>
         <translation>Aggiungi Qmmp</translation>
     </message>
     <message>
-        <location filename="../packages/music.qml" line="249"/>
+        <location filename="../packages/music.qml" line="252"/>
         <source>Back</source>
         <translation>Indietro</translation>
     </message>
@@ -472,32 +474,32 @@ e in più abbiamo valutato e selezionato gli strumenti e le applicazioni più ad
 <context>
     <name>office</name>
     <message>
-        <location filename="../packages/office.qml" line="73"/>
+        <location filename="../packages/office.qml" line="76"/>
         <source>Add Skrooge</source>
         <translation>Aggiungi Skrooge</translation>
     </message>
     <message>
-        <location filename="../packages/office.qml" line="122"/>
+        <location filename="../packages/office.qml" line="125"/>
         <source>Add Sigil</source>
         <translation>Aggiungi Sigil</translation>
     </message>
     <message>
-        <location filename="../packages/office.qml" line="170"/>
+        <location filename="../packages/office.qml" line="173"/>
         <source>Add Scribus</source>
         <translation>Aggiungi Scribus</translation>
     </message>
     <message>
-        <location filename="../packages/office.qml" line="218"/>
+        <location filename="../packages/office.qml" line="221"/>
         <source>Add Focuswriter</source>
         <translation>Aggiungi Focuswriter</translation>
     </message>
     <message>
-        <location filename="../packages/office.qml" line="265"/>
+        <location filename="../packages/office.qml" line="268"/>
         <source>Add Calligra</source>
         <translation>Aggiungi Calligra</translation>
     </message>
     <message>
-        <location filename="../packages/office.qml" line="296"/>
+        <location filename="../packages/office.qml" line="299"/>
         <source>Back</source>
         <translation>Indietro</translation>
     </message>
@@ -505,27 +507,27 @@ e in più abbiamo valutato e selezionato gli strumenti e le applicazioni più ad
 <context>
     <name>video</name>
     <message>
-        <location filename="../packages/video.qml" line="73"/>
+        <location filename="../packages/video.qml" line="76"/>
         <source>Add Kdenlive</source>
         <translation>Aggiungi Kdenlive</translation>
     </message>
     <message>
-        <location filename="../packages/video.qml" line="122"/>
+        <location filename="../packages/video.qml" line="125"/>
         <source>Add Openshot</source>
         <translation>Aggiungi Openshot</translation>
     </message>
     <message>
-        <location filename="../packages/video.qml" line="170"/>
+        <location filename="../packages/video.qml" line="173"/>
         <source>Add Lightworks</source>
         <translation>Aggiungi Lightworks</translation>
     </message>
     <message>
-        <location filename="../packages/video.qml" line="218"/>
+        <location filename="../packages/video.qml" line="221"/>
         <source>Add Avidemux</source>
         <translation>Aggiungi Avidemux</translation>
     </message>
     <message>
-        <location filename="../packages/video.qml" line="249"/>
+        <location filename="../packages/video.qml" line="252"/>
         <source>Back</source>
         <translation>Indietro</translation>
     </message>
@@ -560,27 +562,27 @@ e in più abbiamo valutato e selezionato gli strumenti e le applicazioni più ad
 <context>
     <name>web</name>
     <message>
-        <location filename="../packages/web.qml" line="72"/>
+        <location filename="../packages/web.qml" line="75"/>
         <source>Add Firefox</source>
         <translation>Aggiungi Firefox</translation>
     </message>
     <message>
-        <location filename="../packages/web.qml" line="123"/>
+        <location filename="../packages/web.qml" line="126"/>
         <source>Add Chrome</source>
         <translation>Aggiungi Chrome</translation>
     </message>
     <message>
-        <location filename="../packages/web.qml" line="173"/>
+        <location filename="../packages/web.qml" line="176"/>
         <source>Add Opera</source>
         <translation>Aggiungi Opera</translation>
     </message>
     <message>
-        <location filename="../packages/web.qml" line="221"/>
+        <location filename="../packages/web.qml" line="224"/>
         <source>Add Otter Browser</source>
         <translation>Aggiungi Otter Browser</translation>
     </message>
     <message>
-        <location filename="../packages/web.qml" line="252"/>
+        <location filename="../packages/web.qml" line="255"/>
         <source>Back</source>
         <translation>Indietro</translation>
     </message>
