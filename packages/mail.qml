@@ -142,7 +142,7 @@ Item {
                     y: 12
                     height: 100
                     fillMode: Image.PreserveAspectFit
-                    source: "../images/packages/thunderbird.jpg"
+                    source: "../images/packages/thunderbird.png"
                 }
             }
 
