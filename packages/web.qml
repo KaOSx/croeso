@@ -241,7 +241,7 @@ Item {
                     y: 12
                     height: 100
                     fillMode: Image.PreserveAspectFit
-                    source: "../images/packages/otter.jpg"
+                    source: "../images/packages/otter.png"
                 }
             }
         }
