@@ -94,7 +94,7 @@ Item {
                     y: 12
                     height: 100
                     fillMode: Image.PreserveAspectFit
-                    source: "../images/packages/firefox.jpg"
+                    source: "../images/packages/firefox.png"
                 }
 
             }

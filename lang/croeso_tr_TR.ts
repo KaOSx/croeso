@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.1" language="tr_TR">
+<?xml version="1.0" ?><!DOCTYPE TS><TS version="2.1" language="tr_TR">
 <context>
     <name>Page1Form.ui</name>
     <message>
@@ -140,39 +138,41 @@
     <message>
         <location filename="../Page4Form.ui.qml" line="52"/>
         <source>Web-Browsers</source>
-        <translation type="unfinished"></translation>
+        <translation>Web Tarayıcılar</translation>
     </message>
     <message>
         <location filename="../Page4Form.ui.qml" line="87"/>
         <source>Email Clients</source>
-        <translation type="unfinished"></translation>
+        <translation>Eposta İstemciler</translation>
     </message>
     <message>
         <location filename="../Page4Form.ui.qml" line="120"/>
         <source>Video Editors</source>
-        <translation type="unfinished"></translation>
+        <translation>Video Düzenleyiciler</translation>
     </message>
     <message>
         <location filename="../Page4Form.ui.qml" line="162"/>
         <source>Music Players</source>
-        <translation type="unfinished"></translation>
+        <translation>Müzik Oynatıcılar</translation>
     </message>
     <message>
         <location filename="../Page4Form.ui.qml" line="195"/>
         <source>Image Manipulation</source>
-        <translation type="unfinished"></translation>
+        <translation>Görüntü Düzenleme</translation>
     </message>
     <message>
         <location filename="../Page4Form.ui.qml" line="228"/>
         <source>Office Applications</source>
-        <translation type="unfinished"></translation>
+        <translation>Ofis Uygulamaları</translation>
     </message>
     <message>
         <location filename="../Page4Form.ui.qml" line="259"/>
         <source>&lt;h3&gt;Package Groups&lt;/h3&gt;
 
 Please choose one of the groups to see the various packages each group contains. Then select applications you wish to add to your install.  Multiple selections per group are possible.  Once done with your selection click the install button.</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;h3&gt;Paket Grupları&lt;/h3&gt;
+
+Herbir grubun barındırdığı birçok paketi görmek için lütfen gruplardan birini seçiniz. Sonra yüklemenize eklemek istediğiniz uygulamaları seçiniz. Her grup için çoklu seçim yapabilirsiniz. Seçimleri yaptıktan sonra yükle tuşuna basınız.</translation>
     </message>
 </context>
 <context>
@@ -214,83 +214,83 @@ Please choose one of the groups to see the various packages each group contains.
     <message>
         <location filename="../packages/chat.qml" line="73"/>
         <source>Add Quassel</source>
-        <translation type="unfinished"></translation>
+        <translation>Quassel Ekle</translation>
     </message>
     <message>
         <location filename="../packages/chat.qml" line="122"/>
         <source>Add Konversation</source>
-        <translation type="unfinished"></translation>
+        <translation>Konversation Ekle</translation>
     </message>
     <message>
         <location filename="../packages/chat.qml" line="170"/>
         <source>Add Telegram Desktop</source>
-        <translation type="unfinished"></translation>
+        <translation>Telegram Desktop Ekle</translation>
     </message>
     <message>
         <location filename="../packages/chat.qml" line="218"/>
         <source>Add KDE Telapathy</source>
-        <translation type="unfinished"></translation>
+        <translation>KDE Telapathy Ekle</translation>
     </message>
     <message>
         <location filename="../packages/chat.qml" line="249"/>
         <source>Back</source>
-        <translation type="unfinished"></translation>
+        <translation>Geri</translation>
     </message>
 </context>
 <context>
     <name>image</name>
     <message>
-        <location filename="../packages/image.qml" line="76"/>
+        <location filename="../packages/image.qml" line="73"/>
         <source>Add Krita</source>
-        <translation type="unfinished"></translation>
+        <translation>Krita Ekle</translation>
     </message>
     <message>
-        <location filename="../packages/image.qml" line="125"/>
+        <location filename="../packages/image.qml" line="122"/>
         <source>Add Gimp</source>
-        <translation type="unfinished"></translation>
+        <translation>Gimp Ekle</translation>
     </message>
     <message>
-        <location filename="../packages/image.qml" line="173"/>
+        <location filename="../packages/image.qml" line="170"/>
         <source>Add Digikam</source>
-        <translation type="unfinished"></translation>
+        <translation>Digikam Ekle</translation>
     </message>
     <message>
-        <location filename="../packages/image.qml" line="221"/>
+        <location filename="../packages/image.qml" line="218"/>
         <source>Add Nomacs</source>
-        <translation type="unfinished"></translation>
+        <translation>Nomacs Ekle</translation>
     </message>
     <message>
-        <location filename="../packages/image.qml" line="252"/>
+        <location filename="../packages/image.qml" line="249"/>
         <source>Back</source>
-        <translation type="unfinished"></translation>
+        <translation>Geri</translation>
     </message>
 </context>
 <context>
     <name>mail</name>
     <message>
-        <location filename="../packages/mail.qml" line="76"/>
+        <location filename="../packages/mail.qml" line="73"/>
         <source>Add Kmail</source>
-        <translation type="unfinished"></translation>
+        <translation>Kmail Ekle</translation>
     </message>
     <message>
-        <location filename="../packages/mail.qml" line="125"/>
+        <location filename="../packages/mail.qml" line="122"/>
         <source>Add Thunderbird</source>
-        <translation type="unfinished"></translation>
+        <translation>Thunderbird Ekle</translation>
     </message>
     <message>
-        <location filename="../packages/mail.qml" line="173"/>
+        <location filename="../packages/mail.qml" line="170"/>
         <source>Add Trojita</source>
-        <translation type="unfinished"></translation>
+        <translation>Trojita Ekle</translation>
     </message>
     <message>
-        <location filename="../packages/mail.qml" line="221"/>
+        <location filename="../packages/mail.qml" line="218"/>
         <source>Add Kube</source>
-        <translation type="unfinished"></translation>
+        <translation>Kube Ekle</translation>
     </message>
     <message>
-        <location filename="../packages/mail.qml" line="252"/>
+        <location filename="../packages/mail.qml" line="249"/>
         <source>Back</source>
-        <translation type="unfinished"></translation>
+        <translation>Geri</translation>
     </message>
 </context>
 <context>
@@ -363,7 +363,7 @@ Please choose one of the groups to see the various packages each group contains.
     <message>
         <location filename="../main.qml" line="239"/>
         <source>Packages</source>
-        <translation type="unfinished"></translation>
+        <translation>Paketler</translation>
     </message>
     <message>
         <location filename="../main.qml" line="242"/>
@@ -399,29 +399,29 @@ Please choose one of the groups to see the various packages each group contains.
 <context>
     <name>music</name>
     <message>
-        <location filename="../packages/music.qml" line="76"/>
+        <location filename="../packages/music.qml" line="73"/>
         <source>Add Elisa</source>
-        <translation type="unfinished"></translation>
+        <translation>Elisa Ekle</translation>
     </message>
     <message>
-        <location filename="../packages/music.qml" line="125"/>
+        <location filename="../packages/music.qml" line="122"/>
         <source>Add Strawberry</source>
-        <translation type="unfinished"></translation>
+        <translation>Strawberry Ekle</translation>
     </message>
     <message>
-        <location filename="../packages/music.qml" line="173"/>
+        <location filename="../packages/music.qml" line="170"/>
         <source>Add Cantata</source>
-        <translation type="unfinished"></translation>
+        <translation>Cantata Ekle</translation>
     </message>
     <message>
-        <location filename="../packages/music.qml" line="221"/>
+        <location filename="../packages/music.qml" line="218"/>
         <source>Add Qmmp</source>
-        <translation type="unfinished"></translation>
+        <translation>Qmmp Ekle</translation>
     </message>
     <message>
-        <location filename="../packages/music.qml" line="252"/>
+        <location filename="../packages/music.qml" line="249"/>
         <source>Back</source>
-        <translation type="unfinished"></translation>
+        <translation>Geri</translation>
     </message>
 </context>
 <context>
@@ -469,62 +469,62 @@ Please choose one of the groups to see the various packages each group contains.
 <context>
     <name>office</name>
     <message>
-        <location filename="../packages/office.qml" line="76"/>
+        <location filename="../packages/office.qml" line="73"/>
         <source>Add Skrooge</source>
-        <translation type="unfinished"></translation>
+        <translation>Skrooge Ekle</translation>
     </message>
     <message>
-        <location filename="../packages/office.qml" line="125"/>
+        <location filename="../packages/office.qml" line="122"/>
         <source>Add Sigil</source>
-        <translation type="unfinished"></translation>
+        <translation>Sigil Ekle</translation>
     </message>
     <message>
-        <location filename="../packages/office.qml" line="173"/>
+        <location filename="../packages/office.qml" line="170"/>
         <source>Add Scribus</source>
-        <translation type="unfinished"></translation>
+        <translation>Scribus Ekle</translation>
     </message>
     <message>
-        <location filename="../packages/office.qml" line="221"/>
+        <location filename="../packages/office.qml" line="218"/>
         <source>Add Focuswriter</source>
-        <translation type="unfinished"></translation>
+        <translation>Focuswriter Ekle</translation>
     </message>
     <message>
-        <location filename="../packages/office.qml" line="268"/>
+        <location filename="../packages/office.qml" line="265"/>
         <source>Add Calligra</source>
-        <translation type="unfinished"></translation>
+        <translation>Calligra Ekle</translation>
     </message>
     <message>
-        <location filename="../packages/office.qml" line="299"/>
+        <location filename="../packages/office.qml" line="296"/>
         <source>Back</source>
-        <translation type="unfinished"></translation>
+        <translation>Geri</translation>
     </message>
 </context>
 <context>
     <name>video</name>
     <message>
-        <location filename="../packages/video.qml" line="76"/>
+        <location filename="../packages/video.qml" line="73"/>
         <source>Add Kdenlive</source>
-        <translation type="unfinished"></translation>
+        <translation>Kdenlive Ekle</translation>
     </message>
     <message>
-        <location filename="../packages/video.qml" line="125"/>
+        <location filename="../packages/video.qml" line="122"/>
         <source>Add Openshot</source>
-        <translation type="unfinished"></translation>
+        <translation>Openshot Ekle</translation>
     </message>
     <message>
-        <location filename="../packages/video.qml" line="173"/>
+        <location filename="../packages/video.qml" line="170"/>
         <source>Add Lightworks</source>
-        <translation type="unfinished"></translation>
+        <translation>Lightworks Ekle</translation>
     </message>
     <message>
-        <location filename="../packages/video.qml" line="221"/>
+        <location filename="../packages/video.qml" line="218"/>
         <source>Add Avidemux</source>
-        <translation type="unfinished"></translation>
+        <translation>Avidemux Ekle</translation>
     </message>
     <message>
-        <location filename="../packages/video.qml" line="252"/>
+        <location filename="../packages/video.qml" line="249"/>
         <source>Back</source>
-        <translation type="unfinished"></translation>
+        <translation>Geri</translation>
     </message>
 </context>
 <context>
@@ -545,7 +545,7 @@ Please choose one of the groups to see the various packages each group contains.
         <location filename="../wallpaper/wall.qml" line="60"/>
         <source>Oldest</source>
         <extracomment>Navbar entry</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>En eski</translation>
     </message>
     <message>
         <location filename="../wallpaper/wall.qml" line="67"/>
@@ -557,29 +557,29 @@ Please choose one of the groups to see the various packages each group contains.
 <context>
     <name>web</name>
     <message>
-        <location filename="../packages/web.qml" line="75"/>
+        <location filename="../packages/web.qml" line="72"/>
         <source>Add Firefox</source>
-        <translation type="unfinished"></translation>
+        <translation>Firefox Ekle</translation>
     </message>
     <message>
-        <location filename="../packages/web.qml" line="126"/>
+        <location filename="../packages/web.qml" line="123"/>
         <source>Add Chrome</source>
-        <translation type="unfinished"></translation>
+        <translation>Chrome Ekle</translation>
     </message>
     <message>
-        <location filename="../packages/web.qml" line="176"/>
+        <location filename="../packages/web.qml" line="173"/>
         <source>Add Opera</source>
-        <translation type="unfinished"></translation>
+        <translation>Opera Ekle</translation>
     </message>
     <message>
-        <location filename="../packages/web.qml" line="224"/>
+        <location filename="../packages/web.qml" line="221"/>
         <source>Add Otter Browser</source>
-        <translation type="unfinished"></translation>
+        <translation>Otter Browser Ekle</translation>
     </message>
     <message>
-        <location filename="../packages/web.qml" line="255"/>
+        <location filename="../packages/web.qml" line="252"/>
         <source>Back</source>
-        <translation type="unfinished"></translation>
+        <translation>Geri</translation>
     </message>
 </context>
 </TS>
