@@ -47,6 +47,7 @@ TRANSLATIONS  += lang/croeso.ts \
               lang/croeso_es_AR.ts \
               lang/croeso_fa_IR.ts \
               lang/croeso_fr.ts \
+              lang/croeso_fi.ts \
               lang/croeso_hi_IN.ts \
               lang/croeso_hr_HR.ts \
               lang/croeso_hu.ts \
