@@ -44,7 +44,7 @@ Page3Form {
         executer.connectSource("kcmshell5 kcm_networkmanagement");
     }
     button6.onClicked: {
-        executer.connectSource("kcmshell5 kwalletconfig5");
+        executer.connectSource("kcmshell5 kcm_kwallet5");
     }
     button7.onClicked: {
         executer.connectSource("kcmshell5 kcm_plasmasearch");
