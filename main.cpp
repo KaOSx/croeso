@@ -11,11 +11,11 @@
 #include <QDebug>
 #include <QDir>
 
-#include "wallpaper/filesystem.h"
-#include "wallpaper/unsplash.h"
-#include "wallpaper/photo.h"
-#include "wallpaper/photolist.h"
-#include "wallpaper/localphotolist.h"
+//#include "wallpaper/filesystem.h"
+//#include "wallpaper/unsplash.h"
+//#include "wallpaper/photo.h"
+//#include "wallpaper/photolist.h"
+//#include "wallpaper/localphotolist.h"
 
 #include <Magick++.h>
 using namespace Magick;
@@ -26,7 +26,7 @@ int main(int argc, char *argv[])
     InitializeMagick(*argv);
     
     QtWebView::initialize();
-    QCoreApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
+    QCoreApplication::setAttribute(Qt::AA_ShareOpenGLContexts);
     QGuiApplication app(argc, argv);
     
     FileSystem::init();

@@ -82,10 +82,10 @@ INSTALLS += target desktop icon qml
 
 DISTFILES +=
 
-HEADERS += \
-    wallpaper/unsplash.h \
-    wallpaper/photo.h \
-    wallpaper/photolist.h \
-    wallpaper/photosavethread.h \
-    wallpaper/filesystem.h \
-    wallpaper/localphotolist.h
+#HEADERS += \
+#    wallpaper/unsplash.h \
+#    wallpaper/photo.h \
+#    wallpaper/photolist.h \
+#    wallpaper/photosavethread.h \
+#    wallpaper/filesystem.h \
+#    wallpaper/localphotolist.h
