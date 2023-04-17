@@ -29,7 +29,7 @@ int main(int argc, char *argv[])
     QCoreApplication::setAttribute(Qt::AA_ShareOpenGLContexts);
     QGuiApplication app(argc, argv);
     
-    FileSystem::init();
+    //FileSystem::init();
 
     QQuickStyle::setStyle("Material");
 
@@ -40,10 +40,10 @@ int main(int argc, char *argv[])
     app.installTranslator(&appTranslator);
     
     // Register C++ class in QML
-    qmlRegisterType<Unsplash>("Unwallpaper", 1, 0, "Unsplash");
-    qmlRegisterType<Photo>("Unwallpaper", 1, 0, "PhotoModel");
-    qmlRegisterType<PhotoList>("Unwallpaper", 1, 0, "PhotoListModel");
-    qmlRegisterType<LocalPhotoList>("Unwallpaper", 1, 0, "LocalPhotoListModel");
+    //qmlRegisterType<Unsplash>("Unwallpaper", 1, 0, "Unsplash");
+    //qmlRegisterType<Photo>("Unwallpaper", 1, 0, "PhotoModel");
+    //qmlRegisterType<PhotoList>("Unwallpaper", 1, 0, "PhotoListModel");
+    //qmlRegisterType<LocalPhotoList>("Unwallpaper", 1, 0, "LocalPhotoListModel");
 
     QQmlApplicationEngine engine;
     engine.load(QUrl(QLatin1String("qrc:/main.qml")));

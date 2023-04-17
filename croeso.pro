@@ -1,18 +1,18 @@
 QT += qml quick quickcontrols2 webview
 
-TEMPLATE = app
+# TEMPLATE = app
 
 CONFIG += c++17
 unix: CONFIG += link_pkgconfig
 unix: PKGCONFIG += Magick++
 
-SOURCES += main.cpp \
-    wallpaper/unsplash.cpp \
-    wallpaper/photo.cpp \
-    wallpaper/photolist.cpp \
-    wallpaper/photosavethread.cpp \
-    wallpaper/filesystem.cpp \
-    wallpaper/localphotolist.cpp
+SOURCES += main.cpp
+   # wallpaper/unsplash.cpp \
+   # wallpaper/photo.cpp \
+   # wallpaper/photolist.cpp \
+   # wallpaper/photosavethread.cpp \
+   # wallpaper/filesystem.cpp \
+   # wallpaper/localphotolist.cpp
 
 RESOURCES += qml.qrc
 
