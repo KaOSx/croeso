@@ -1,8 +1,8 @@
 import QtQuick 2.7
 import QtQuick.Controls 2.0
-import QtQuick.Layouts 1.3
+import QtQuick.Layouts
 import QtQuick.Controls.Material 2.1
-import QtGraphicalEffects 1.0
+import Qt5Compat.GraphicalEffects
 
 import Unwallpaper 1.0
 

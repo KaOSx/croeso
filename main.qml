@@ -18,11 +18,12 @@
  ***************************************************************************/
 import QtQuick 2.7
 import QtQuick.Controls 2.0
-import QtQuick.Layouts 1.3
+import QtQuick.Layouts
 import QtQuick.Window 2.0
-import QtQuick.Dialogs 1.2
+import QtQuick.Dialogs
 import QtWebView 1.1
 import org.kde.plasma.core 2.0 as PlasmaCore
+import org.kde.plasma.plasma5support 2.0 as P5Support
 
 ApplicationWindow {
     visible: true
@@ -59,7 +60,7 @@ ApplicationWindow {
             //    color: "gray"
             //}
             
-            PlasmaCore.DataSource {
+            P5Support.DataSource {
                 id: executer
                 engine: "executable"
                 onNewData: {executer.disconnectSource(sourceName);}

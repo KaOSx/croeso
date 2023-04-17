@@ -1,5 +1,5 @@
 /***************************************************************************
- *   Copyright (C) 2018 Anke Boersma <demm@kaosx.us>       *
+ *   Copyright (C) 2018 - 2023 Anke Boersma <demm@kaosx.us>       *
  *                                                                         *
  *   This program is free software; you can redistribute it and/or modify  *
  *   it under the terms of the GNU General Public License as published by  *
@@ -20,39 +20,40 @@ import QtQuick 2.7
 import QtQuick.Controls 2.0
 import QtQuick.Layouts 1.3
 import org.kde.plasma.core 2.0 as PlasmaCore
+import org.kde.plasma.plasma5support 2.0 as P5Support
 
 Page3Form {
-    PlasmaCore.DataSource {
+    P5Support.DataSource {
         id: executer
         engine: "executable"
         onNewData: {executer.disconnectSource(sourceName);}
     }
     
     button1.onClicked: {
-        executer.connectSource("kcmshell5 kcm_firewall");
+        executer.connectSource("kcmshell6 kcm_firewall");
     }
     button2.onClicked: {
-        executer.connectSource("kcmshell5 powerdevilprofilesconfig");
+        executer.connectSource("kcmshell6 powerdevilprofilesconfig");
     }
     button3.onClicked: {
         executer.connectSource("/usr/bin/stacer");
     }
     button4.onClicked: {
-        executer.connectSource("kcmshell5 kcm_users");
+        executer.connectSource("kcmshell6 kcm_users");
     }
     button5.onClicked: {
-        executer.connectSource("kcmshell5 kcm_networkmanagement");
+        executer.connectSource("kcmshell6 kcm_networkmanagement");
     }
     button6.onClicked: {
-        executer.connectSource("kcmshell5 kcm_kwallet5");
+        executer.connectSource("kcmshell6 kcm_kwallet6");
     }
     button7.onClicked: {
-        executer.connectSource("kcmshell5 kcm_plasmasearch");
+        executer.connectSource("kcmshell6 kcm_plasmasearch");
     }
     button8.onClicked: {
         executer.connectSource("/usr/bin/octopi-cachecleaner");
     }
     button9.onClicked: {
-        executer.connectSource("kcmshell5 componentchooser");
+        executer.connectSource("kcmshell6 componentchooser");
     }
 }

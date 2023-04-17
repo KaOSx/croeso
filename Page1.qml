@@ -1,5 +1,5 @@
 /***************************************************************************
- *   Copyright (C) 2018 - 2019 Anke Boersma <demm@kaosx.us>       *
+ *   Copyright (C) 2018 - 2023 Anke Boersma <demm@kaosx.us>       *
  *                                                                         *
  *   This program is free software; you can redistribute it and/or modify  *
  *   it under the terms of the GNU General Public License as published by  *
@@ -18,11 +18,12 @@
  ***************************************************************************/
 import QtQuick 2.7
 import QtQuick.Controls 2.0
-import QtQuick.Layouts 1.3
+import QtQuick.Layouts
 import org.kde.plasma.core 2.0 as PlasmaCore
+import org.kde.plasma.plasma5support 2.0 as P5Support
 
 Page1Form {
-    PlasmaCore.DataSource {
+    P5Support.DataSource {
         id: executer
         engine: "executable"
         onNewData: {executer.disconnectSource(sourceName);}
@@ -38,30 +39,30 @@ Page1Form {
     }
     
     button1.onClicked: {
-        executer.connectSource("kcmshell5 style");
+        executer.connectSource("kcmshell6 style");
     }
     button2.onClicked: {
-        executer.connectSource("kcmshell5 kcm_desktoptheme");
+        executer.connectSource("kcmshell6 kcm_desktoptheme");
     }
     button3.onClicked: {
-        executer.connectSource("kcmshell5 kwindecoration");
+        executer.connectSource("kcmshell6 kwindecoration");
     }
     button4.onClicked: {
-        executer.connectSource("kcmshell5 mouse");
+        executer.connectSource("kcmshell6 mouse");
     }
     button5.onClicked: {
-        executer.connectSource("kcmshell5 icons");
+        executer.connectSource("kcmshell6 icons");
     }
     button6.onClicked: {
-        executer.connectSource("kcmshell5 kcm_kwin_virtualdesktops");
+        executer.connectSource("kcmshell6 kcm_kwin_virtualdesktops");
     }
     button7.onClicked: {
-        executer.connectSource("kcmshell5 kscreen");
+        executer.connectSource("kcmshell6 kscreen");
     }
     button8.onClicked: {
-        executer.connectSource("kcmshell5 colors");
+        executer.connectSource("kcmshell6 colors");
     }
     button9.onClicked: {
-        executer.connectSource("kcmshell5 fonts");
+        executer.connectSource("kcmshell6 fonts");
     }
 }

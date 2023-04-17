@@ -2,7 +2,7 @@ QT += qml quick quickcontrols2 webview
 
 TEMPLATE = app
 
-CONFIG += c++11
+CONFIG += c++17
 unix: CONFIG += link_pkgconfig
 unix: PKGCONFIG += Magick++
 
@@ -75,7 +75,7 @@ desktop.files += croeso.desktop
 icon.files += croeso.svg
 icon.path += /usr/share/pixmaps
 
-qml.path = /usr/lib/qt5/qml/croeso
+qml.path = /usr/lib/qt6/qml/croeso
 #qml.files += package.qml
 
 INSTALLS += target desktop icon qml
