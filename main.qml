@@ -79,9 +79,40 @@ ApplicationWindow {
         }
         
         Page {
-            Loader {
-                id: wallpaper
-                source: "wallpaper/wall.qml"
+            //Loader {
+            //    id: wallpaper
+            //    source: "wallpaper/wall.qml"
+            //}
+            Label {
+                textFormat: Text.RichText
+                //: Do not translate root/root and live/live
+                text: qsTr("<p>Correct passwords for use in the live session:</p>
+                            <p></p>
+                            <table width=100% align=center bgcolor=#eaeaea>
+                                <tr>
+                                    <th>Username:</th>
+                                    <th>Password:</th>
+                                </tr>
+                                <tr>
+                                    <td align=center>root</td>
+                                    <td align=center>root</td>
+                                </tr>
+                                <tr>
+                                    <td align=center>live</td>
+                                    <td align=center>live</td>
+                                </tr>
+                            </table>
+                            <p>Hope you enjoy</p>")
+                anchors.centerIn: parent
+                horizontalAlignment: Text.AlignHCenter
+                Image {
+                    id: image
+                    anchors.centerIn: parent
+                    anchors.verticalCenterOffset : 100
+                    width: 22
+                    height: 22
+                    source: "images/face-smile-grin.svg"
+                }
             }
         }
 
@@ -240,7 +271,7 @@ ApplicationWindow {
             text: qsTr("Packages")
         }
         TabButton {
-            text: qsTr("Wallpaper")
+            text: qsTr("Passwords")
         }
         TabButton {
             text: qsTr("Docs")
