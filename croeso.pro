@@ -6,7 +6,7 @@ CONFIG += c++17
 unix: CONFIG += link_pkgconfig
 unix: PKGCONFIG += Magick++
 
-SOURCES += main.cpp
+SOURCES += main.cpp \
     wallpaper/unsplash.cpp \
     wallpaper/photo.cpp \
     wallpaper/photolist.cpp \
