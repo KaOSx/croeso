@@ -54,6 +54,8 @@ void Photo::download()
     connect(reply, &QNetworkReply::downloadProgress, this, &Photo::downloadProgress);
     connect(reply, &QNetworkReply::finished, this, &Photo::downloaded);
     connect(reply, &QNetworkReply::finished, thread, &PhotoSaveThread::save);
+    if (reply->error() != QNetworkReply::NoError)
+        qWarning() << "Warning:" << &Photo::downloadFailed;
     //connect(reply, static_cast<void(QNetworkReply::*)(QNetworkReply::NetworkError)>(&QNetworkReply::error), this, &Photo::downloadFailed);
 
     connect(thread, &PhotoSaveThread::saved, this, &Photo::saved);
