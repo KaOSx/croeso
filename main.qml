@@ -55,7 +55,7 @@ ApplicationWindow {
             }
         }
         
-        Page4 {
+        /*Page4 {
             //Label {
             //    color: "gray"
             //}
@@ -76,13 +76,8 @@ ApplicationWindow {
                 }
             }
             
-        }
-        
+        }*/
         Page {
-            //Loader {
-            //    id: wallpaper
-            //    source: "wallpaper/wall.qml"
-            //}
             Label {
                 textFormat: Text.RichText
                 //: Do not translate root/root and live/live
@@ -113,6 +108,13 @@ ApplicationWindow {
                     height: 22
                     source: "images/face-smile-grin.svg"
                 }
+            }
+        }
+        
+        Page {
+            Loader {
+                id: wallpaper
+                source: "wallpaper/wall.qml"
             }
         }
 
@@ -268,10 +270,10 @@ ApplicationWindow {
             text: qsTr("Customize")
         }
         TabButton {
-            text: qsTr("Packages")
+            text: qsTr("Passwords")
         }
         TabButton {
-            text: qsTr("Passwords")
+            text: qsTr("Wallpaper")
         }
         TabButton {
             text: qsTr("Docs")

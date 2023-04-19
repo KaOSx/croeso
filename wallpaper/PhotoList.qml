@@ -13,12 +13,12 @@ Item {
     ScrollView {
         width: parent.width
         height: parent.height
-        flickableItem.interactive: true // Allow touch swipe and mouse drag gestures
-        horizontalScrollBarPolicy: Qt.ScrollBarAlwaysOn
-        style: ScrollViewStyle {
+        //flickableItem.interactive: true // Allow touch swipe and mouse drag gestures
+        //horizontalScrollBarPolicy: Qt.ScrollBarAlwaysOff
+        /*style: ScrollViewStyle {
             transientScrollBars: true
             handle: Item {
-                implicitWidth: 5
+                implicitWidth: 3
                 implicitHeight: 20
                 Rectangle {
                     color: "black"
@@ -26,10 +26,10 @@ Item {
                 }
             }
             scrollBarBackground: Item {
-                implicitWidth: 5
+                implicitWidth: 3
                 implicitHeight: 20
             }
-        }
+        }*/
 
         Column {
             spacing: 20

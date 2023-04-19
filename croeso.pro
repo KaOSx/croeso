@@ -1,18 +1,18 @@
 QT += qml quick quickcontrols2 webview
 
-# TEMPLATE = app
+TEMPLATE = app
 
 CONFIG += c++17
 unix: CONFIG += link_pkgconfig
 unix: PKGCONFIG += Magick++
 
 SOURCES += main.cpp
-   # wallpaper/unsplash.cpp \
-   # wallpaper/photo.cpp \
-   # wallpaper/photolist.cpp \
-   # wallpaper/photosavethread.cpp \
-   # wallpaper/filesystem.cpp \
-   # wallpaper/localphotolist.cpp
+    wallpaper/unsplash.cpp \
+    wallpaper/photo.cpp \
+    wallpaper/photolist.cpp \
+    wallpaper/photosavethread.cpp \
+    wallpaper/filesystem.cpp \
+    wallpaper/localphotolist.cpp
 
 RESOURCES += qml.qrc
 
@@ -82,10 +82,10 @@ INSTALLS += target desktop icon qml
 
 DISTFILES +=
 
-#HEADERS += \
-#    wallpaper/unsplash.h \
-#    wallpaper/photo.h \
-#    wallpaper/photolist.h \
-#    wallpaper/photosavethread.h \
-#    wallpaper/filesystem.h \
-#    wallpaper/localphotolist.h
+HEADERS += \
+    wallpaper/unsplash.h \
+    wallpaper/photo.h \
+    wallpaper/photolist.h \
+    wallpaper/photosavethread.h \
+    wallpaper/filesystem.h \
+    wallpaper/localphotolist.h
