@@ -62,6 +62,7 @@ MouseArea {
             text: model.local ? "✓ " + qsTr("Downloaded") : qsTr("Download")
             visible: !model.local
             anchors.right: parent.right
+            Material.roundedScale: Material.NotRounded
 
             onClicked: {
                 model.download();
@@ -73,6 +74,7 @@ MouseArea {
             id: removeButton
             visible: model.local
             anchors.right: parent.right
+            Material.roundedScale: Material.NotRounded
             text: qsTr("Remove")
 
             onClicked: {
@@ -92,6 +94,7 @@ MouseArea {
 
             anchors.right: removeButton.left
             anchors.rightMargin: 10
+            Material.roundedScale: Material.NotRounded
 
             onClicked: {
                 model.setWallpaper();

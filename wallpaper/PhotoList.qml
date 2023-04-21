@@ -51,6 +51,7 @@ Item {
                 Button {
                     id: loadMoreButton
                     anchors.centerIn: parent
+                    Material.roundedScale: Material.NotRounded
                     //: Button at the end of photo list
                     text: qsTr("Load more")
                     visible: false
