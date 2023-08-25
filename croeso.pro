@@ -73,7 +73,7 @@ desktop.path = /usr/share/applications
 desktop.files += croeso.desktop
 
 icon.files += croeso.svg
-icon.path += /usr/share/pixmaps
+icon.path += /usr/share/icons/apps/48
 
 qml.path = /usr/lib/qt6/qml/croeso
 #qml.files += package.qml
