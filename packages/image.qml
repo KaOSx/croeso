@@ -1,6 +1,6 @@
  
 /***************************************************************************
- *   Copyright (C) 2020 - 2023 Anke Boersma <demm@kaosx.us>       *
+ *   Copyright (C) 2020 - 2023 Anke Boersma <demm@kaosx.us>                *
  *                                                                         *
  *   This program is free software; you can redistribute it and/or modify  *
  *   it under the terms of the GNU General Public License as published by  *
@@ -52,7 +52,7 @@ Item {
             height: 546
             spacing: 5
 
-            Rectangle {
+            /*Rectangle {
                 width: 600
                 height: 120
                 radius: 10
@@ -97,7 +97,7 @@ Item {
                     source: "../images/packages/krita.png"
                 }
 
-            }
+            }*/
 
             Rectangle {
                 id: rectangle
@@ -147,7 +147,7 @@ Item {
                 }
             }
 
-            Rectangle {
+            /*Rectangle {
                 id: rectangle1
                 width: 600
                 height: 120
@@ -193,7 +193,7 @@ Item {
                     fillMode: Image.PreserveAspectFit
                     source: "../images/packages/digikam.png"
                 }
-            }
+            }*/
             
             Rectangle {
                 id: rectangle2

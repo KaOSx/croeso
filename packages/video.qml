@@ -1,6 +1,6 @@
  
 /***************************************************************************
- *   Copyright (C) 2020 - 2023 Anke Boersma <demm@kaosx.us>       *
+ *   Copyright (C) 2020 - 2023 Anke Boersma <demm@kaosx.us>                *
  *                                                                         *
  *   This program is free software; you can redistribute it and/or modify  *
  *   it under the terms of the GNU General Public License as published by  *
@@ -80,10 +80,10 @@ Item {
                     
                     onCheckedChanged: {
                         if ( ! checked ) {
-                            executer.connectSource("sed -i -e 's|kdenlive||' /tmp/croeso_list.txt");
+                            executer.connectSource("sed -i -e 's|kdenlive6||' /tmp/croeso_list.txt");
                         }
                         else {
-                            executer.connectSource("echo 'kdenlive' >> /tmp/croeso_list.txt");
+                            executer.connectSource("echo 'kdenlive6' >> /tmp/croeso_list.txt");
                         }
                     }
                 }
