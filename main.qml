@@ -1,5 +1,5 @@
 /***************************************************************************
- *   Copyright (C) 2018 - 2020 Anke Boersma <demm@kaosx.us>       *
+ *   Copyright (C) 2018 - 2023 Anke Boersma <demm@kaosx.us>       *
  *                                                                         *
  *   This program is free software; you can redistribute it and/or modify  *
  *   it under the terms of the GNU General Public License as published by  *
@@ -55,7 +55,7 @@ ApplicationWindow {
             }
         }
         
-        /*Page4 {
+        Page4 {
             //Label {
             //    color: "gray"
             //}
@@ -76,41 +76,8 @@ ApplicationWindow {
                 }
             }
             
-        }*/
-        Page {
-            Label {
-                textFormat: Text.RichText
-                //: Do not translate root/root and live/live
-                text: qsTr("<p>Correct passwords for use in the live session:</p>
-                            <p></p>
-                            <table width=100% align=center bgcolor=#eaeaea>
-                                <tr>
-                                    <th>Username:</th>
-                                    <th>Password:</th>
-                                </tr>
-                                <tr>
-                                    <td align=center>root</td>
-                                    <td align=center>root</td>
-                                </tr>
-                                <tr>
-                                    <td align=center>live</td>
-                                    <td align=center>live</td>
-                                </tr>
-                            </table>
-                            <p>Hope you enjoy</p>")
-                anchors.centerIn: parent
-                horizontalAlignment: Text.AlignHCenter
-                Image {
-                    id: image
-                    anchors.centerIn: parent
-                    anchors.verticalCenterOffset : 100
-                    width: 22
-                    height: 22
-                    source: "images/face-smile-grin.svg"
-                }
-            }
         }
-        
+
         Page {
             Loader {
                 id: wallpaper
@@ -190,7 +157,7 @@ ApplicationWindow {
             }
         }
                 
-        Button {
+        /*Button {
                 id: irc
                 hoverEnabled: true
                 onClicked: {  Qt.openUrlExternally("https://web.libera.chat/#KaOS"); }
@@ -212,12 +179,12 @@ ApplicationWindow {
                 fillMode: Image.PreserveAspectFit
                 source: "images/fontawesome/comments.svg"
             }
-        }
+        }*/
         
         Button {
                 id: gitter
                 hoverEnabled: true
-                onClicked: {  Qt.openUrlExternally("https://gitter.im/KaOSx/KaOS/"); }
+                onClicked: {  Qt.openUrlExternally("https://webchat.kde.org/#/room/#KaOSx_KaOS:gitter.im"); }
                 background: Rectangle {
                     implicitWidth: 22
                     implicitHeight: 22
@@ -227,7 +194,7 @@ ApplicationWindow {
                 ToolTip.delay: 500
                 ToolTip.timeout: 5000
                 ToolTip.visible: hovered
-                ToolTip.text: qsTr("Gitter Chat for KaOS")
+                ToolTip.text: qsTr("Matrix/Gitter Chat for KaOS")
             
             Image {
                 anchors.fill: parent
@@ -270,7 +237,7 @@ ApplicationWindow {
             text: qsTr("Customize")
         }
         TabButton {
-            text: qsTr("Passwords")
+            text: qsTr("Packages")
         }
         TabButton {
             text: qsTr("Wallpaper")
