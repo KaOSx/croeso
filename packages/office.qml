@@ -288,8 +288,8 @@ Item {
                     fillMode: Image.PreserveAspectFit
                     source: "../images/packages/calligra.png"
                 }
-            }
-        }*/
+            }*/
+        }
 
         ToolButton {
             id: toolButton

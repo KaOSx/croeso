@@ -193,9 +193,9 @@ Item {
                     fillMode: Image.PreserveAspectFit
                     source: "../images/packages/trojita.jpg"
                 }
-            }*/
+            }
             
-            /*Rectangle {
+            Rectangle {
                 id: rectangle2
                 width: 600
                 height: 120
@@ -241,8 +241,8 @@ Item {
                     fillMode: Image.PreserveAspectFit
                     source: "../images/packages/kube.png"
                 }
-            }
-        }*/
+            }*/
+        }
 
         ToolButton {
             id: toolButton
