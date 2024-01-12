@@ -80,10 +80,10 @@ Item {
                     
                     onCheckedChanged: {
                         if ( ! checked ) {
-                            executer.connectSource("sed -i -e 's|kdenlive6||' /tmp/croeso_list.txt");
+                            executer.connectSource("sed -i -e 's|kdenlive||' /tmp/croeso_list.txt");
                         }
                         else {
-                            executer.connectSource("echo 'kdenlive6' >> /tmp/croeso_list.txt");
+                            executer.connectSource("echo 'kdenlive' >> /tmp/croeso_list.txt");
                         }
                     }
                 }

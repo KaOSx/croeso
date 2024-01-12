@@ -52,7 +52,7 @@ Item {
             height: 598
             spacing: 5
 
-            /*Rectangle {
+            Rectangle {
                 width: 600
                 height: 110
                 radius: 10
@@ -97,7 +97,7 @@ Item {
                     source: "../images/packages/skrooge.png"
                 }
 
-            }*/
+            }
 
             Rectangle {
                 id: rectangle

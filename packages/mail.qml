@@ -52,7 +52,7 @@ Item {
             height: 546
             spacing: 5
 
-            /*Rectangle {
+            Rectangle {
                 width: 600
                 height: 120
                 radius: 10
@@ -97,7 +97,7 @@ Item {
                     source: "../images/packages/kmail.png"
                 }
 
-            }*/
+            }
 
             Rectangle {
                 id: rectangle

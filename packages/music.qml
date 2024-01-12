@@ -80,10 +80,10 @@ Item {
                     
                     onCheckedChanged: {
                         if ( ! checked ) {
-                            executer.connectSource("sed -i -e 's|elisa6||' /tmp/croeso_list.txt");
+                            executer.connectSource("sed -i -e 's|elisa||' /tmp/croeso_list.txt");
                         }
                         else {
-                            executer.connectSource("echo 'elisa6' >> /tmp/croeso_list.txt");
+                            executer.connectSource("echo 'elisa' >> /tmp/croeso_list.txt");
                         }
                     }
                 }
