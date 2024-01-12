@@ -1,6 +1,6 @@
 
 /***************************************************************************
- *   Copyright (C) 2020 Anke Boersma <demm@kaosx.us>       *
+ *   Copyright (C) 2020 - 2023 Anke Boersma <demm@kaosx.us>       *
  *                                                                         *
  *   This program is free software; you can redistribute it and/or modify  *
  *   it under the terms of the GNU General Public License as published by  *
@@ -19,7 +19,7 @@
  ***************************************************************************/
 import QtQuick 2.7
 import QtQuick.Controls 2.0
-import QtQuick.Layouts 1.3
+import QtQuick.Layouts
 
 Rectangle {
     id: item1

@@ -1,7 +1,7 @@
 import QtQuick 2.7
-import QtQuick.Controls 1.4
-import QtQuick.Controls.Styles 1.4
-import QtQuick.Layouts 1.3
+import QtQuick.Controls 2.0
+//import QtQuick.Controls.Styles 1.4
+import QtQuick.Layouts
 import Unwallpaper 1.0
 
 MouseArea {
@@ -62,6 +62,7 @@ MouseArea {
             text: model.local ? "✓ " + qsTr("Downloaded") : qsTr("Download")
             visible: !model.local
             anchors.right: parent.right
+            Material.roundedScale: Material.NotRounded
 
             onClicked: {
                 model.download();
@@ -73,6 +74,7 @@ MouseArea {
             id: removeButton
             visible: model.local
             anchors.right: parent.right
+            Material.roundedScale: Material.NotRounded
             text: qsTr("Remove")
 
             onClicked: {
@@ -92,6 +94,7 @@ MouseArea {
 
             anchors.right: removeButton.left
             anchors.rightMargin: 10
+            Material.roundedScale: Material.NotRounded
 
             onClicked: {
                 model.setWallpaper();

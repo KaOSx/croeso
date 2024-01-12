@@ -26,7 +26,7 @@ int main(int argc, char *argv[])
     InitializeMagick(*argv);
     
     QtWebView::initialize();
-    QCoreApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
+    QCoreApplication::setAttribute(Qt::AA_ShareOpenGLContexts);
     QGuiApplication app(argc, argv);
     
     FileSystem::init();

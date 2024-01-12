@@ -54,7 +54,9 @@ void Photo::download()
     connect(reply, &QNetworkReply::downloadProgress, this, &Photo::downloadProgress);
     connect(reply, &QNetworkReply::finished, this, &Photo::downloaded);
     connect(reply, &QNetworkReply::finished, thread, &PhotoSaveThread::save);
-    connect(reply, static_cast<void(QNetworkReply::*)(QNetworkReply::NetworkError)>(&QNetworkReply::error), this, &Photo::downloadFailed);
+    if (reply->error() != QNetworkReply::NoError)
+        qWarning() << "Warning:" << &Photo::downloadFailed;
+    //connect(reply, static_cast<void(QNetworkReply::*)(QNetworkReply::NetworkError)>(&QNetworkReply::error), this, &Photo::downloadFailed);
 
     connect(thread, &PhotoSaveThread::saved, this, &Photo::saved);
 }
@@ -74,8 +76,8 @@ void Photo::save()
     if (jsonFile.open(QIODevice::ReadWrite)) {
         QJsonDocument doc(json);
         QTextStream stream(&jsonFile);
-        stream << doc.toJson(QJsonDocument::Compact) << endl;
-        stream << endl;
+        stream << doc.toJson(QJsonDocument::Compact) << Qt::endl;
+        stream << Qt::endl;
     }
 
     emit saveProgress(2, 10);
@@ -101,14 +103,14 @@ void Photo::save()
 
     if (metafile.open(QIODevice::ReadWrite)) {
         QTextStream stream(&metafile);
-        stream << "[Desktop Entry]" << endl;
-        stream << "Encoding=UTF-8" << endl;
-        stream << "Name=Unsplash " << id << endl;
-        stream << "X-KDE-PluginInfo-Name=Unsplash " << id << endl;
-        stream << "X-KDE-PluginInfo-Author=" << userFullName << endl;
-        stream << "X-KDE-PluginInfo-License=CC0" << endl;
-        stream << "X-KDE-PluginInfo-Website=https://unsplash.com/" << endl;
-        stream << endl;
+        stream << "[Desktop Entry]" << Qt::endl;
+        stream << "Encoding=UTF-8" << Qt::endl;
+        stream << "Name=Unsplash " << id << Qt::endl;
+        stream << "X-KDE-PluginInfo-Name=Unsplash " << id << Qt::endl;
+        stream << "X-KDE-PluginInfo-Author=" << userFullName << Qt::endl;
+        stream << "X-KDE-PluginInfo-License=CC0" << Qt::endl;
+        stream << "X-KDE-PluginInfo-Website=https://unsplash.com/" << Qt::endl;
+        stream << Qt::endl;
     }
 
     emit saveProgress(10, 10);
@@ -386,6 +388,6 @@ void Photo::setWallpaper()
          << "/PlasmaShell"
          << "org.kde.PlasmaShell.evaluateScript"
          << script;
-    process.start(QString("qdbus-qt5"), args);
+    process.start(QString("qdbus-qt6"), args);
     process.waitForFinished();
 }

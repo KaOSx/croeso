@@ -1,5 +1,5 @@
 /***************************************************************************
- *   Copyright (C) 2018 Anke Boersma <demm@kaosx.us>       *
+ *   Copyright (C) 2018 - 2023 Anke Boersma <demm@kaosx.us>       *
  *                                                                         *
  *   This program is free software; you can redistribute it and/or modify  *
  *   it under the terms of the GNU General Public License as published by  *
@@ -18,19 +18,9 @@
  ***************************************************************************/
 import QtQuick 2.7
 import QtQuick.Controls 2.0
-import QtQuick.Layouts 1.3
-import org.kde.plasma.core 2.0 as PlasmaCore
+import QtQuick.Layouts
 
 Page2Form {
-    PlasmaCore.DataSource {
-        id: executer
-        engine: "executable"
-        onNewData: {executer.disconnectSource(sourceName);}
-    }
-
-    //Loader {
-    //    id: pageLoader
-    //}
 
     button1.onClicked: {
         Qt.openUrlExternally("https://kaosx.us/docs/");

@@ -1,5 +1,5 @@
 /***************************************************************************
- *   Copyright (C) 2018 - 2020 Anke Boersma <demm@kaosx.us>       *
+ *   Copyright (C) 2018 - 2023 Anke Boersma <demm@kaosx.us>       *
  *                                                                         *
  *   This program is free software; you can redistribute it and/or modify  *
  *   it under the terms of the GNU General Public License as published by  *
@@ -18,11 +18,12 @@
  ***************************************************************************/
 import QtQuick 2.7
 import QtQuick.Controls 2.0
-import QtQuick.Layouts 1.3
+import QtQuick.Layouts
 import QtQuick.Window 2.0
-import QtQuick.Dialogs 1.2
+import QtQuick.Dialogs
 import QtWebView 1.1
 import org.kde.plasma.core 2.0 as PlasmaCore
+import org.kde.plasma.plasma5support 2.0 as P5Support
 
 ApplicationWindow {
     visible: true
@@ -59,7 +60,7 @@ ApplicationWindow {
             //    color: "gray"
             //}
             
-            PlasmaCore.DataSource {
+            P5Support.DataSource {
                 id: executer
                 engine: "executable"
                 onNewData: {executer.disconnectSource(sourceName);}
@@ -76,7 +77,7 @@ ApplicationWindow {
             }
             
         }
-        
+
         Page {
             Loader {
                 id: wallpaper
@@ -156,7 +157,7 @@ ApplicationWindow {
             }
         }
                 
-        Button {
+        /*Button {
                 id: irc
                 hoverEnabled: true
                 onClicked: {  Qt.openUrlExternally("https://web.libera.chat/#KaOS"); }
@@ -178,12 +179,12 @@ ApplicationWindow {
                 fillMode: Image.PreserveAspectFit
                 source: "images/fontawesome/comments.svg"
             }
-        }
+        }*/
         
         Button {
                 id: gitter
                 hoverEnabled: true
-                onClicked: {  Qt.openUrlExternally("https://gitter.im/KaOSx/KaOS/"); }
+                onClicked: {  Qt.openUrlExternally("https://webchat.kde.org/#/room/#KaOSx_KaOS:gitter.im"); }
                 background: Rectangle {
                     implicitWidth: 22
                     implicitHeight: 22
@@ -193,7 +194,7 @@ ApplicationWindow {
                 ToolTip.delay: 500
                 ToolTip.timeout: 5000
                 ToolTip.visible: hovered
-                ToolTip.text: qsTr("Gitter Chat for KaOS")
+                ToolTip.text: qsTr("Matrix/Gitter Chat for KaOS")
             
             Image {
                 anchors.fill: parent

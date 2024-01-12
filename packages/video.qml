@@ -1,6 +1,6 @@
  
 /***************************************************************************
- *   Copyright (C) 2020 Anke Boersma <demm@kaosx.us>       *
+ *   Copyright (C) 2020 - 2023 Anke Boersma <demm@kaosx.us>                *
  *                                                                         *
  *   This program is free software; you can redistribute it and/or modify  *
  *   it under the terms of the GNU General Public License as published by  *
@@ -22,12 +22,13 @@ import QtQuick.Controls 2.0
 import QtQuick.Layouts 1.3
 import QtQuick.Controls.Material 2.1
 import org.kde.plasma.core 2.0 as PlasmaCore
+import org.kde.plasma.plasma5support 2.0 as P5Support
 
 Item {
     width: 960
     height: 600
     
-    PlasmaCore.DataSource {
+    P5Support.DataSource {
         id: executer
         engine: "executable"
         onNewData: {executer.disconnectSource(sourceName);}
@@ -79,10 +80,10 @@ Item {
                     
                     onCheckedChanged: {
                         if ( ! checked ) {
-                            executer.connectSource("sed -i -e 's|kdenlive||' /tmp/croeso_list.txt");
+                            executer.connectSource("sed -i -e 's|kdenlive6||' /tmp/croeso_list.txt");
                         }
                         else {
-                            executer.connectSource("echo 'kdenlive' >> /tmp/croeso_list.txt");
+                            executer.connectSource("echo 'kdenlive6' >> /tmp/croeso_list.txt");
                         }
                     }
                 }

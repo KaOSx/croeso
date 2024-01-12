@@ -1,5 +1,5 @@
 /***************************************************************************
- *   Copyright (C) 2018 Anke Boersma <demm@kaosx.us>       *
+ *   Copyright (C) 2018 -2023 Anke Boersma <demm@kaosx.us>       *
  *                                                                         *
  *   This program is free software; you can redistribute it and/or modify  *
  *   it under the terms of the GNU General Public License as published by  *
@@ -18,7 +18,7 @@
  ***************************************************************************/
 import QtQuick 2.7
 import QtQuick.Controls 2.0
-import QtQuick.Layouts 1.3
+import QtQuick.Layouts
 import QtQuick.Controls.Material 2.1
 
 Item {
@@ -54,6 +54,7 @@ Item {
             checkable: false
             highlighted: false
             Material.elevation: 1
+            Material.roundedScale: Material.NotRounded
 
             Image {
                 id: image1
@@ -83,6 +84,7 @@ Item {
             leftPadding: 35
             highlighted: false
             Material.elevation: 1
+            Material.roundedScale: Material.NotRounded
 
             Image {
                 id: image2
@@ -108,6 +110,7 @@ Item {
             leftPadding: 35
             highlighted: false
             Material.elevation: 1
+            Material.roundedScale: Material.NotRounded
 
             Image {
                 id: image3
@@ -156,6 +159,7 @@ Item {
             checkable: false
             highlighted: false
             Material.elevation: 1
+            Material.roundedScale: Material.NotRounded
 
             Image {
                 id: image4
@@ -181,6 +185,7 @@ Item {
             Layout.fillWidth: true
             highlighted: false
             Material.elevation: 1
+            Material.roundedScale: Material.NotRounded
 
             Image {
                 id: image5
@@ -206,6 +211,7 @@ Item {
             highlighted: false
             Layout.fillWidth: true
             Material.elevation: 1
+            Material.roundedScale: Material.NotRounded
 
             Image {
                 id: image6
@@ -239,6 +245,8 @@ Item {
             checkable: false
             Layout.fillWidth: true
             Material.elevation: 1
+            Material.roundedScale: Material.NotRounded
+
             Image {
                 id: image7
                 y: 13
@@ -265,6 +273,8 @@ Item {
             checkable: false
             Layout.fillWidth: true
             Material.elevation: 1
+            Material.roundedScale: Material.NotRounded
+
             Image {
                 id: image8
                 y: -49
@@ -293,6 +303,8 @@ Item {
             opacity: 1
             Layout.fillWidth: true
             Material.elevation: 1
+            Material.roundedScale: Material.NotRounded
+
             Image {
                 id: image9
                 y: 6
