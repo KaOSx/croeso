@@ -51,11 +51,21 @@
         <file>images/face-smile-grin.svg</file>
         <file>croeso.svg</file>
         <!--Locale files-->
+        <file>lang/croeso_ast.qm</file>
+        <file>lang/croeso_bg.qm</file>
+        <file>lang/croeso_da.qm</file>
         <file>lang/croeso_es_AR.qm</file>
         <file>lang/croeso_es.qm</file>
+        <file>lang/croeso_fa_IR.qm</file>
+        <file>lang/croeso_fi.qm</file>
         <file>lang/croeso_fr.qm</file>
+        <file>lang/croeso_id_ID.qm</file>
         <file>lang/croeso_it.qm</file>
+        <file>lang/croeso_ja.qm</file>
         <file>lang/croeso_nl_NL.qm</file>
+        <file>lang/croeso_pl.qm</file>
+        <file>lang/croeso_ru.qm</file>
+        <file>lang/croeso_si.qm</file>
         <file>lang/croeso_de.qm</file>
         <file>lang/croeso_ca.qm</file>
         <file>lang/croeso_cs.qm</file>
