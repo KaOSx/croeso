@@ -36,7 +36,7 @@ Page3Form {
         executer.connectSource("kcmshell6 powerdevilprofilesconfig");
     }
     button3.onClicked: {
-        executer.connectSource("/usr/bin/stacer");
+        executer.connectSource("/usr/bin/systemdgenie");
     }
     button4.onClicked: {
         executer.connectSource("kcmshell6 kcm_users");
