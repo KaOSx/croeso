@@ -328,7 +328,7 @@ Please choose one of the groups to see the various packages each group contains.
     <message>
         <location filename="../main.qml" line="148"/>
         <source>Code &amp; Bug trackers on Github for KaOS</source>
-        <translation type="unfinished"/>
+        <translation>Код и трекер ошибок на Github для KaOS</translation>
     </message>
     <message>
         <location filename="../main.qml" line="172"/>

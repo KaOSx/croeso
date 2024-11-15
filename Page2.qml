@@ -1,5 +1,5 @@
 /***************************************************************************
- *   Copyright (C) 2018 - 2023 Anke Boersma <demm@kaosx.us>       *
+ *   Copyright (C) 2018 - 2024 Anke Boersma <demm@kaosx.us>       *
  *                                                                         *
  *   This program is free software; you can redistribute it and/or modify  *
  *   it under the terms of the GNU General Public License as published by  *
@@ -26,16 +26,16 @@ Page2Form {
         Qt.openUrlExternally("https://kaosx.us/docs/");
     }
     button2.onClicked: {
-        Qt.openUrlExternally("https://kaosx.us/docs/pacman/");
+        Qt.openUrlExternally("https://kaosx.us/pacman/");
     }
     button3.onClicked: {
-        Qt.openUrlExternally("https://kaosx.us/docs/nvidia/");
+        Qt.openUrlExternally("https://kaosx.us/hardware/nvidia/");
     }
     button4.onClicked: {
-        Qt.openUrlExternally("https://kaosx.us/docs/kernels/");
+        Qt.openUrlExternally("https://kaosx.us/kernels/");
     }
     button5.onClicked: {
-         Qt.openUrlExternally("https://kaosx.us/docs/kcp/");
+         Qt.openUrlExternally("https://kaosx.us/packaging/kcp/");
     }
     button6.onClicked: {
         Qt.openUrlExternally("https://forum.kaosx.us/");

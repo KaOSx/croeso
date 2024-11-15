@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.1" language="bg">
+<?xml version="1.0" ?><!DOCTYPE TS><TS version="2.1" language="bg">
 <context>
     <name>Page1Form.ui</name>
     <message>
@@ -242,27 +240,27 @@ Please choose one of the groups to see the various packages each group contains.
 <context>
     <name>image</name>
     <message>
-        <location filename="../packages/image.qml" line="76"/>
+        <location filename="../packages/image.qml" line="73"/>
         <source>Add Krita</source>
         <translation>Добавяне на Krita</translation>
     </message>
     <message>
-        <location filename="../packages/image.qml" line="125"/>
+        <location filename="../packages/image.qml" line="122"/>
         <source>Add Gimp</source>
         <translation>Добавяне на Gimp</translation>
     </message>
     <message>
-        <location filename="../packages/image.qml" line="173"/>
+        <location filename="../packages/image.qml" line="170"/>
         <source>Add Digikam</source>
         <translation>Добавяне на Digikam</translation>
     </message>
     <message>
-        <location filename="../packages/image.qml" line="221"/>
+        <location filename="../packages/image.qml" line="218"/>
         <source>Add Nomacs</source>
         <translation>Добавяне на Nomacs</translation>
     </message>
     <message>
-        <location filename="../packages/image.qml" line="252"/>
+        <location filename="../packages/image.qml" line="249"/>
         <source>Back</source>
         <translation>Назад</translation>
     </message>
@@ -270,27 +268,27 @@ Please choose one of the groups to see the various packages each group contains.
 <context>
     <name>mail</name>
     <message>
-        <location filename="../packages/mail.qml" line="76"/>
+        <location filename="../packages/mail.qml" line="73"/>
         <source>Add Kmail</source>
         <translation>Добавяне на Kmail</translation>
     </message>
     <message>
-        <location filename="../packages/mail.qml" line="125"/>
+        <location filename="../packages/mail.qml" line="122"/>
         <source>Add Thunderbird</source>
         <translation>Добавяне на Thunderbird</translation>
     </message>
     <message>
-        <location filename="../packages/mail.qml" line="173"/>
+        <location filename="../packages/mail.qml" line="170"/>
         <source>Add Trojita</source>
         <translation>Добавяне на Trojita</translation>
     </message>
     <message>
-        <location filename="../packages/mail.qml" line="221"/>
+        <location filename="../packages/mail.qml" line="218"/>
         <source>Add Kube</source>
         <translation>Добавяне на Kube</translation>
     </message>
     <message>
-        <location filename="../packages/mail.qml" line="252"/>
+        <location filename="../packages/mail.qml" line="249"/>
         <source>Back</source>
         <translation>Назад</translation>
     </message>
@@ -314,7 +312,7 @@ Please choose one of the groups to see the various packages each group contains.
                             Идеята зад KaOS е  да се създаде цялостна интегрирана и прозрачна&lt;br&gt;
                             дистрибуция за модерна работна среда, изградена от нулата с много специфичен фокус.&lt;br&gt;
                             една десктоп среда (KDE), един инструмент за разработка (Qt), една архитектура (x86_64).&lt;br&gt;
-                           Плюс фокус върху оценка иизбиране на най-подходящите инструменти и приложения.&lt;br&gt;&lt;br&gt;
+                           Плюс фокус върху оценка и избиране на най-подходящите инструменти и приложения.&lt;br&gt;&lt;br&gt;
                             Тази страница ще ви помогне бързо да персонализирате най-често използваните настройки във вашето работно пространство на KaOS.&lt;/div&gt;</translation>
     </message>
     <message>
@@ -324,7 +322,7 @@ Please choose one of the groups to see the various packages each group contains.
                             &lt;p&gt;Use the forum for questions, feedback and suggestions.&lt;/p&gt;</source>
         <translation>&lt;p&gt;За да се запознаете с KaOS, прочетете някои от тези документи.&lt;/p&gt;
                             
-                            &lt;p&gt;Използвайте форума за въпроси, отзиви ипредложения.&lt;/p&gt;</translation>
+                            &lt;p&gt;Използвайте форума за въпроси, отзиви и предложения.&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../main.qml" line="101"/>
@@ -401,27 +399,27 @@ Please choose one of the groups to see the various packages each group contains.
 <context>
     <name>music</name>
     <message>
-        <location filename="../packages/music.qml" line="76"/>
+        <location filename="../packages/music.qml" line="73"/>
         <source>Add Elisa</source>
         <translation>Добавяне на Elisa</translation>
     </message>
     <message>
-        <location filename="../packages/music.qml" line="125"/>
+        <location filename="../packages/music.qml" line="122"/>
         <source>Add Strawberry</source>
         <translation>Добавяне на Strawberry</translation>
     </message>
     <message>
-        <location filename="../packages/music.qml" line="173"/>
+        <location filename="../packages/music.qml" line="170"/>
         <source>Add Cantata</source>
         <translation>Добавяне на Cantata</translation>
     </message>
     <message>
-        <location filename="../packages/music.qml" line="221"/>
+        <location filename="../packages/music.qml" line="218"/>
         <source>Add Qmmp</source>
         <translation>Добавяне на Qmmp</translation>
     </message>
     <message>
-        <location filename="../packages/music.qml" line="252"/>
+        <location filename="../packages/music.qml" line="249"/>
         <source>Back</source>
         <translation>Назад</translation>
     </message>
@@ -449,21 +447,21 @@ Please choose one of the groups to see the various packages each group contains.
                     
                     &lt;p&gt;KDE is a modern Desktop Environment which can make use of most of any graphics or sound card capabilities. This does not mean KDE can’t be made to run on very low-end hardware, but in general there are better options available for such systems (OpenBox for example). The very minimal needed for &lt;b&gt;hard-drive space is 8 Gb, but 25 Gb&lt;/b&gt; is recommended as minimal. KaOS will install with 1.5Gb of RAM available, though a much better experience will start with &lt;b&gt;2 Gb of RAM&lt;/b&gt;. Since only x86_64 packages are available, a &lt;b&gt;64 bit capable cpu&lt;/b&gt; is needed. As with any rolling distribution, updates are frequent and can be large, so a reasonable fast internet connection (dial-up will become very cumbersome) and available monthly data of over 2 Gb are recommended.&lt;/p&gt;</source>
         <translation>&lt;h3&gt;Относно KaOS&lt;/h3&gt;
-                    &lt;p&gt;Идеята зад KaOS е да се създадете цялостно интегрирана прозрачна rolling дистрибуция на съвременна работна среда,изградена от нулата с много специфичен фокус. Фокусът е върху &lt;b&gt; една десктоп среда (KDE), едининструмент за разработка (Qt), една архитектура (x86_64) &lt;/b&gt;, плюс фокус върху оценка иизбиране на най-подходящите инструменти и приложения. Цялата работа е насоченакъм управлението на инсталационните пакети, а не разработването на нови инструменти или приложения.&lt;/p&gt;
+                    &lt;p&gt;Идеята зад KaOS е да се създадете цялостно интегрирана прозрачна rolling дистрибуция на съвременна работна среда,изградена от нулата с много специфичен фокус. Фокусът е върху &lt;b&gt; една десктоп среда (KDE), един инструмент за разработка (Qt), една архитектура (x86_64) &lt;/b&gt;, плюс фокус върху оценка и избиране на най-подходящите инструменти и приложения. Цялата работа е насочена към управлението на инсталационните пакети, а не разработването на нови инструменти или приложения.&lt;/p&gt;
 
                     &lt;p&gt;Преминаването от несвободни операционни системи към системи с отворен код (базирани на Linux, BSD, Solaris)  в повечето случаи е свързано с &lt;b&gt;желанието за  свобода и избор&lt;/b&gt;. Но не трябва ли всяка  подобна операционна система или дистрибуция да направи избор на това, което според нея е най-подходящо? KaOS вижда липса на фокус в това отношение. За да се създаде възможно най-високо качество на дистрибуцията, трябва да се съсредоточи върху това да се гарантира, че потребителят ще получи най-доброто възможно за избора, който е направил. Не е възможно просто да се пакетира всичко, за да работи перфектно на всяка десктоп среда или инструмент за разработка.&lt;/p&gt;
                     
-                    &lt;p&gt;KaOS е направил избора да използва &lt;b&gt; Linux ядрото &lt;/b&gt; като база (въпреки че ядрото на Illumos е под постоянно тестване и има стремеж в бъдеще да се премине към него). След този избор най -добрият наличен мениджър на пакети, най -гъвкавият начин за изграждане на пакети и поддръжката на хранилището е &lt;b&gt; Pacman/Makepkg за rolling дистрибуция &lt;/b&gt; като KaOS. Що се отнася до средата на работния плот, никога няма да има промяна, независимо дали е на базата на Linux или Illumos. KDE ще е работната среда, QT инструментът за разрзботка. Предвид тези избори, през април 2013 г. е създаден проект за изграждането на пакетите за тази независима дистрибуция.&lt;/p&gt;
+                    &lt;p&gt;KaOS е направил избора да използва &lt;b&gt; Linux ядрото &lt;/b&gt; като база (въпреки че ядрото на Illumos е под постоянно тестване и има стремеж в бъдеще да се премине към него). След този избор най -добрият наличен мениджър на пакети, най -гъвкавият начин за изграждане на пакети и поддръжката на хранилището е &lt;b&gt; Pacman/Makepkg за rolling дистрибуция &lt;/b&gt; като KaOS. Що се отнася до средата на работния плот, никога няма да има промяна, независимо дали е на базата на Linux или Illumos. KDE ще е работната среда, QT инструментът за разработка. Предвид тези избори, през април 2013 г. е създаден проект за изграждането на пакетите за тази независима дистрибуция.&lt;/p&gt;
 
                     &lt;p&gt;KaOS дистрибуция , изградена от нулата, &lt;b&gt;всеки пакет във всяко хранилище се изгражда от и за KaOS&lt;/b&gt;. До юли 2013 г. първоначалната цел от около 1500 пакета беше постигната.&lt;/p&gt;
 
                     &lt;p&gt;Когато обмисляте сравнително ниския брой общи налични пакети, моля, имайте предвид едно нещо. Тъй като се фокусира само върху един инструмент за разработка, една работна среда, &lt;b&gt; няма нужда от прекомерно разделяне на пакети &lt;/b&gt;, за да могат всички да работят в различните видове среди. Докато на други места, много пакети са разделени на 3-4-5, понякога 15-20 пакета, Kaos опростява нещата колкото е възможно повече и избягва разделянето (примери са приложения като Xorg, около 50 пакета се комбинират само в 3, MESA се състои от 2, вместо 15).&lt;/p&gt;
                     
-                    &lt;p&gt;Изборът на KDE/QT не означава, че KaOS губи от поглед важността на това да разполага с &lt;b&gt;най-добрия наличен инструмент за работа&lt;/b&gt;. В повечето случаи се смята, че KDE/Qt предоставя по-добър инструмент, но има няколко приложения, при които опцията GTK е единствената налична от този вид (Inkscape, Ardour, за да назовем само две), или в случай на уеббраузъри например, опциите Qt не са на висотата на своите GTK аналози. В тези случаи са налични GTK приложения, но броят им ще остане ограничен. Този ISO обаче е демонстрация на възможностите на Qt/KDE, така че &lt;b&gt;ISO е без GTK&lt;/b&gt;, което значи, че липсват Firefox, Chrome или LibreOffice, тъй като те зависят от GTK&lt;/p&gt;
+                    &lt;p&gt;Изборът на KDE/QT не означава, че KaOS губи от поглед важността на това да разполага с &lt;b&gt;най-добрия наличен инструмент за работа&lt;/b&gt;. В повечето случаи се смята, че KDE/Qt предоставя по-добър инструмент, но има няколко приложения, при които опцията GTK е единствената налична от този вид (Inkscape, Ardour, за да назовем само две), или в случай на уеб браузъри например, опциите Qt не са на висотата на своите GTK аналози. В тези случаи са налични GTK приложения, но броят им ще остане ограничен. Този ISO обаче е демонстрация на възможностите на Qt/KDE, така че &lt;b&gt;ISO е без GTK&lt;/b&gt;, което значи, че липсват Firefox, Chrome или LibreOffice, тъй като те зависят от GTK&lt;/p&gt;
                     
                     &lt;p&gt;Оформлението на хранилището е просто и се състои от три групи: Core (ядро), Main (основно) и Apps (приложения). Редовното цялостно обновяване на системата винаги ще ви осигури най-новите налични версии, &lt;b&gt;без необходимост от рестартиране на&lt;/b&gt; системата. &lt;i&gt;Core&lt;/i&gt; съдържа базовите пакети, необходими за стартиране на системата, комуникация с BIOS за свързване на повечето хардуерни устройства и задаване на основни опции на обвивката. Примерни пакети са ядрото, systemd, веригата от инструменти за изграждане и основните инструменти на командния ред. &lt;i&gt;Main&lt;/i&gt; хранилището се състои от всички необходими библиотеки, допълнителни драйвери и фърмуер, необходими за функционирането на работния плот и приложенията. &lt;i&gt;Apps&lt;/i&gt; се състои от всички пакети, прегледани и използвани от потребителите, включително KDE и всички необходими инструменти. &lt;i&gt; Build &lt;/i&gt; е мястото, където всички пакети започват, независимо дали става въпрос за възстановяване, актуализиране или ново допълнение, всичко отива за изграждане, след като премине през правилното тестване и преместване в съответното им хранилище.&lt;/p&gt;
                     
-                    &lt;p&gt;&lt;b&gt;Диструбуцията е предназначена &lt;/b&gt; за тези, които са изпробвали много операционни системи/дистрибуции/десктоп среди и са установили, че предпочитат дистрибуция, която използва всичките си налични ресурси за работа върху една графична среда, за да направи най-доброто, което може да бъде направено. Потребители, които са решили, че най-доброто за тях е KDE и използваният от тях хардуер е от около 2005 г. или по-късен, така че няма проблеми с работата на 64-битов софтуер. Потребители, които не се страхуват да използват KDE/Qt версии на нужните им приложения, обичат да виждат най-доброто налично, избрано за техните нужди, дори ако това означава да се научат някои нови начини за работа с неизползвано преди това приложение. Съществува разбиране, че изборът на подобни приложения ще бъде ограничен до 5-6.&lt;/p&gt;
+                    &lt;p&gt;&lt;b&gt;Дистрибуцията е предназначена &lt;/b&gt; за тези, които са изпробвали много операционни системи/дистрибуции/десктоп среди и са установили, че предпочитат дистрибуция, която използва всичките си налични ресурси за работа върху една графична среда, за да направи най-доброто, което може да бъде направено. Потребители, които са решили, че най-доброто за тях е KDE и използваният от тях хардуер е от около 2005 г. или по-късен, така че няма проблеми с работата на 64-битов софтуер. Потребители, които не се страхуват да използват KDE/Qt версии на нужните им приложения, обичат да виждат най-доброто налично, избрано за техните нужди, дори ако това означава да се научат някои нови начини за работа с неизползвано преди това приложение. Съществува разбиране, че изборът на подобни приложения ще бъде ограничен до 5-6.&lt;/p&gt;
                     
                     &lt;p&gt;KDE е модерна среда за настолни компютри, която може да използва повечето от възможностите на всяка графична или звукова карта. Това не означава, че KDE не може да работи на хардуер от много нисък клас, но като цяло за такива системи има по-добри възможности (например OpenBox). Минималното необходимо &lt;b&gt;място на диска е 8 Gb, но 25 Gb&lt;/b&gt;е препоръчително. KaOS ще се инсталира с 1,5Gb налична RAM памет, въпреки че много по-доброто изживяване ще се получи с &lt;b&gt;2 Gb RAM&lt;/b&gt;. Тъй като са налични само приложения за  x86_64 архитектура, необходимо е &lt;b&gt;64 bit CPU&lt;/b&gt;. Както при всяка rolling дистрибуция, актуализациите са чести и могат да бъдат големи, така че се препоръчва разумно бърза интернет връзка (dial-up ще бъде много бавен) и налични месечни данни от над 2 Gb.&lt;/p&gt;</translation>
     </message>
@@ -471,32 +469,32 @@ Please choose one of the groups to see the various packages each group contains.
 <context>
     <name>office</name>
     <message>
-        <location filename="../packages/office.qml" line="76"/>
+        <location filename="../packages/office.qml" line="73"/>
         <source>Add Skrooge</source>
         <translation>Добавяне на Skrooge</translation>
     </message>
     <message>
-        <location filename="../packages/office.qml" line="125"/>
+        <location filename="../packages/office.qml" line="122"/>
         <source>Add Sigil</source>
         <translation>Добавяне на Sigil</translation>
     </message>
     <message>
-        <location filename="../packages/office.qml" line="173"/>
+        <location filename="../packages/office.qml" line="170"/>
         <source>Add Scribus</source>
         <translation>Добавяне на Scribus</translation>
     </message>
     <message>
-        <location filename="../packages/office.qml" line="221"/>
+        <location filename="../packages/office.qml" line="218"/>
         <source>Add Focuswriter</source>
         <translation>Добавяне на Focuswriter</translation>
     </message>
     <message>
-        <location filename="../packages/office.qml" line="268"/>
+        <location filename="../packages/office.qml" line="265"/>
         <source>Add Calligra</source>
         <translation>Добавяне на Calligra</translation>
     </message>
     <message>
-        <location filename="../packages/office.qml" line="299"/>
+        <location filename="../packages/office.qml" line="296"/>
         <source>Back</source>
         <translation>Назад</translation>
     </message>
@@ -504,27 +502,27 @@ Please choose one of the groups to see the various packages each group contains.
 <context>
     <name>video</name>
     <message>
-        <location filename="../packages/video.qml" line="76"/>
+        <location filename="../packages/video.qml" line="73"/>
         <source>Add Kdenlive</source>
         <translation>Добавяне на Kdenlive</translation>
     </message>
     <message>
-        <location filename="../packages/video.qml" line="125"/>
+        <location filename="../packages/video.qml" line="122"/>
         <source>Add Openshot</source>
         <translation>Добавяне на Openshot</translation>
     </message>
     <message>
-        <location filename="../packages/video.qml" line="173"/>
+        <location filename="../packages/video.qml" line="170"/>
         <source>Add Lightworks</source>
         <translation>Добавяне на Lightworks</translation>
     </message>
     <message>
-        <location filename="../packages/video.qml" line="221"/>
+        <location filename="../packages/video.qml" line="218"/>
         <source>Add Avidemux</source>
         <translation>Добавяне на Avidemux</translation>
     </message>
     <message>
-        <location filename="../packages/video.qml" line="252"/>
+        <location filename="../packages/video.qml" line="249"/>
         <source>Back</source>
         <translation>Назад</translation>
     </message>
@@ -559,27 +557,27 @@ Please choose one of the groups to see the various packages each group contains.
 <context>
     <name>web</name>
     <message>
-        <location filename="../packages/web.qml" line="75"/>
+        <location filename="../packages/web.qml" line="72"/>
         <source>Add Firefox</source>
         <translation>Добавяне на Firefox</translation>
     </message>
     <message>
-        <location filename="../packages/web.qml" line="126"/>
+        <location filename="../packages/web.qml" line="123"/>
         <source>Add Chrome</source>
         <translation>Добавяне на Chrome</translation>
     </message>
     <message>
-        <location filename="../packages/web.qml" line="176"/>
+        <location filename="../packages/web.qml" line="173"/>
         <source>Add Opera</source>
         <translation>Добавяне на Opera</translation>
     </message>
     <message>
-        <location filename="../packages/web.qml" line="224"/>
+        <location filename="../packages/web.qml" line="221"/>
         <source>Add Otter Browser</source>
         <translation>Добавяне на Otter Browser</translation>
     </message>
     <message>
-        <location filename="../packages/web.qml" line="255"/>
+        <location filename="../packages/web.qml" line="252"/>
         <source>Back</source>
         <translation>Назад</translation>
     </message>

@@ -1,5 +1,5 @@
 /***************************************************************************
- *   Copyright (C) 2018 - 2023 Anke Boersma <demm@kaosx.us>       *
+ *   Copyright (C) 2018 - 2024 Anke Boersma <demm@kaosx.us>       *
  *                                                                         *
  *   This program is free software; you can redistribute it and/or modify  *
  *   it under the terms of the GNU General Public License as published by  *
@@ -45,7 +45,7 @@ Page3Form {
         executer.connectSource("kcmshell6 kcm_networkmanagement");
     }
     button6.onClicked: {
-        executer.connectSource("kcmshell6 kcm_kwallet6");
+        executer.connectSource("kcmshell6 kcm_kwallet5");
     }
     button7.onClicked: {
         executer.connectSource("kcmshell6 kcm_plasmasearch");
